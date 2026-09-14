@@ -17,7 +17,8 @@ from typing import Optional, List, Dict, Any
 # Force UTF-8 encoding on Windows
 if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
     try:
-        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
     except Exception:
         pass
 
@@ -47,6 +48,7 @@ from core.fetcher import fetch_proxies_sync
 from core.checker import check_proxies_pool, DEFAULT_TEST_URL
 from core.exporter import export_all_formats
 from core.server import start_proxy_server
+from core.glyphs import glyphs, supports_emojis
 
 CURRENT_LANG = "ID"
 
@@ -59,8 +61,10 @@ ASCII_ART = r"""
   ╚═╝        ╚═╝    ╚═════╝ ╚══════╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   """
 
 def get_banner_text() -> str:
+    z_l = glyphs.zap
+    z_r = glyphs.zap_right
     return f"""{Fore.CYAN}{Style.BRIGHT}{ASCII_ART}{Style.RESET_ALL}
-{Fore.YELLOW}       ⚡ FyOS PROXY HARVESTER v2.5 — Enterprise Multi-Protocol Engine ⚡
+{Fore.YELLOW}       {z_l} FyOS PROXY HARVESTER v2.5 — Enterprise Multi-Protocol Engine {z_r}
 {Fore.WHITE}       High-Speed Multi-Stage Scraper, Dual-Phase Latency & Rotating Gateway
 {Fore.LIGHTBLACK_EX}                     Created By : {Fore.CYAN}{Style.BRIGHT}FyOS - ConFEx CCP{Fore.LIGHTBLACK_EX} (Official Release)
 {Style.RESET_ALL}"""
@@ -69,7 +73,9 @@ def print_banner():
     if HAS_RICH and console:
         title_text = Text(ASCII_ART, style="bold cyan")
         sub_text = Text()
-        sub_text.append("\n⚡ FyOS PROXY HARVESTER v2.5 — Enterprise Multi-Protocol Engine ⚡\n", style="bold yellow")
+        z_l = glyphs.zap
+        z_r = glyphs.zap_right
+        sub_text.append(f"\n{z_l} FyOS PROXY HARVESTER v2.5 — Enterprise Multi-Protocol Engine {z_r}\n", style="bold yellow")
         sub_text.append("High-Speed Multi-Stage Scraper, Dual-Phase Latency & Rotating Gateway\n", style="white")
         sub_text.append("Created By : ", style="dim")
         sub_text.append("FyOS - ConFEx CCP", style="bold cyan")
@@ -140,8 +146,9 @@ def print_live_proxy(proxy_res: dict, current_count: int, target: int):
     else:
         lat_color = Fore.RED
 
+    live_badge = f"{glyphs.live_prefix}[LIVE {current_count:02d}/{target:02d}]"
     print(
-        f"  {Fore.GREEN}🟢 [LIVE {current_count:02d}/{target:02d}]{Style.RESET_ALL} "
+        f"  {Fore.GREEN}{live_badge}{Style.RESET_ALL} "
         f"{Fore.CYAN}{proto:<6}{Style.RESET_ALL} "
         f"{Fore.WHITE}{proxy:<21}{Style.RESET_ALL} | "
         f"{anon_badge} | "
@@ -167,17 +174,17 @@ def run_harvester(
     t_start = time.perf_counter()
     check_url = target_url or DEFAULT_TEST_URL
     
-    print(f"\n{Fore.YELLOW}⚡ [1/3] Harvesting & Deduplicating candidates from verified feeds...{Style.RESET_ALL}")
+    print(f"\n{Fore.YELLOW}{glyphs.step_harvest} [1/3] Harvesting & Deduplicating candidates from verified feeds...{Style.RESET_ALL}")
     candidates = fetch_proxies_sync(protocols=protocols, country_filter=country)
     
     if not candidates:
-        print(f"{Fore.RED}❌ Gagal mengambil kandidat proxy dari feed.{Style.RESET_ALL}")
+        print(f"{Fore.RED}{glyphs.err} Gagal mengambil kandidat proxy dari feed.{Style.RESET_ALL}")
         return []
 
     url_hint = f" | Target: {check_url[:35]}" if target_url else ""
     anon_hint = f" | Anon: {anonymity.upper()}" if anonymity and anonymity.lower() != 'all' else ""
     c_hint = f" | Country: {country.upper()}" if country else ""
-    print(f"\n{Fore.YELLOW}🔍 [2/3] Dual-Phase Validation (Target Alive: {target_alive}, Timeout: {timeout}s{url_hint}{anon_hint}{c_hint})...{Style.RESET_ALL}")
+    print(f"\n{Fore.YELLOW}{glyphs.step_check} [2/3] Dual-Phase Validation (Target Alive: {target_alive}, Timeout: {timeout}s{url_hint}{anon_hint}{c_hint})...{Style.RESET_ALL}")
     
     live_proxies = check_proxies_pool(
         candidates=candidates,
@@ -196,26 +203,26 @@ def run_harvester(
     speed = round(len(candidates) / max(0.1, elapsed_total), 1)
     
     print(f"\n{Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{Style.RESET_ALL}")
-    print(f"{Fore.GREEN}{Style.BRIGHT}🎉 Validation Complete! Found {len(live_proxies)} alive proxies in {elapsed_total}s ({speed} scans/sec).{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}{Style.BRIGHT}{glyphs.success} Validation Complete! Found {len(live_proxies)} alive proxies in {elapsed_total}s ({speed} scans/sec).{Style.RESET_ALL}")
 
     if not live_proxies:
-        print(f"{Fore.YELLOW}⚠️ Tidak ada proxy yang lolos batas timeout {timeout}s. Coba perbesar --timeout atau perbanyak --max.{Style.RESET_ALL}")
+        print(f"{Fore.YELLOW}{glyphs.warn} Tidak ada proxy yang lolos batas timeout {timeout}s. Coba perbesar --timeout atau perbanyak --max.{Style.RESET_ALL}")
         return []
 
-    print(f"\n{Fore.YELLOW}💾 [3/3] Exporting verified proxies to disk...{Style.RESET_ALL}")
+    print(f"\n{Fore.YELLOW}{glyphs.step_export} [3/3] Exporting verified proxies to disk...{Style.RESET_ALL}")
     files = export_all_formats(live_proxies, output_dir=output_dir, sync_9router_db=sync_9router)
     
-    print(f"  {Fore.GREEN}✓{Style.RESET_ALL} Plain Text:  {Fore.WHITE}{files.get('all_txt')}{Style.RESET_ALL}")
-    print(f"  {Fore.GREEN}✓{Style.RESET_ALL} URLs Format: {Fore.WHITE}{files.get('urls_txt')}{Style.RESET_ALL}")
-    print(f"  {Fore.GREEN}✓{Style.RESET_ALL} Elite Only:  {Fore.WHITE}{files.get('elite_txt')}{Style.RESET_ALL}")
-    print(f"  {Fore.GREEN}✓{Style.RESET_ALL} Rich JSON:   {Fore.WHITE}{files.get('json')}{Style.RESET_ALL}")
-    print(f"  {Fore.GREEN}✓{Style.RESET_ALL} CSV Sheet:   {Fore.WHITE}{files.get('csv')}{Style.RESET_ALL}")
+    print(f"  {Fore.GREEN}{glyphs.ok}{Style.RESET_ALL} Plain Text:  {Fore.WHITE}{files.get('all_txt')}{Style.RESET_ALL}")
+    print(f"  {Fore.GREEN}{glyphs.ok}{Style.RESET_ALL} URLs Format: {Fore.WHITE}{files.get('urls_txt')}{Style.RESET_ALL}")
+    print(f"  {Fore.GREEN}{glyphs.ok}{Style.RESET_ALL} Elite Only:  {Fore.WHITE}{files.get('elite_txt')}{Style.RESET_ALL}")
+    print(f"  {Fore.GREEN}{glyphs.ok}{Style.RESET_ALL} Rich JSON:   {Fore.WHITE}{files.get('json')}{Style.RESET_ALL}")
+    print(f"  {Fore.GREEN}{glyphs.ok}{Style.RESET_ALL} CSV Sheet:   {Fore.WHITE}{files.get('csv')}{Style.RESET_ALL}")
     
     if "9router_db" in files:
-        print(f"  {Fore.GREEN}✓{Style.RESET_ALL} BansosRouter DB: {Fore.WHITE}Synced to {files['9router_db']}{Style.RESET_ALL}")
+        print(f"  {Fore.GREEN}{glyphs.ok}{Style.RESET_ALL} BansosRouter DB: {Fore.WHITE}Synced to {files['9router_db']}{Style.RESET_ALL}")
 
     # Display Top 3 Fastest Proxies
-    print(f"\n{Fore.CYAN}🏆 TOP FASTEST ELITE NODES (FyOS Neural Latency):{Style.RESET_ALL}")
+    print(f"\n{Fore.CYAN}{glyphs.rank} TOP FASTEST ELITE NODES (FyOS Neural Latency):{Style.RESET_ALL}")
     for idx, p in enumerate(live_proxies[:3], 1):
         proto = p.get('protocol', 'http').upper()
         anon = p.get('anonymity', 'Elite')
@@ -225,13 +232,13 @@ def run_harvester(
 
     if serve_port:
         dash_url = f"http://127.0.0.1:{serve_port}/dashboard"
-        print(f"{Fore.GREEN}{Style.BRIGHT}🌐 STARTING INTELLIGENT ROTATING GATEWAY & WEB DASHBOARD...{Style.RESET_ALL}")
+        print(f"{Fore.GREEN}{Style.BRIGHT}{glyphs.net} STARTING INTELLIGENT ROTATING GATEWAY & WEB DASHBOARD...{Style.RESET_ALL}")
         print(f"  • {Fore.CYAN}{Style.BRIGHT}Interactive Web Dashboard :{Style.RESET_ALL} {Fore.YELLOW}{dash_url}{Style.RESET_ALL}")
         print(f"  • Forward Proxy Endpoint  : {Fore.CYAN}http://127.0.0.1:{serve_port}{Style.RESET_ALL}")
         print(f"  • Random Proxy REST API   : {Fore.CYAN}http://127.0.0.1:{serve_port}/api/random{Style.RESET_ALL}")
         print(f"  • All Proxies REST API    : {Fore.CYAN}http://127.0.0.1:{serve_port}/api/all{Style.RESET_ALL}")
         print(f"  • Health & Status API     : {Fore.CYAN}http://127.0.0.1:{serve_port}/api/status{Style.RESET_ALL}")
-        print(f"\n{Fore.WHITE}📋 SNIPPET SIAP PAKAI (COPY-PASTE):{Style.RESET_ALL}")
+        print(f"\n{Fore.WHITE}{glyphs.clip} SNIPPET SIAP PAKAI (COPY-PASTE):{Style.RESET_ALL}")
         print(f"  • {Fore.YELLOW}Python Requests:{Style.RESET_ALL} proxies={{'http': 'http://127.0.0.1:{serve_port}', 'https': 'http://127.0.0.1:{serve_port}'}}")
         print(f"  • {Fore.YELLOW}cURL Command:{Style.RESET_ALL}    curl -x http://127.0.0.1:{serve_port} https://api.ipify.org")
         print(f"  • {Fore.YELLOW}Browser Proxy:{Style.RESET_ALL}   Set Manual Proxy Host -> 127.0.0.1 | Port -> {serve_port}")
@@ -261,7 +268,7 @@ def view_saved_results(output_dir: str = None):
         data = json.load(f)
 
     if HAS_RICH and console:
-        table = Table(title=f"📂 FyOS Saved Vault — {json_file}", border_style="cyan")
+        table = Table(title=f"{glyphs.vault} FyOS Saved Vault — {json_file}", border_style="cyan")
         table.add_column("#", justify="right", style="dim")
         table.add_column("Protocol", style="cyan")
         table.add_column("Proxy Endpoint", style="bold white")
@@ -283,7 +290,7 @@ def view_saved_results(output_dir: str = None):
             )
         console.print(table)
     else:
-        print(f"\n{Fore.CYAN}📁 HASIL PROXY TERAKHIR DARI {json_file}:{Style.RESET_ALL}")
+        print(f"\n{Fore.CYAN}{glyphs.vault} HASIL PROXY TERAKHIR DARI {json_file}:{Style.RESET_ALL}")
         print(f"  • Generated By       : {Fore.YELLOW}{data.get('generated_by', 'FyOS - ConFEx CCP')}{Style.RESET_ALL}")
         print(f"  • Terakhir diperbarui: {Fore.WHITE}{data.get('generated_at', '-')}{Style.RESET_ALL}")
         print(f"  • Total proxy aktif  : {Fore.GREEN}{data.get('total_alive', 0)}{Style.RESET_ALL}")
@@ -300,7 +307,7 @@ def test_live_masking(port: int = 8888):
     Fitur Pembuktian Langsung [T]:
     Uji apakah IP asli tertutup sempurna lewat Gateway 8888.
     """
-    print(f"\n{Fore.CYAN}🧪 AUDIT IDENTITAS & STATUS ANONIMITAS (LIVE MASKING TEST)...{Style.RESET_ALL}")
+    print(f"\n{Fore.CYAN}{glyphs.test} AUDIT IDENTITAS & STATUS ANONIMITAS (LIVE MASKING TEST)...{Style.RESET_ALL}")
     
     # 1. Direct IP
     print(f"  {Fore.LIGHTBLACK_EX}[1/2] Mendeteksi IP Asli perangkat kamu (Direct Connection)...{Style.RESET_ALL}")
@@ -342,19 +349,19 @@ def test_live_masking(port: int = 8888):
             pass
 
     print(f"\n{Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{Style.RESET_ALL}")
-    print(f"{Fore.WHITE}{Style.BRIGHT}🛡️  HASIL AUDIT IDENTITAS & PRIVASI KONEKSI FYOS:{Style.RESET_ALL}")
+    print(f"{Fore.WHITE}{Style.BRIGHT}{glyphs.shield}  HASIL AUDIT IDENTITAS & PRIVASI KONEKSI FYOS:{Style.RESET_ALL}")
     print(f"  • IP Asli Kamu     : {Fore.YELLOW}{real_ip}{Style.RESET_ALL} ({real_isp})")
     
     if gateway_ip:
         print(f"  • IP Masked Gateway: {Fore.GREEN}{Style.BRIGHT}{gateway_ip}{Style.RESET_ALL} ({gateway_info or 'Masked Proxy'})")
         if gateway_ip != real_ip:
-            print(f"\n  {Fore.GREEN}{Style.BRIGHT}✅ STATUS: 100% AMAN & TERSAMARKAN! (ZERO LEAK){Style.RESET_ALL}")
+            print(f"\n  {Fore.GREEN}{Style.BRIGHT}{glyphs.secure} STATUS: 100% AMAN & TERSAMARKAN! (ZERO LEAK){Style.RESET_ALL}")
             print(f"  {Fore.LIGHTBLACK_EX}Identitas asli kamu tertutup sempurna. Website target melihat kamu dari IP proxy.{Style.RESET_ALL}")
         else:
-            print(f"\n  {Fore.RED}⚠️ STATUS: IP Gateway sama dengan IP asli. Periksa kembali konfigurasi proxy.{Style.RESET_ALL}")
+            print(f"\n  {Fore.RED}{glyphs.warn} STATUS: IP Gateway sama dengan IP asli. Periksa kembali konfigurasi proxy.{Style.RESET_ALL}")
     else:
         print(f"  • Gateway {port}     : {Fore.RED}Tidak aktif atau belum ada proxy hidup di pool.{Style.RESET_ALL}")
-        print(f"  {Fore.YELLOW}💡 Tips: Jalankan salah satu Racikan [1-4] dulu untuk menyalakan Gateway {port}!{Style.RESET_ALL}")
+        print(f"  {Fore.YELLOW}{glyphs.tip} Tips: Jalankan salah satu Racikan [1-4] dulu untuk menyalakan Gateway {port}!{Style.RESET_ALL}")
     print(f"{Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{Style.RESET_ALL}\n")
 
 def show_manual_menu():
@@ -363,7 +370,8 @@ def show_manual_menu():
     while True:
         print_banner()
         if CURRENT_LANG == "ID":
-            m_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
+            if glyphs.use_emoji:
+                m_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
 │             {Fore.WHITE}{Style.BRIGHT}🛠️  BENGKEL OPREK MANUAL (FYOS PROXY HARVESTER){Fore.CYAN}            │
 │       {Fore.LIGHTBLACK_EX}"Buat yang paham jeroan teknis — tetap penting & bebas diatur!"{Fore.CYAN}  │
 ├────────────────────────────────────────────────────────────────────────┤
@@ -377,9 +385,25 @@ def show_manual_menu():
 │  {Fore.GREEN}[8]{Fore.WHITE} 🔌 Setor ke BansosRouter  {Fore.LIGHTBLACK_EX}Inject proxy langsung ke database SQLite    {Fore.CYAN}│
 │  {Fore.RED}[0]{Fore.WHITE} 🔙 Balik ke Menu Racikan  {Fore.LIGHTBLACK_EX}Kembali ke beranda utama                    {Fore.CYAN}│
 └────────────────────────────────────────────────────────────────────────┘{Style.RESET_ALL}"""
+            else:
+                m_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
+│             {Fore.WHITE}{Style.BRIGHT}>> BENGKEL OPREK MANUAL (FYOS PROXY HARVESTER) <<{Fore.CYAN}          │
+│      {Fore.LIGHTBLACK_EX}"Buat yang paham jeroan teknis -- tetap penting dan bebas diatur!"{Fore.CYAN}│
+├────────────────────────────────────────────────────────────────────────┤
+│  {Fore.GREEN}[1]{Fore.CYAN} [QUICK]   {Fore.WHITE}Quick Harvest Standar  {Fore.LIGHTBLACK_EX}Ambil 15 proxy tercepat         {Fore.CYAN}│
+│  {Fore.GREEN}[2]{Fore.CYAN} [SOCKS5]  {Fore.WHITE}Khusus SOCKS5          {Fore.LIGHTBLACK_EX}Protokol tercepat & stabil      {Fore.CYAN}│
+│  {Fore.GREEN}[3]{Fore.CYAN} [HTTP]    {Fore.WHITE}Khusus HTTP / HTTPS    {Fore.LIGHTBLACK_EX}Proxy klasik untuk web traffic  {Fore.CYAN}│
+│  {Fore.GREEN}[4]{Fore.CYAN} [COUNTRY] {Fore.WHITE}Filter Negara Tertentu {Fore.LIGHTBLACK_EX}Bebas ketik kode ISO (ID, SG...){Fore.CYAN}│
+│  {Fore.GREEN}[5]{Fore.CYAN} [ELITE]   {Fore.WHITE}Khusus Elite Proxies   {Fore.LIGHTBLACK_EX}High Anonymity - anti bocor IP  {Fore.CYAN}│
+│  {Fore.GREEN}[6]{Fore.CYAN} [TARGET]  {Fore.WHITE}Tembak Target URL      {Fore.LIGHTBLACK_EX}Uji tembus domain target khusus {Fore.CYAN}│
+│  {Fore.GREEN}[7]{Fore.CYAN} [GATEWAY] {Fore.WHITE}Nyalakan Gateway 8888  {Fore.LIGHTBLACK_EX}Host forward proxy & REST API   {Fore.CYAN}│
+│  {Fore.GREEN}[8]{Fore.CYAN} [BANSOS]  {Fore.WHITE}Setor ke BansosRouter  {Fore.LIGHTBLACK_EX}Inject proxy ke database SQLite {Fore.CYAN}│
+│  {Fore.RED}[0]{Fore.CYAN} [BACK]    {Fore.WHITE}Balik ke Menu Racikan  {Fore.LIGHTBLACK_EX}Kembali ke beranda utama        {Fore.CYAN}│
+└────────────────────────────────────────────────────────────────────────┘{Style.RESET_ALL}"""
             prompt_str = f"{Fore.YELLOW}Pilih opsi Bengkel [1-8, 0=Kembali]: {Style.RESET_ALL}"
         else:
-            m_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
+            if glyphs.use_emoji:
+                m_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
 │             {Fore.WHITE}{Style.BRIGHT}🛠️  MANUAL TUNING WORKSHOP (FYOS PROXY HARVESTER){Fore.CYAN}          │
 │        {Fore.LIGHTBLACK_EX}"For power users who need custom protocols, filters & hooks"{Fore.CYAN} │
 ├────────────────────────────────────────────────────────────────────────┤
@@ -392,6 +416,21 @@ def show_manual_menu():
 │  {Fore.GREEN}[7]{Fore.WHITE} 🏠 Launch Local Gateway   {Fore.LIGHTBLACK_EX}Start rotating forward proxy on port 8888   {Fore.CYAN}│
 │  {Fore.GREEN}[8]{Fore.WHITE} 🔌 Sync BansosRouter DB   {Fore.LIGHTBLACK_EX}Feed live proxies into SQLite database pool {Fore.CYAN}│
 │  {Fore.RED}[0]{Fore.WHITE} 🔙 Back to Presets Menu   {Fore.LIGHTBLACK_EX}Return to primary launcher                  {Fore.CYAN}│
+└────────────────────────────────────────────────────────────────────────┘{Style.RESET_ALL}"""
+            else:
+                m_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
+│             {Fore.WHITE}{Style.BRIGHT}>> MANUAL TUNING WORKSHOP (FYOS PROXY HARVESTER) <<{Fore.CYAN}        │
+│        {Fore.LIGHTBLACK_EX}"For power users who need custom protocols, filters & hooks"{Fore.CYAN}    │
+├────────────────────────────────────────────────────────────────────────┤
+│  {Fore.GREEN}[1]{Fore.CYAN} [QUICK]   {Fore.WHITE}Standard Quick Sweep   {Fore.LIGHTBLACK_EX}Grab 15 fastest random proxies  {Fore.CYAN}│
+│  {Fore.GREEN}[2]{Fore.CYAN} [SOCKS5]  {Fore.WHITE}Pure SOCKS5 Only       {Fore.LIGHTBLACK_EX}Ultra-fast SOCKS5 sockets only  {Fore.CYAN}│
+│  {Fore.GREEN}[3]{Fore.CYAN} [HTTP]    {Fore.WHITE}Classic HTTP / HTTPS   {Fore.LIGHTBLACK_EX}Standard HTTP browsing nodes    {Fore.CYAN}│
+│  {Fore.GREEN}[4]{Fore.CYAN} [COUNTRY] {Fore.WHITE}Custom Country Filter  {Fore.LIGHTBLACK_EX}Filter by ISO code (ID, SG, US) {Fore.CYAN}│
+│  {Fore.GREEN}[5]{Fore.CYAN} [ELITE]   {Fore.WHITE}Elite Proxies Only     {Fore.LIGHTBLACK_EX}Strict ghost mode - zero leak   {Fore.CYAN}│
+│  {Fore.GREEN}[6]{Fore.CYAN} [TARGET]  {Fore.WHITE}Target-Specific Snipe  {Fore.LIGHTBLACK_EX}Probe against custom target API {Fore.CYAN}│
+│  {Fore.GREEN}[7]{Fore.CYAN} [GATEWAY] {Fore.WHITE}Launch Local Gateway   {Fore.LIGHTBLACK_EX}Start rotating proxy on 8888    {Fore.CYAN}│
+│  {Fore.GREEN}[8]{Fore.CYAN} [BANSOS]  {Fore.WHITE}Sync BansosRouter DB   {Fore.LIGHTBLACK_EX}Feed proxies into SQLite pool   {Fore.CYAN}│
+│  {Fore.RED}[0]{Fore.CYAN} [BACK]    {Fore.WHITE}Back to Presets Menu   {Fore.LIGHTBLACK_EX}Return to primary launcher      {Fore.CYAN}│
 └────────────────────────────────────────────────────────────────────────┘{Style.RESET_ALL}"""
             prompt_str = f"{Fore.YELLOW}Select workshop option [1-8, 0=Back]: {Style.RESET_ALL}"
 
@@ -468,7 +507,8 @@ def show_interactive_menu():
     while True:
         print_banner()
         if CURRENT_LANG == "ID":
-            menu_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
+            if glyphs.use_emoji:
+                menu_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
 │             {Fore.WHITE}{Style.BRIGHT}🌾 FYOS PROXY HARVESTER v2.5 (ENTERPRISE ARSENAL){Fore.CYAN}          │
 │          {Fore.LIGHTBLACK_EX}Pilih Racikan Kebutuhanmu — Sekali Klik, Langsung Gas!{Fore.CYAN}        │
 ├────────────────────────────────────────────────────────────────────────┤
@@ -492,9 +532,35 @@ def show_interactive_menu():
 ├────────────────────────────────────────────────────────────────────────┤
 │  {Fore.LIGHTBLACK_EX}Created By: {Fore.YELLOW}FyOS - ConFEx CCP{Fore.LIGHTBLACK_EX}   Status: {Fore.GREEN}Active & Neural Ready{Fore.CYAN}       │
 └────────────────────────────────────────────────────────────────────────┘{Style.RESET_ALL}"""
+            else:
+                menu_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
+│             {Fore.WHITE}{Style.BRIGHT}>> FYOS PROXY HARVESTER v2.5 (ENTERPRISE ARSENAL) <<{Fore.CYAN}       │
+│          {Fore.LIGHTBLACK_EX}Pilih Racikan Kebutuhanmu — Sekali Klik, Langsung Gas!{Fore.CYAN}        │
+├────────────────────────────────────────────────────────────────────────┤
+│  {Fore.MAGENTA}RACIKAN SPESIAL (TINGGAL PILIH & GAS):{Fore.CYAN}                                │
+│  {Fore.GREEN}[1]{Fore.CYAN} [AI-BOT]   {Fore.WHITE}Racikan Ternak Akun    {Fore.LIGHTBLACK_EX}Khusus Grok/AI, Elite, Bansos   {Fore.CYAN}│
+│  {Fore.GREEN}[2]{Fore.CYAN} [SCRAPER]  {Fore.WHITE}Racikan Scraper Brutal {Fore.LIGHTBLACK_EX}Pool 30+ IP, Anti-Block, Fast   {Fore.CYAN}│
+│  {Fore.GREEN}[3]{Fore.CYAN} [TURBO]    {Fore.WHITE}Racikan Turbo Surfing  {Fore.LIGHTBLACK_EX}Ping <350ms, Dual RTT Latency   {Fore.CYAN}│
+│  {Fore.GREEN}[4]{Fore.CYAN} [DAEMON]   {Fore.WHITE}Mode Daemon 24 Jam     {Fore.LIGHTBLACK_EX}Auto-Pilot Loop tiap 15m, 8888  {Fore.CYAN}│
+│  {Fore.GREEN}[W]{Fore.CYAN} [RESIDEN]  {Fore.WHITE}Webshare Hunter        {Fore.LIGHTBLACK_EX}Panen 10-30 Residential IPs     {Fore.CYAN}│
+│                                                                        │
+│  {Fore.MAGENTA}EKSPOR, DASHBOARD & PEMBUKTIAN LANGSUNG:{Fore.CYAN}                                 │
+│  {Fore.CYAN}[D]{Fore.CYAN} [WEB GUI]  {Fore.WHITE}Buka Web Dashboard     {Fore.LIGHTBLACK_EX}Obsidian UI interaktif di 8888  {Fore.CYAN}│
+│  {Fore.CYAN}[E]{Fore.CYAN} [EXPORT]   {Fore.WHITE}Ekspor File Mentah     {Fore.LIGHTBLACK_EX}Format TXT, JSON, CSV & SOCKS5  {Fore.CYAN}│
+│  {Fore.CYAN}[T]{Fore.CYAN} [AUDIT]    {Fore.WHITE}Uji Tembus Identitas   {Fore.LIGHTBLACK_EX}Live Proof: Tes IP Asli Tertutup{Fore.CYAN}│
+│                                                                        │
+│  {Fore.MAGENTA}BENGKEL OPREK & PENGATURAN:{Fore.CYAN}                                             │
+│  {Fore.YELLOW}[M]{Fore.CYAN} [MANUAL]   {Fore.WHITE}Bengkel Oprek Manual   {Fore.LIGHTBLACK_EX}Atur protokol, ISO negara & URL {Fore.CYAN}│
+│  {Fore.YELLOW}[S]{Fore.CYAN} [VAULT]    {Fore.WHITE}Gudang Hasil Panen     {Fore.LIGHTBLACK_EX}Buka riwayat proxy aktif di disk{Fore.CYAN}│
+│  {Fore.BLUE}[L]{Fore.CYAN} [LANG]     {Fore.WHITE}Ganti Bahasa (EN/ID)   {Fore.LIGHTBLACK_EX}Currently: Bahasa Indonesia     {Fore.CYAN}│
+│  {Fore.RED}[0]{Fore.CYAN} [EXIT]     {Fore.WHITE}Cabut Dulu (Rebahan)   {Fore.LIGHTBLACK_EX}Keluar dari program & santai    {Fore.CYAN}│
+├────────────────────────────────────────────────────────────────────────┤
+│  {Fore.LIGHTBLACK_EX}Created By: {Fore.YELLOW}FyOS - ConFEx CCP{Fore.LIGHTBLACK_EX}   Status: {Fore.GREEN}Active & Neural Ready{Fore.CYAN}         │
+└────────────────────────────────────────────────────────────────────────┘{Style.RESET_ALL}"""
             prompt_str = f"{Fore.YELLOW}Pilih Racikan [1-4, W, D, E, T, M, S, L, 0] (Default: 1): {Style.RESET_ALL}"
         else:
-            menu_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
+            if glyphs.use_emoji:
+                menu_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
 │             {Fore.WHITE}{Style.BRIGHT}🌾 FYOS PROXY HARVESTER v2.5 (ENTERPRISE ARSENAL){Fore.CYAN}          │
 │             {Fore.LIGHTBLACK_EX}Pick Your Battle Setup — One Click to Dominate!{Fore.CYAN}            │
 ├────────────────────────────────────────────────────────────────────────┤
@@ -518,6 +584,31 @@ def show_interactive_menu():
 ├────────────────────────────────────────────────────────────────────────┤
 │  {Fore.LIGHTBLACK_EX}Created By: {Fore.YELLOW}FyOS - ConFEx CCP{Fore.LIGHTBLACK_EX}   Status: {Fore.GREEN}Active & Neural Ready{Fore.CYAN}       │
 └────────────────────────────────────────────────────────────────────────┘{Style.RESET_ALL}"""
+            else:
+                menu_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
+│             {Fore.WHITE}{Style.BRIGHT}>> FYOS PROXY HARVESTER v2.5 (ENTERPRISE ARSENAL) <<{Fore.CYAN}       │
+│             {Fore.LIGHTBLACK_EX}Pick Your Battle Setup — One Click to Dominate!{Fore.CYAN}            │
+├────────────────────────────────────────────────────────────────────────┤
+│  {Fore.MAGENTA}PLUG & PLAY BATTLE PRESETS:{Fore.CYAN}                                              │
+│  {Fore.GREEN}[1]{Fore.CYAN} [AI-BOT]   {Fore.WHITE}Account Farming Mode   {Fore.LIGHTBLACK_EX}Tuned for Grok/AI, Elite, DB    {Fore.CYAN}│
+│  {Fore.GREEN}[2]{Fore.CYAN} [SCRAPER]  {Fore.WHITE}Mass Web Scraper       {Fore.LIGHTBLACK_EX}30+ Pool, Auto-Rotate, Anti-Ban {Fore.CYAN}│
+│  {Fore.GREEN}[3]{Fore.CYAN} [TURBO]    {Fore.WHITE}Lightning Turbo Surf   {Fore.LIGHTBLACK_EX}Ping <350ms, Dual RTT Latency   {Fore.CYAN}│
+│  {Fore.GREEN}[4]{Fore.CYAN} [DAEMON]   {Fore.WHITE}24/7 Farmer Daemon     {Fore.LIGHTBLACK_EX}Auto-Pilot loop every 15m, 8888 {Fore.CYAN}│
+│  {Fore.GREEN}[W]{Fore.CYAN} [RESIDEN]  {Fore.WHITE}Webshare Hunter        {Fore.LIGHTBLACK_EX}Harvest 10-30 Residential IPs   {Fore.CYAN}│
+│                                                                        │
+│  {Fore.MAGENTA}EXPORTS, DASHBOARD & VERIFICATION:{Fore.CYAN}                                      │
+│  {Fore.CYAN}[D]{Fore.CYAN} [WEB GUI]  {Fore.WHITE}Launch Web Dashboard   {Fore.LIGHTBLACK_EX}Obsidian Web GUI on port 8888   {Fore.CYAN}│
+│  {Fore.CYAN}[E]{Fore.CYAN} [EXPORT]   {Fore.WHITE}Raw File Exporter      {Fore.LIGHTBLACK_EX}Export TXT, JSON, CSV & SOCKS5  {Fore.CYAN}│
+│  {Fore.CYAN}[T]{Fore.CYAN} [AUDIT]    {Fore.WHITE}Live Identity Test     {Fore.LIGHTBLACK_EX}Instant Proof: Verify IP Masking{Fore.CYAN}│
+│                                                                        │
+│  {Fore.MAGENTA}MANUAL TUNING & SETTINGS:{Fore.CYAN}                                               │
+│  {Fore.YELLOW}[M]{Fore.CYAN} [MANUAL]   {Fore.WHITE}Manual Tuning Workshop {Fore.LIGHTBLACK_EX}Custom protocols & ISO filters  {Fore.CYAN}│
+│  {Fore.YELLOW}[S]{Fore.CYAN} [VAULT]    {Fore.WHITE}Saved Proxy Vault      {Fore.LIGHTBLACK_EX}Inspect latest proxies on disk  {Fore.CYAN}│
+│  {Fore.BLUE}[L]{Fore.CYAN} [LANG]     {Fore.WHITE}Switch Language (ID/EN){Fore.LIGHTBLACK_EX}Currently: English              {Fore.CYAN}│
+│  {Fore.RED}[0]{Fore.CYAN} [EXIT]     {Fore.WHITE}Rage Quit              {Fore.LIGHTBLACK_EX}Exit program cleanly            {Fore.CYAN}│
+├────────────────────────────────────────────────────────────────────────┤
+│  {Fore.LIGHTBLACK_EX}Created By: {Fore.YELLOW}FyOS - ConFEx CCP{Fore.LIGHTBLACK_EX}   Status: {Fore.GREEN}Active & Neural Ready{Fore.CYAN}         │
+└────────────────────────────────────────────────────────────────────────┘{Style.RESET_ALL}"""
             prompt_str = f"{Fore.YELLOW}Select Option [1-4, W, D, E, T, M, S, L, 0] (Default: 1): {Style.RESET_ALL}"
 
         print(menu_box)
@@ -530,7 +621,7 @@ def show_interactive_menu():
         if choice.lower() == "l":
             CURRENT_LANG = "EN" if CURRENT_LANG == "ID" else "ID"
             new_lang_name = "Bahasa Indonesia" if CURRENT_LANG == "ID" else "English"
-            print(f"\n{Fore.GREEN}🌐 Bahasa antarmuka diubah ke: {new_lang_name}{Style.RESET_ALL}")
+            print(f"\n{Fore.GREEN}{glyphs.net} Bahasa antarmuka diubah ke: {new_lang_name}{Style.RESET_ALL}")
             continue
 
         if choice.lower() == "m":
@@ -539,7 +630,7 @@ def show_interactive_menu():
 
         if choice.lower() == "d":
             dash_url = "http://127.0.0.1:8888/dashboard"
-            print(f"\n{Fore.CYAN}🌐 Membuka FyOS Web Dashboard di {dash_url}...{Style.RESET_ALL}")
+            print(f"\n{Fore.CYAN}{glyphs.net} Membuka FyOS Web Dashboard di {dash_url}...{Style.RESET_ALL}")
             try:
                 webbrowser.open(dash_url)
             except Exception:
@@ -555,10 +646,10 @@ def show_interactive_menu():
             target_val = int(t_input) if t_input.isdigit() and int(t_input) > 0 else 20
             run_harvester(protocols=["http", "socks4", "socks5"], max_check=max(250, target_val * 15), target_alive=target_val, timeout=3.0)
         elif choice == "" or choice == "1":
-            print(f"\n{Fore.GREEN}{'🐔 Menjalankan Racikan Ternak Akun (Grok, Qoder & Bot AI)...' if CURRENT_LANG == 'ID' else '🐔 Launching Account Farming Preset (Grok, Qoder & AI)...'}{Style.RESET_ALL}")
+            print(f"\n{Fore.GREEN}{glyphs.bot} {'Menjalankan Racikan Ternak Akun (Grok, Qoder & Bot AI)...' if CURRENT_LANG == 'ID' else 'Launching Account Farming Preset (Grok, Qoder & AI)...'}{Style.RESET_ALL}")
             db_target = find_9router_db()
             if db_target:
-                print(f"  {Fore.CYAN}✓ BansosRouter SQLite terdeteksi di: {Fore.WHITE}{db_target}{Style.RESET_ALL}")
+                print(f"  {Fore.CYAN}{glyphs.ok} BansosRouter SQLite terdeteksi di: {Fore.WHITE}{db_target}{Style.RESET_ALL}")
             run_harvester(
                 protocols=["http", "socks5"], 
                 max_check=350, 
@@ -570,28 +661,28 @@ def show_interactive_menu():
                 open_browser=True
             )
         elif choice == "2":
-            print(f"\n{Fore.GREEN}{'🕷️ Menjalankan Racikan Scraper Brutal (Shopee, Tokopedia, Web Data)...' if CURRENT_LANG == 'ID' else '🕷️ Launching Mass Web Scraper Preset...'}{Style.RESET_ALL}")
+            print(f"\n{Fore.GREEN}{glyphs.scraper} {'Menjalankan Racikan Scraper Brutal (Shopee, Tokopedia, Web Data)...' if CURRENT_LANG == 'ID' else 'Launching Mass Web Scraper Preset...'}{Style.RESET_ALL}")
             run_harvester(
                 protocols=["http", "socks4", "socks5"], 
                 max_check=500, 
                 target_alive=30, 
                 anonymity="elite", 
                 timeout=3.5, 
-                serve_port=8888,
+                serve_port=8888, 
                 open_browser=True
             )
         elif choice == "3":
-            print(f"\n{Fore.GREEN}{'⚡ Menjalankan Racikan Turbo Surfing (Ping Terendah, SG/ID/US)...' if CURRENT_LANG == 'ID' else '⚡ Launching Lightning Turbo Surfing Preset...'}{Style.RESET_ALL}")
+            print(f"\n{Fore.GREEN}{glyphs.zap} {'Menjalankan Racikan Turbo Surfing (Ping Terendah, SG/ID/US)...' if CURRENT_LANG == 'ID' else 'Launching Lightning Turbo Surfing Preset...'}{Style.RESET_ALL}")
             run_harvester(
                 protocols=["http", "socks5"], 
                 max_check=350, 
                 target_alive=15, 
                 timeout=2.0, 
-                serve_port=8888,
+                serve_port=8888, 
                 open_browser=True
             )
         elif choice == "4":
-            print(f"\n{Fore.MAGENTA}{'🚜 Mode Daemon 24 Jam Aktif: Refresh berkala setiap 15 menit. Tekan Ctrl+C untuk berhenti.' if CURRENT_LANG == 'ID' else '🚜 24/7 Farmer Daemon Active: Auto-refreshing every 15 mins. Press Ctrl+C to stop.'}{Style.RESET_ALL}")
+            print(f"\n{Fore.MAGENTA}{glyphs.daemon} {'Mode Daemon 24 Jam Aktif: Refresh berkala setiap 15 menit. Tekan Ctrl+C untuk berhenti.' if CURRENT_LANG == 'ID' else '24/7 Farmer Daemon Active: Auto-refreshing every 15 mins. Press Ctrl+C to stop.'}{Style.RESET_ALL}")
             while True:
                 try:
                     db_target = find_9router_db()
@@ -609,7 +700,7 @@ def show_interactive_menu():
                     break
         elif choice.lower() == "w":
             from core.webshare_hunter import run_webshare_hunter
-            print(f"\n{Fore.GREEN}{'🏢 Membuka Webshare Residential Hunter...' if CURRENT_LANG == 'ID' else '🏢 Launching Webshare Residential Hunter...'}{Style.RESET_ALL}")
+            print(f"\n{Fore.GREEN}{glyphs.resident} {'Membuka Webshare Residential Hunter...' if CURRENT_LANG == 'ID' else 'Launching Webshare Residential Hunter...'}{Style.RESET_ALL}")
             acc_prompt = f"{Fore.CYAN}{'Berapa akun Webshare yang ingin dipanen? [Default: 1]: ' if CURRENT_LANG == 'ID' else 'How many Webshare accounts to hunt? [Default: 1]: '}{Style.RESET_ALL}"
             a_input = input(acc_prompt).strip()
             total_acc = int(a_input) if a_input.isdigit() and int(a_input) > 0 else 1
@@ -623,7 +714,7 @@ def show_interactive_menu():
         elif choice.lower() in ("s", "saved"):
             view_saved_results()
         elif choice == "0" or choice.lower() == "q":
-            goodbye_msg = "💀 Sesi selesai. Dibuat dengan presisi oleh FyOS - ConFEx CCP! 👋" if CURRENT_LANG == "ID" else "💀 Session closed. Crafted with precision by FyOS - ConFEx CCP! 👋"
+            goodbye_msg = f"{glyphs.exit_sym} Sesi selesai. Dibuat dengan presisi oleh FyOS - ConFEx CCP! 👋" if CURRENT_LANG == "ID" else f"{glyphs.exit_sym} Session closed. Crafted with precision by FyOS - ConFEx CCP! 👋"
             print(f"\n{Fore.YELLOW}{goodbye_msg}{Style.RESET_ALL}\n")
             break
         else:
@@ -637,10 +728,6 @@ def show_interactive_menu():
             break
 
 def main():
-    if len(sys.argv) == 1:
-        show_interactive_menu()
-        return
-
     parser = argparse.ArgumentParser(
         description="FyOS Proxy Harvester v2.5 - High-Speed Multi-Protocol Proxy Harvester, Intelligent Rotating Gateway & Dashboard\nCreated By : FyOS - ConFEx CCP"
     )
@@ -659,8 +746,19 @@ def main():
     parser.add_argument("--sync-9router", type=str, default=None, help="Path to BansosRouter/9Router data.sqlite for direct database sync (or 'auto')")
     parser.add_argument("--webshare", "-W", type=int, nargs="?", const=1, default=None, help="Trigger Webshare Residential Hunter for N accounts (default: 1)")
     parser.add_argument("--headless", action="store_true", help="Run Webshare Hunter in headless mode")
+    parser.add_argument("--emoji", action="store_true", default=False, help="Force enable rich emoji icons (for modern terminals)")
+    parser.add_argument("--no-emoji", action="store_true", default=False, help="Force disable emojis (use 100%% CMD-safe badges)")
+
+    if len(sys.argv) == 1:
+        show_interactive_menu()
+        return
 
     args = parser.parse_args()
+
+    if args.emoji:
+        glyphs.use_emoji = True
+    elif args.no_emoji:
+        glyphs.use_emoji = False
 
     print_banner()
 
@@ -676,7 +774,7 @@ def main():
     proto_list = [args.protocol] if args.protocol != "all" else ["http", "socks4", "socks5"]
 
     if args.loop > 0:
-        print(f"{Fore.MAGENTA}🔄 Auto-refresh loop active: Running every {args.loop} minutes... (Press Ctrl+C to stop){Style.RESET_ALL}")
+        print(f"{Fore.MAGENTA}{glyphs.loop} Auto-refresh loop active: Running every {args.loop} minutes... (Press Ctrl+C to stop){Style.RESET_ALL}")
         while True:
             try:
                 run_harvester(
@@ -696,7 +794,7 @@ def main():
                 print(f"{Fore.LIGHTBLACK_EX}Sleeping for {args.loop} minutes before next sweep...{Style.RESET_ALL}")
                 time.sleep(args.loop * 60)
             except KeyboardInterrupt:
-                print(f"\n{Fore.YELLOW}🛑 Harvester stopped by user.{Style.RESET_ALL}")
+                print(f"\n{Fore.YELLOW}{glyphs.stop} Harvester stopped by user.{Style.RESET_ALL}")
                 break
     else:
         run_harvester(

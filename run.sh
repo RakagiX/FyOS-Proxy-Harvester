@@ -4,8 +4,9 @@ set -e
 # Change directory to script location
 cd "$(dirname "$0")"
 
+export PYTHONIOENCODING=utf-8
 echo "==================================================================="
-echo "  ⚡ Starting FyOS Proxy Harvester - Enterprise Edition ⚡"
+echo "  [*] Starting FyOS Proxy Harvester - Enterprise Edition [*]"
 echo "  Created By : FyOS - ConFEx CCP"
 echo "==================================================================="
 

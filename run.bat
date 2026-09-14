@@ -4,8 +4,10 @@ title FyOS Proxy Harvester - Created By : FyOS - ConFEx CCP
 mode con: cols=105 lines=38
 cd /d "%~dp0"
 
+set "PYTHONIOENCODING=utf-8"
+
 echo ===================================================================
-echo   ⚡ Starting FyOS Proxy Harvester - Enterprise Edition ⚡
+echo   [*] Starting FyOS Proxy Harvester - Enterprise Edition [*]
 echo   Created By : FyOS - ConFEx CCP
 echo ===================================================================
 

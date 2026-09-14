@@ -97,12 +97,12 @@ async def fetch_all_proxies_httpx(target_urls: List[Tuple[str, str]], verbose: b
         for url, proto in target_urls:
             tasks.append(fetch_single_source_async(client, url, proto))
         if verbose:
-            print(f"🌐 [FyOS Engine] Harvesting raw proxies from {len(tasks)} verified source feeds{country_info}...")
+            print(f"[*] [FyOS Engine] Harvesting raw proxies from {len(tasks)} verified source feeds{country_info}...")
         return await asyncio.gather(*tasks)
 
 def fetch_all_proxies_threaded(target_urls: List[Tuple[str, str]], verbose: bool, country_info: str) -> List[List[Dict[str, Any]]]:
     if verbose:
-        print(f"🌐 [FyOS Engine] Harvesting raw proxies from {len(target_urls)} verified source feeds{country_info} (Secure urllib)...")
+        print(f"[*] [FyOS Engine] Harvesting raw proxies from {len(target_urls)} verified source feeds{country_info} (Secure urllib)...")
     results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
         future_to_url = {executor.submit(fetch_single_source_urllib, u, p): u for u, p in target_urls}
@@ -198,7 +198,7 @@ def fetch_proxies_sync(
                 unique_candidates.append(item)
 
     if verbose:
-        print(f"📦 Total unique candidates harvested: {len(unique_candidates):,} proxies")
+        print(f"[+] Total unique candidates harvested: {len(unique_candidates):,} proxies")
         for proto in target_protocols:
             cnt = sum(1 for p in unique_candidates if p['protocol'] == proto)
             print(f"  • {proto.upper()}: {cnt:,} candidates")

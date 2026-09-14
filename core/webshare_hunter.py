@@ -519,7 +519,7 @@ def hunt_single_auto(index, total, headless=False):
 
 def run_webshare_hunter(total: int = 1, headless: bool = False, sync_9router_db: str = None, output_dir: str = None):
     if Chromium is None:
-        print(f"\n{Fore.RED}❌ DrissionPage belum terpasang. Silakan install dengan:{Style.RESET_ALL}")
+        print(f"\n{Fore.RED}[X] DrissionPage belum terpasang. Silakan install dengan:{Style.RESET_ALL}")
         print(f"   {Fore.CYAN}pip install DrissionPage speechrecognition pydub{Style.RESET_ALL}\n")
         return []
 
@@ -534,7 +534,7 @@ def run_webshare_hunter(total: int = 1, headless: bool = False, sync_9router_db:
 
     mode_str = f"{Fore.YELLOW}[Mode: Background/Headless]{Style.RESET_ALL}" if headless else f"{Fore.GREEN}[Mode: Jendela Tampak]{Style.RESET_ALL}"
     print(f"\n{Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{Style.RESET_ALL}")
-    print(f"{Fore.CYAN}{Style.BRIGHT}🌾 FyOS PROXY HARVESTER x WEBSHARE RESIDENTIAL HUNTER{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}{Style.BRIGHT}>> FyOS PROXY HARVESTER x WEBSHARE RESIDENTIAL HUNTER <<{Style.RESET_ALL}")
     print(f"  • Creator           : {Fore.YELLOW}FyOS - ConFEx CCP{Style.RESET_ALL}")
     print(f"  • Target Akun       : {Fore.YELLOW}{total}{Style.RESET_ALL} Akun (Potensi {total * 10} Residential IP)")
     print(f"  • Mode Tampilan     : {mode_str}")
@@ -546,7 +546,7 @@ def run_webshare_hunter(total: int = 1, headless: bool = False, sync_9router_db:
     for i in range(1, total + 1):
         proxies = hunt_single_auto(i, total, headless=headless)
         if proxies:
-            print(f"  {Fore.GREEN}✓ Akun [{i}/{total}] menghasilkan {len(proxies)} residential proxy baru.{Style.RESET_ALL}")
+            print(f"  {Fore.GREEN}[OK] Akun [{i}/{total}] menghasilkan {len(proxies)} residential proxy baru.{Style.RESET_ALL}")
             # 1. Simpan ke output PetaniProxy
             append_to_proxies_txt(proxies, output_webshare_txt)
             append_to_proxies_txt(proxies, output_elite_txt)
@@ -558,14 +558,14 @@ def run_webshare_hunter(total: int = 1, headless: bool = False, sync_9router_db:
                 sync_to_9router(proxies, db_path)
             all_gathered.extend(proxies)
         else:
-            print(f"  {Fore.YELLOW}⚠️ Akun [{i}/{total}] belum menghasilkan proxy.{Style.RESET_ALL}")
+            print(f"  {Fore.YELLOW}[!] Akun [{i}/{total}] belum menghasilkan proxy.{Style.RESET_ALL}")
 
         if i < total:
             print(f"  {Fore.LIGHTBLACK_EX}Istirahat 3 detik sebelum akun berikutnya...{Style.RESET_ALL}")
             time.sleep(3)
 
     print(f"\n{Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{Style.RESET_ALL}")
-    print(f"{Fore.GREEN}{Style.BRIGHT}🎉 PANEN RESIDENTIAL SELESAI! Total {len(all_gathered)} proxy baru terkumpul.{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}{Style.BRIGHT}[SUCCESS] PANEN RESIDENTIAL SELESAI! Total {len(all_gathered)} proxy baru terkumpul.{Style.RESET_ALL}")
     print(f"  • File PetaniProxy   : {Fore.WHITE}{output_webshare_txt}{Style.RESET_ALL}")
     if grok_txt:
         print(f"  • Feed Grok Farm     : {Fore.WHITE}{grok_txt}{Style.RESET_ALL}")
