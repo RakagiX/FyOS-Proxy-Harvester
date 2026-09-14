@@ -39,4 +39,4 @@ petani-proxy = "main:main"
 petaniproxy = "main:main"
 
 [project.urls]
-"Homepage" = "https://github.com/FyOS/proxy-harvester"
+"Homepage" = "https://github.com/RakagiX/FyOS-Proxy-Harvester"
