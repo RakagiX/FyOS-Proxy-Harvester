@@ -1,25 +1,17 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,146.190.60.147,8006,146.190.60.147:8006,Elite,205,42.6,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
-http,38.51.207.104,8080,38.51.207.104:8080,Elite,660,110.0,VE,Venezuela,Maracaibo,TECNOVEN SERVICES CA,38.51.207.106
-http,190.97.236.128,999,190.97.236.128:999,Elite,761,130.1,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
-http,190.97.236.129,999,190.97.236.129:999,Elite,765,126.2,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
-http,43.153.123.79,80,43.153.123.79:80,Elite,771,23.6,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.153.123.79
-http,2.27.63.250,8888,2.27.63.250:8888,Elite,893,161.4,DE,Germany,Frankfurt am Main,Kyonix Networks Limited,2.27.63.250
-http,24.55.20.6,3030,24.55.20.6:3030,Elite,996,75.4,US,United States,Austin,Charter Communications Inc,24.55.20.6
-http,124.156.194.52,8080,124.156.194.52:8080,Elite,1008,160.3,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,124.156.194.52
-http,180.190.184.82,8080,180.190.184.82:8080,Elite,1136,1237.0,PH,Philippines,Cebu City,Globe Telecom Inc.,180.190.184.82
-http,37.59.125.131,8888,37.59.125.131:8888,Elite,1144,145.8,FR,France,Roubaix,OVH SAS,82.66.253.58
-http,95.3.69.222,8080,95.3.69.222:8080,Elite,1144,201.5,TR,Türkiye,Ankara,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
-http,122.102.126.74,8080,122.102.126.74:8080,Elite,1148,574,IN,India,Chennai,ARJUN TELECOM PVT. LTD.,122.102.126.74
-http,43.109.48.179,9999,43.109.48.179:9999,Elite,1281,231.2,VN,Viet Nam,Ho Chi Minh City,"Zhejiang Taobao Network Co.,Ltd",43.109.48.179
-http,45.194.41.141,8080,45.194.41.141:8080,Elite,1284,248.3,IN,India,Mumbai,YOTTA NETWORK SERVICES PRIVATE LIMITED,45.194.41.103
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,1379,160.4,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,14.251.13.20,8080,14.251.13.20:8080,Elite,1394,177.7,VN,Viet Nam,Soc Son,VNPT Corp,14.251.13.20
-http,8.219.97.248,80,8.219.97.248:80,Elite,1537,161.3,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
-http,109.72.198.3,8080,109.72.198.3:8080,Elite,1541,770,IR,Iran,Bushehr,Khalij Fars Ettela Resan LTD,109.72.198.3
-http,73.162.86.230,443,73.162.86.230:443,Elite,1682,33.6,US,United States,San Jose,"Comcast Cable Communications, LLC",73.162.86.230
-http,73.162.86.230,8195,73.162.86.230:8195,Elite,1803,37.6,US,United States,San Jose,"Comcast Cable Communications, LLC",73.162.86.230
-http,171.239.152.230,8080,171.239.152.230:8080,Elite,1880,247.8,VN,Viet Nam,Ho Chi Minh City,Viettel Group,171.239.152.230
-http,182.160.124.153,12331,182.160.124.153:12331,Elite,2013,1006,BD,Bangladesh,Dhaka,Aamra Networks Limited,182.160.124.153
-http,190.97.241.106,999,190.97.241.106:999,Elite,2051,119.0,VE,Venezuela,San Cristobal,VIGINET C.A,190.97.241.106
-http,174.138.165.211,35623,174.138.165.211:35623,Elite,2249,1124,US,United States,Phoenix,SECURED SERVERS LLC,98.96.63.203
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,191,1062.3,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,107.167.18.122,443,107.167.18.122:443,Elite,332,55.3,US,United States,Los Angeles,Sharktech,107.167.18.99
+http,134.209.29.120,3128,134.209.29.120:3128,Elite,435,82.8,GB,United Kingdom,London,"DigitalOcean, LLC",134.209.29.120
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,481,102.9,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,167.86.104.220,80,167.86.104.220:80,Elite,537,89.7,FR,France,Lauterbourg,Contabo GmbH,167.86.104.220
+http,190.97.236.129,999,190.97.236.129:999,Elite,547,123.3,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
+http,190.97.236.128,999,190.97.236.128:999,Elite,598,80.5,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
+http,37.59.125.131,8888,37.59.125.131:8888,Elite,652,86.3,FR,France,Roubaix,OVH SAS,82.66.253.58
+http,84.8.216.230,2001,84.8.216.230:2001,Elite,880,92.8,MA,Morocco,Oulad Salah,Oracle Corporation,84.8.216.230
+http,43.153.123.79,80,43.153.123.79:80,Elite,926,65.1,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.153.123.79
+http,14.251.13.20,8080,14.251.13.20:8080,Elite,1386,257.2,VN,Viet Nam,Soc Son,VNPT Corp,14.251.13.20
+http,152.53.183.107,8081,152.53.183.107:8081,Elite,1629,814,DE,Germany,Nuremberg,netcup GmbH,152.53.183.107
+http,38.58.182.147,18080,38.58.182.147:18080,Elite,1645,57.0,US,United States,Salt Lake City,"FiberState, LLC",104.28.192.157
+http,47.81.56.193,8888,47.81.56.193:8888,Elite,1866,265.0,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
+http,31.77.151.149,8090,31.77.151.149:8090,Elite,2011,1005,FI,Finland,Helsinki,PLAY2GO INTERNATIONAL LIMITED,2.27.207.236
+http,58.187.104.62,2113,58.187.104.62:2113,Elite,2483,1241,VN,Viet Nam,Ho Chi Minh City,FPT Telecom Company,58.187.104.62
