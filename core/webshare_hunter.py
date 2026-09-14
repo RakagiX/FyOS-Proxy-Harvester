@@ -1,11 +1,9 @@
-"""
-WEBSHARE PROXY HUNTER (AUTO-CAPTCHA SOLVER VERSION)
+r"""
+FyOS Proxy Harvester - Webshare Residential Hunter (Auto-Solver Edition)
+Created By : FyOS - ConFEx CCP
 ---------------------------------------------------
-Dilengkapi Human Mouse Movement (Bezier Curve),
-Typing Simulation, dan SpeechRecognition Audio Solver.
-
-Jalankan:
-  .\venv\Scripts\python.exe webshare_hunter_auto.py 1
+Equipped with Human Mouse Movement (Bezier Curve),
+Typing Simulation, and SpeechRecognition Audio Solver.
 """
 
 import datetime
@@ -22,17 +20,41 @@ import time
 import urllib.request
 import uuid
 import requests
-import speech_recognition as sr
-from pydub import AudioSegment
-from DrissionPage import Chromium, ChromiumOptions
-from colorama import Fore, Style
+
+try:
+    import speech_recognition as sr
+except ImportError:
+    sr = None
+
+try:
+    from pydub import AudioSegment
+except ImportError:
+    AudioSegment = None
+
+try:
+    from DrissionPage import Chromium, ChromiumOptions
+except ImportError:
+    Chromium = ChromiumOptions = None
+
+try:
+    from colorama import Fore, Style
+except ImportError:
+    class DummyColor:
+        def __getattr__(self, name):
+            return ""
+    Fore = Style = DummyColor()
 
 def find_default_db():
+    env_path = os.environ.get("BANSOS_ROUTER_DB") or os.environ.get("NINEROUTER_DB")
+    if env_path and os.path.exists(env_path):
+        return env_path
+
     current_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     candidates = [
         os.path.join(os.path.dirname(current_dir), "9router-mibp-version", "data", "db", "data.sqlite"),
         os.path.join(current_dir, "..", "9router-mibp-version", "data", "db", "data.sqlite"),
-        r"d:\FREELANCE\9router-mibp-version\data\db\data.sqlite"
+        os.path.join(os.path.dirname(current_dir), "9router", "data", "db", "data.sqlite"),
+        os.path.join(os.path.dirname(current_dir), "bansos-router", "data", "db", "data.sqlite"),
     ]
     for c in candidates:
         norm = os.path.abspath(c)
@@ -41,11 +63,14 @@ def find_default_db():
     return None
 
 def find_grok_proxies_txt():
+    env_path = os.environ.get("GROK_PROXIES_TXT")
+    if env_path and os.path.exists(env_path):
+        return env_path
+
     current_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     candidates = [
         os.path.join(os.path.dirname(current_dir), "grok-register", "proxies.txt"),
         os.path.join(current_dir, "..", "grok-register", "proxies.txt"),
-        r"d:\FREELANCE\grok-register\proxies.txt"
     ]
     for c in candidates:
         norm = os.path.abspath(c)
@@ -493,6 +518,11 @@ def hunt_single_auto(index, total, headless=False):
             pass
 
 def run_webshare_hunter(total: int = 1, headless: bool = False, sync_9router_db: str = None, output_dir: str = None):
+    if Chromium is None:
+        print(f"\n{Fore.RED}❌ DrissionPage belum terpasang. Silakan install dengan:{Style.RESET_ALL}")
+        print(f"   {Fore.CYAN}pip install DrissionPage speechrecognition pydub{Style.RESET_ALL}\n")
+        return []
+
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     out_dir = output_dir or os.path.join(base_dir, "output")
     os.makedirs(out_dir, exist_ok=True)
@@ -504,7 +534,8 @@ def run_webshare_hunter(total: int = 1, headless: bool = False, sync_9router_db:
 
     mode_str = f"{Fore.YELLOW}[Mode: Background/Headless]{Style.RESET_ALL}" if headless else f"{Fore.GREEN}[Mode: Jendela Tampak]{Style.RESET_ALL}"
     print(f"\n{Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{Style.RESET_ALL}")
-    print(f"{Fore.GREEN}{Style.BRIGHT}🌾 PETANIPROXY x WEBSHARE RESIDENTIAL HUNTER (AUTO-SOLVER){Style.RESET_ALL}")
+    print(f"{Fore.CYAN}{Style.BRIGHT}🌾 FyOS PROXY HARVESTER x WEBSHARE RESIDENTIAL HUNTER{Style.RESET_ALL}")
+    print(f"  • Creator           : {Fore.YELLOW}FyOS - ConFEx CCP{Style.RESET_ALL}")
     print(f"  • Target Akun       : {Fore.YELLOW}{total}{Style.RESET_ALL} Akun (Potensi {total * 10} Residential IP)")
     print(f"  • Mode Tampilan     : {mode_str}")
     print(f"  • BansosRouter SQLite: {Fore.WHITE}{db_path or 'Tidak Terdeteksi (Skip)'}{Style.RESET_ALL}")

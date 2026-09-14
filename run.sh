@@ -4,9 +4,10 @@ set -e
 # Change directory to script location
 cd "$(dirname "$0")"
 
-echo "========================================================"
-echo " 🌾 Starting PetaniProxy: Panen Proxy Cepat & Segar 🚜  "
-echo "========================================================"
+echo "==================================================================="
+echo "  ⚡ Starting FyOS Proxy Harvester - Enterprise Edition ⚡"
+echo "  Created By : FyOS - ConFEx CCP"
+echo "==================================================================="
 
 if ! command -v python3 &>/dev/null && ! command -v python &>/dev/null; then
     echo "[ERROR] Python 3 tidak ditemukan di sistem Anda!"

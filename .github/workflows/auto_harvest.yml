@@ -1,8 +1,8 @@
-name: Auto Proxy Harvester
+name: FyOS Auto Proxy Harvester
 
 on:
   schedule:
-    # Run every 6 hours
+    # Run every 6 hours automatically
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
@@ -28,13 +28,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run OmniProxy Harvester
+      - name: Run FyOS Proxy Harvester
         run: |
           python main.py --max 400 --target 50 --timeout 2.5
 
       - name: Commit and push updated proxies
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "FyOS-Bot"
+          git config --global user.email "bot@fyos.dev"
           git add output/
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore(proxies): auto-update live verified proxies [skip ci]" && git push)

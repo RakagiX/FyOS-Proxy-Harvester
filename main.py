@@ -1,21 +1,38 @@
 #!/usr/bin/env python3
 """
-PetaniProxy (OmniProxy Harvester) v2.0
-Pusat Amunisi Proxy Bersih, Segar & Berputar Otomatis (Local Rotating Gateway)
+FyOS Proxy Harvester (ConFEx CCP) v2.5
+Created By : FyOS - ConFEx CCP
+
+State-of-the-Art Multi-Protocol Proxy Harvester, Intelligent Health-Scored Rotating Gateway,
+Real-Time Network Profiler & Interactive Web Dashboard.
 """
 import os
 import sys
 import time
 import argparse
+import webbrowser
 import requests
-from typing import Optional, List
+from typing import Optional, List, Dict, Any
 
-# Force UTF-8 on Windows
+# Force UTF-8 encoding on Windows
 if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
     try:
         sys.stdout.reconfigure(encoding="utf-8")
     except Exception:
         pass
+
+# Rich Terminal UI with Colorama fallback
+try:
+    from rich.console import Console
+    from rich.table import Table
+    from rich.panel import Panel
+    from rich.text import Text
+    from rich.align import Align
+    HAS_RICH = True
+    console = Console()
+except ImportError:
+    HAS_RICH = False
+    console = None
 
 try:
     from colorama import init, Fore, Style
@@ -31,20 +48,44 @@ from core.checker import check_proxies_pool, DEFAULT_TEST_URL
 from core.exporter import export_all_formats
 from core.server import start_proxy_server
 
-BANNER = f"""{Fore.CYAN}{Style.BRIGHT}
-  ██████╗ ███████╗████████╗ █████╗ ███╗   ██╗██╗██████╗ ██████╗  ██████╗ ██╗  ██╗██╗   ██╗
-  ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗████╗  ██║██║██╔══██╗██╔══██╗██╔═══██╗╚██╗██╔╝╚██╗ ██╔╝
-  ██████╔╝█████╗     ██║   ███████║██╔██╗ ██║██║██████╔╝██████╔╝██║   ██║ ╚███╔╝  ╚████╔╝ 
-  ██╔═══╝ ██╔══╝     ██║   ██╔══██║██║╚██╗██║██║██╔═══╝ ██╔══██╗██║   ██║ ██╔██╗   ╚██╔╝  
-  ██║     ███████╗   ██║   ██║  ██║██║ ╚████║██║██║     ██║  ██║╚██████╔╝██╔╝ ██╗   ██║   
-  ╚═╝     ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
-{Fore.YELLOW}              🌾 PetaniProxy: Panen Proxy Cepat, Segar & Bergizi 🚜
-{Fore.WHITE}          High-Speed Multi-Protocol Scraper, Validator & Local Gateway
-{Fore.LIGHTBLACK_EX}                 Created & Maintained by {Fore.CYAN}@itzluthfi{Fore.LIGHTBLACK_EX} (github.com/itzluthfi)
+CURRENT_LANG = "ID"
+
+ASCII_ART = r"""
+  ███████╗██╗   ██╗ ██████╗ ███████╗    ██████╗ ██████╗  ██████╗ ██╗  ██╗██╗   ██╗
+  ██╔════╝╚██╗ ██╔╝██╔═══██╗██╔════╝    ██╔══██╗██╔══██╗██╔═══██╗╚██╗██╔╝╚██╗ ██╔╝
+  █████╗   ╚████╔╝ ██║   ██║███████╗    ██████╔╝██████╔╝██║   ██║ ╚███╔╝  ╚████╔╝ 
+  ██╔══╝    ╚██╔╝  ██║   ██║╚════██║    ██╔═══╝ ██╔══██╗██║   ██║ ██╔██╗   ╚██╔╝  
+  ██║        ██║   ╚██████╔╝███████║    ██║     ██║  ██║╚██████╔╝██╔╝ ██╗   ██║   
+  ╚═╝        ╚═╝    ╚═════╝ ╚══════╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   """
+
+def get_banner_text() -> str:
+    return f"""{Fore.CYAN}{Style.BRIGHT}{ASCII_ART}{Style.RESET_ALL}
+{Fore.YELLOW}       ⚡ FyOS PROXY HARVESTER v2.5 — Enterprise Multi-Protocol Engine ⚡
+{Fore.WHITE}       High-Speed Multi-Stage Scraper, Dual-Phase Latency & Rotating Gateway
+{Fore.LIGHTBLACK_EX}                     Created By : {Fore.CYAN}{Style.BRIGHT}FyOS - ConFEx CCP{Fore.LIGHTBLACK_EX} (Official Release)
 {Style.RESET_ALL}"""
 
+def print_banner():
+    if HAS_RICH and console:
+        title_text = Text(ASCII_ART, style="bold cyan")
+        sub_text = Text()
+        sub_text.append("\n⚡ FyOS PROXY HARVESTER v2.5 — Enterprise Multi-Protocol Engine ⚡\n", style="bold yellow")
+        sub_text.append("High-Speed Multi-Stage Scraper, Dual-Phase Latency & Rotating Gateway\n", style="white")
+        sub_text.append("Created By : ", style="dim")
+        sub_text.append("FyOS - ConFEx CCP", style="bold cyan")
+        sub_text.append(" | Precision Network Engineering", style="dim")
+
+        p = Panel(
+            Align.center(Text.assemble(title_text, sub_text)),
+            border_style="cyan",
+            padding=(0, 2)
+        )
+        console.print(p)
+    else:
+        print(get_banner_text())
+
 def find_9router_db() -> Optional[str]:
-    """Smart auto-detection for BansosRouter / 9Router SQLite database."""
+    """Auto-detection for 9Router / BansosRouter SQLite database via env or relative paths."""
     env_path = os.environ.get("BANSOS_ROUTER_DB") or os.environ.get("NINEROUTER_DB")
     if env_path and os.path.exists(env_path):
         return env_path
@@ -54,7 +95,6 @@ def find_9router_db() -> Optional[str]:
         os.path.normpath(os.path.join(base_dir, "..", "9router-mibp-version", "data", "db", "data.sqlite")),
         os.path.normpath(os.path.join(base_dir, "..", "9router", "data", "db", "data.sqlite")),
         os.path.normpath(os.path.join(base_dir, "..", "bansos-router", "data", "db", "data.sqlite")),
-        "D:/FREELANCE/9router-mibp-version/data/db/data.sqlite",
     ]
     for path in candidates:
         if os.path.exists(path):
@@ -63,8 +103,10 @@ def find_9router_db() -> Optional[str]:
 
 def find_grok_python() -> str:
     """Detect python executable for Grok Farm / Webshare Hunter."""
+    env_py = os.environ.get("GROK_PYTHON")
+    if env_py and os.path.exists(env_py):
+        return env_py
     candidates = [
-        r"D:\FREELANCE\grok-register\venv\Scripts\python.exe",
         os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "grok-register", "venv", "Scripts", "python.exe")),
     ]
     for c in candidates:
@@ -72,38 +114,10 @@ def find_grok_python() -> str:
             return c
     return sys.executable
 
-def run_webshare_hunter(accounts: int = 1, headless: bool = True) -> bool:
-    """Run Webshare Hunter to harvest residential clean proxies that bypass Cloudflare."""
-    import subprocess
-    grok_dir = r"D:\FREELANCE\grok-register"
-    if not os.path.exists(grok_dir):
-        grok_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "grok-register"))
-    
-    ws_script = os.path.join(grok_dir, "webshare_hunter_auto.py")
-    if not os.path.exists(ws_script):
-        print(f"{Fore.RED}❌ Script Webshare Hunter tidak ditemukan di {ws_script}{Style.RESET_ALL}")
-        return False
-
-    py_exec = find_grok_python()
-    print(f"\n{Fore.CYAN}{'🏢 Menjalankan Webshare Residential Hunter...' if CURRENT_LANG == 'ID' else '🏢 Launching Webshare Residential Hunter...'}{Style.RESET_ALL}")
-    print(f"  • Target: {Fore.YELLOW}{accounts} Akun Webshare ({accounts * 10} IP Residensial AS/Eropa){Style.RESET_ALL}")
-    print(f"  • Mode:   {Fore.WHITE}{'Background (Headless)' if headless else 'Tampak Layar'}{Style.RESET_ALL}")
-    print(f"  • Hasil:  {Fore.GREEN}Otomatis lolos Cloudflare xAI Grok & disetor ke proxies.txt + BansosRouter{Style.RESET_ALL}\n")
-
-    cmd = [py_exec, ws_script, str(accounts)]
-    if headless:
-        cmd.append("--headless")
-
-    try:
-        res = subprocess.run(cmd, cwd=grok_dir)
-        return res.returncode == 0
-    except Exception as e:
-        print(f"{Fore.RED}❌ Gagal menjalankan Webshare Hunter: {e}{Style.RESET_ALL}")
-        return False
-
 def print_live_proxy(proxy_res: dict, current_count: int, target: int):
     proto = proxy_res.get("protocol", "http").upper()
     lat = proxy_res.get("latency_ms", 0)
+    tcp_rtt = proxy_res.get("tcp_rtt_ms", lat // 2)
     proxy = proxy_res.get("proxy", "")
     cc = proxy_res.get("country_code", "??")
     country = proxy_res.get("country", "Unknown")
@@ -112,33 +126,33 @@ def print_live_proxy(proxy_res: dict, current_count: int, target: int):
     
     # Anonymity badge styling
     if anon == "Elite":
-        anon_badge = f"{Fore.CYAN}{Style.BRIGHT}[ELITE]{Style.RESET_ALL}"
+        anon_badge = f"{Fore.CYAN}{Style.BRIGHT}[ELITE L1]{Style.RESET_ALL}"
     elif anon == "Anonymous":
-        anon_badge = f"{Fore.MAGENTA}[ANON]{Style.RESET_ALL} "
+        anon_badge = f"{Fore.MAGENTA}[ANON L2]{Style.RESET_ALL} "
     else:
-        anon_badge = f"{Fore.YELLOW}[TRAN]{Style.RESET_ALL} "
+        anon_badge = f"{Fore.YELLOW}[TRAN L3]{Style.RESET_ALL} "
 
     # Color based on latency
-    if lat < 1000:
+    if lat < 800:
         lat_color = Fore.GREEN
-    elif lat < 2500:
+    elif lat < 2200:
         lat_color = Fore.YELLOW
     else:
         lat_color = Fore.RED
 
     print(
-        f"  {Fore.GREEN}🟢 [LIVE {current_count}/{target}]{Style.RESET_ALL} "
+        f"  {Fore.GREEN}🟢 [LIVE {current_count:02d}/{target:02d}]{Style.RESET_ALL} "
         f"{Fore.CYAN}{proto:<6}{Style.RESET_ALL} "
         f"{Fore.WHITE}{proxy:<21}{Style.RESET_ALL} | "
         f"{anon_badge} | "
-        f"{lat_color}{lat:>4}ms{Style.RESET_ALL} | "
+        f"{lat_color}{lat:>4}ms{Style.RESET_ALL} (TCP:{tcp_rtt:>3}ms) | "
         f"{Fore.BLUE}[{cc}] {country:<13}{Style.RESET_ALL} | "
-        f"{Fore.LIGHTBLACK_EX}{isp[:22]}{Style.RESET_ALL}"
+        f"{Fore.LIGHTBLACK_EX}{isp[:20]}{Style.RESET_ALL}"
     )
 
 def run_harvester(
     protocols: list, 
-    max_check: int = 200, 
+    max_check: int = 250, 
     target_alive: int = 20, 
     timeout: float = 3.0, 
     workers: int = 50, 
@@ -147,11 +161,13 @@ def run_harvester(
     target_url: str = None,
     output_dir: str = None, 
     sync_9router: str = None,
-    serve_port: int = None
+    serve_port: int = None,
+    open_browser: bool = False
 ):
     t_start = time.perf_counter()
     check_url = target_url or DEFAULT_TEST_URL
-    print(f"\n{Fore.YELLOW}⚡ [1/3] Scraping raw candidates from open-source feeds...{Style.RESET_ALL}")
+    
+    print(f"\n{Fore.YELLOW}⚡ [1/3] Harvesting & Deduplicating candidates from verified feeds...{Style.RESET_ALL}")
     candidates = fetch_proxies_sync(protocols=protocols, country_filter=country)
     
     if not candidates:
@@ -159,8 +175,9 @@ def run_harvester(
         return []
 
     url_hint = f" | Target: {check_url[:35]}" if target_url else ""
-    anon_hint = f" | Anonymity: {anonymity.upper()}" if anonymity and anonymity.lower() != 'all' else ""
-    print(f"\n{Fore.YELLOW}🔍 [2/3] Validating up to {max_check} candidates (Target alive: {target_alive}, Timeout: {timeout}s{url_hint}{anon_hint})...{Style.RESET_ALL}")
+    anon_hint = f" | Anon: {anonymity.upper()}" if anonymity and anonymity.lower() != 'all' else ""
+    c_hint = f" | Country: {country.upper()}" if country else ""
+    print(f"\n{Fore.YELLOW}🔍 [2/3] Dual-Phase Validation (Target Alive: {target_alive}, Timeout: {timeout}s{url_hint}{anon_hint}{c_hint})...{Style.RESET_ALL}")
     
     live_proxies = check_proxies_pool(
         candidates=candidates,
@@ -171,12 +188,15 @@ def run_harvester(
         country_filter=country,
         anonymity_filter=anonymity,
         test_url=check_url,
-        on_live_callback=print_live_proxy
+        on_live_callback=print_live_proxy,
+        enable_pre_triage=True
     )
 
     elapsed_total = round(time.perf_counter() - t_start, 2)
+    speed = round(len(candidates) / max(0.1, elapsed_total), 1)
+    
     print(f"\n{Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{Style.RESET_ALL}")
-    print(f"{Fore.GREEN}{Style.BRIGHT}🎉 Validation Complete! Found {len(live_proxies)} active proxies in {elapsed_total}s.{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}{Style.BRIGHT}🎉 Validation Complete! Found {len(live_proxies)} alive proxies in {elapsed_total}s ({speed} scans/sec).{Style.RESET_ALL}")
 
     if not live_proxies:
         print(f"{Fore.YELLOW}⚠️ Tidak ada proxy yang lolos batas timeout {timeout}s. Coba perbesar --timeout atau perbanyak --max.{Style.RESET_ALL}")
@@ -194,25 +214,35 @@ def run_harvester(
     if "9router_db" in files:
         print(f"  {Fore.GREEN}✓{Style.RESET_ALL} BansosRouter DB: {Fore.WHITE}Synced to {files['9router_db']}{Style.RESET_ALL}")
 
-    # Display Top 3 Fastest
-    print(f"\n{Fore.CYAN}🏆 TOP FASTEST PROXIES:{Style.RESET_ALL}")
+    # Display Top 3 Fastest Proxies
+    print(f"\n{Fore.CYAN}🏆 TOP FASTEST ELITE NODES (FyOS Neural Latency):{Style.RESET_ALL}")
     for idx, p in enumerate(live_proxies[:3], 1):
         proto = p.get('protocol', 'http').upper()
         anon = p.get('anonymity', 'Elite')
-        print(f"  {idx}. {Fore.GREEN}{proto}://{p['proxy']}{Style.RESET_ALL} [{anon}] ({p['latency_ms']}ms) - [{p['country_code']}] {p['country']}")
+        tcp = p.get('tcp_rtt_ms', p['latency_ms'] // 2)
+        print(f"  {idx}. {Fore.GREEN}{proto}://{p['proxy']}{Style.RESET_ALL} [{anon}] Latency: {Fore.YELLOW}{p['latency_ms']}ms{Style.RESET_ALL} (TCP: {tcp}ms) - [{p['country_code']}] {p['country']}")
     print(f"{Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{Style.RESET_ALL}\n")
 
     if serve_port:
-        print(f"{Fore.GREEN}{Style.BRIGHT}🌐 STARTING LOCAL ROTATING GATEWAY & REST API...{Style.RESET_ALL}")
-        print(f"  • Forward Proxy Endpoint: {Fore.CYAN}http://127.0.0.1:{serve_port}{Style.RESET_ALL}")
-        print(f"  • Random Proxy REST API:  {Fore.CYAN}http://127.0.0.1:{serve_port}/api/random{Style.RESET_ALL}")
-        print(f"  • All Proxies REST API:   {Fore.CYAN}http://127.0.0.1:{serve_port}/api/all{Style.RESET_ALL}")
-        print(f"  • Health & Status API:    {Fore.CYAN}http://127.0.0.1:{serve_port}/api/status{Style.RESET_ALL}")
+        dash_url = f"http://127.0.0.1:{serve_port}/dashboard"
+        print(f"{Fore.GREEN}{Style.BRIGHT}🌐 STARTING INTELLIGENT ROTATING GATEWAY & WEB DASHBOARD...{Style.RESET_ALL}")
+        print(f"  • {Fore.CYAN}{Style.BRIGHT}Interactive Web Dashboard :{Style.RESET_ALL} {Fore.YELLOW}{dash_url}{Style.RESET_ALL}")
+        print(f"  • Forward Proxy Endpoint  : {Fore.CYAN}http://127.0.0.1:{serve_port}{Style.RESET_ALL}")
+        print(f"  • Random Proxy REST API   : {Fore.CYAN}http://127.0.0.1:{serve_port}/api/random{Style.RESET_ALL}")
+        print(f"  • All Proxies REST API    : {Fore.CYAN}http://127.0.0.1:{serve_port}/api/all{Style.RESET_ALL}")
+        print(f"  • Health & Status API     : {Fore.CYAN}http://127.0.0.1:{serve_port}/api/status{Style.RESET_ALL}")
         print(f"\n{Fore.WHITE}📋 SNIPPET SIAP PAKAI (COPY-PASTE):{Style.RESET_ALL}")
         print(f"  • {Fore.YELLOW}Python Requests:{Style.RESET_ALL} proxies={{'http': 'http://127.0.0.1:{serve_port}', 'https': 'http://127.0.0.1:{serve_port}'}}")
         print(f"  • {Fore.YELLOW}cURL Command:{Style.RESET_ALL}    curl -x http://127.0.0.1:{serve_port} https://api.ipify.org")
         print(f"  • {Fore.YELLOW}Browser Proxy:{Style.RESET_ALL}   Set Manual Proxy Host -> 127.0.0.1 | Port -> {serve_port}")
-        print(f"\n{Fore.LIGHTBLACK_EX}Server running at 127.0.0.1:{serve_port}. Press Ctrl+C to stop.{Style.RESET_ALL}\n")
+        print(f"\n{Fore.LIGHTBLACK_EX}Created By : FyOS - ConFEx CCP | Press Ctrl+C to stop server.{Style.RESET_ALL}\n")
+        
+        if open_browser:
+            try:
+                webbrowser.open(dash_url)
+            except Exception:
+                pass
+
         start_proxy_server(live_proxies, host="127.0.0.1", port=serve_port, background=False)
 
     return live_proxies
@@ -230,27 +260,49 @@ def view_saved_results(output_dir: str = None):
     with open(json_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    print(f"\n{Fore.CYAN}📁 HASIL PROXY TERAKHIR DARI {json_file}:{Style.RESET_ALL}")
-    print(f"  • Terakhir diperbarui: {Fore.WHITE}{data.get('generated_at', '-')}{Style.RESET_ALL}")
-    print(f"  • Total proxy aktif  : {Fore.GREEN}{data.get('total_alive', 0)}{Style.RESET_ALL}")
-    print(f"  • Protokol           : {Fore.WHITE}{data.get('protocols', {})}{Style.RESET_ALL}\n")
+    if HAS_RICH and console:
+        table = Table(title=f"📂 FyOS Saved Vault — {json_file}", border_style="cyan")
+        table.add_column("#", justify="right", style="dim")
+        table.add_column("Protocol", style="cyan")
+        table.add_column("Proxy Endpoint", style="bold white")
+        table.add_column("Latency", justify="right")
+        table.add_column("Anonymity", style="bold")
+        table.add_column("Location & ISP")
 
-    proxies = data.get("proxies", [])
-    print(f"{Fore.CYAN}DAFTAR 10 PROXY TERCEPAT:{Style.RESET_ALL}")
-    for idx, p in enumerate(proxies[:10], 1):
-        proto = p.get('protocol', 'http').upper()
-        print(f"  {idx:>2}. {Fore.GREEN}{proto:<6}{Style.RESET_ALL} {Fore.WHITE}{p['proxy']:<21}{Style.RESET_ALL} | {Fore.YELLOW}{p['latency_ms']:>4}ms{Style.RESET_ALL} | [{p['country_code']}] {p['country']} ({p.get('isp', '-')[:22]})")
+        proxies = data.get("proxies", [])
+        for idx, p in enumerate(proxies[:15], 1):
+            lat = p.get("latency_ms", 0)
+            lat_style = "green" if lat < 800 else ("yellow" if lat < 2200 else "red")
+            table.add_row(
+                str(idx),
+                p.get("protocol", "http").upper(),
+                p.get("proxy", ""),
+                f"[{lat_style}]{lat}ms[/{lat_style}]",
+                p.get("anonymity", "Elite"),
+                f"[{p.get('country_code', '??')}] {p.get('country', '')} - {p.get('isp', '-')[:22]}"
+            )
+        console.print(table)
+    else:
+        print(f"\n{Fore.CYAN}📁 HASIL PROXY TERAKHIR DARI {json_file}:{Style.RESET_ALL}")
+        print(f"  • Generated By       : {Fore.YELLOW}{data.get('generated_by', 'FyOS - ConFEx CCP')}{Style.RESET_ALL}")
+        print(f"  • Terakhir diperbarui: {Fore.WHITE}{data.get('generated_at', '-')}{Style.RESET_ALL}")
+        print(f"  • Total proxy aktif  : {Fore.GREEN}{data.get('total_alive', 0)}{Style.RESET_ALL}")
+        print(f"  • Protokol           : {Fore.WHITE}{data.get('protocols', {})}{Style.RESET_ALL}\n")
 
-CURRENT_LANG = "ID"
+        proxies = data.get("proxies", [])
+        print(f"{Fore.CYAN}DAFTAR 10 PROXY TERCEPAT:{Style.RESET_ALL}")
+        for idx, p in enumerate(proxies[:10], 1):
+            proto = p.get('protocol', 'http').upper()
+            print(f"  {idx:>2}. {Fore.GREEN}{proto:<6}{Style.RESET_ALL} {Fore.WHITE}{p['proxy']:<21}{Style.RESET_ALL} | {Fore.YELLOW}{p['latency_ms']:>4}ms{Style.RESET_ALL} | [{p['country_code']}] {p['country']} ({p.get('isp', '-')[:22]})")
 
 def test_live_masking(port: int = 8888):
     """
     Fitur Pembuktian Langsung [T]:
     Uji apakah IP asli tertutup sempurna lewat Gateway 8888.
     """
-    print(f"\n{Fore.CYAN}🧪 MEMERIKSA STATUS ANONIMITAS (LIVE MASKING TEST)...{Style.RESET_ALL}")
+    print(f"\n{Fore.CYAN}🧪 AUDIT IDENTITAS & STATUS ANONIMITAS (LIVE MASKING TEST)...{Style.RESET_ALL}")
     
-    # 1. Mendeteksi IP Asli
+    # 1. Direct IP
     print(f"  {Fore.LIGHTBLACK_EX}[1/2] Mendeteksi IP Asli perangkat kamu (Direct Connection)...{Style.RESET_ALL}")
     real_ip = "Unknown"
     real_isp = "Unknown"
@@ -267,8 +319,8 @@ def test_live_masking(port: int = 8888):
         except Exception:
             pass
 
-    # 2. Menguji Gateway 127.0.0.1:8888
-    print(f"  {Fore.LIGHTBLACK_EX}[2/2] Menguji koneksi lewat Rotating Gateway (127.0.0.1:{port})...{Style.RESET_ALL}")
+    # 2. Connection through Gateway
+    print(f"  {Fore.LIGHTBLACK_EX}[2/2] Menguji koneksi lewat FyOS Rotating Gateway (127.0.0.1:{port})...{Style.RESET_ALL}")
     proxies = {
         "http": f"http://127.0.0.1:{port}",
         "https": f"http://127.0.0.1:{port}"
@@ -290,7 +342,7 @@ def test_live_masking(port: int = 8888):
             pass
 
     print(f"\n{Fore.CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{Style.RESET_ALL}")
-    print(f"{Fore.WHITE}{Style.BRIGHT}🛡️  HASIL AUDIT IDENTITAS & PRIVASI KONEKSI:{Style.RESET_ALL}")
+    print(f"{Fore.WHITE}{Style.BRIGHT}🛡️  HASIL AUDIT IDENTITAS & PRIVASI KONEKSI FYOS:{Style.RESET_ALL}")
     print(f"  • IP Asli Kamu     : {Fore.YELLOW}{real_ip}{Style.RESET_ALL} ({real_isp})")
     
     if gateway_ip:
@@ -309,10 +361,10 @@ def show_manual_menu():
     """Sub-menu [M] Bengkel Oprek Manual untuk power user."""
     global CURRENT_LANG
     while True:
-        print(BANNER)
+        print_banner()
         if CURRENT_LANG == "ID":
             m_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
-│               {Fore.WHITE}{Style.BRIGHT}🛠️  BENGKEL OPREK MANUAL (PETANIPROXY){Fore.CYAN}                  │
+│             {Fore.WHITE}{Style.BRIGHT}🛠️  BENGKEL OPREK MANUAL (FYOS PROXY HARVESTER){Fore.CYAN}            │
 │       {Fore.LIGHTBLACK_EX}"Buat yang paham jeroan teknis — tetap penting & bebas diatur!"{Fore.CYAN}  │
 ├────────────────────────────────────────────────────────────────────────┤
 │  {Fore.GREEN}[1]{Fore.WHITE} ⚡ Quick Harvest Standar   {Fore.LIGHTBLACK_EX}Ambil 15 proxy tercepat dari semua tipe     {Fore.CYAN}│
@@ -328,7 +380,7 @@ def show_manual_menu():
             prompt_str = f"{Fore.YELLOW}Pilih opsi Bengkel [1-8, 0=Kembali]: {Style.RESET_ALL}"
         else:
             m_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
-│               {Fore.WHITE}{Style.BRIGHT}🛠️  MANUAL TUNING WORKSHOP (PETANIPROXY){Fore.CYAN}                │
+│             {Fore.WHITE}{Style.BRIGHT}🛠️  MANUAL TUNING WORKSHOP (FYOS PROXY HARVESTER){Fore.CYAN}          │
 │        {Fore.LIGHTBLACK_EX}"For power users who need custom protocols, filters & hooks"{Fore.CYAN} │
 ├────────────────────────────────────────────────────────────────────────┤
 │  {Fore.GREEN}[1]{Fore.WHITE} ⚡ Standard Quick Sweep   {Fore.LIGHTBLACK_EX}Grab 15 fastest random live proxies          {Fore.CYAN}│
@@ -392,7 +444,7 @@ def show_manual_menu():
             t_prompt = f"{Fore.CYAN}{'Jumlah proxy hidup di pool [default: 15]: ' if CURRENT_LANG == 'ID' else 'Target alive pool size [default: 15]: '}{Style.RESET_ALL}"
             t_input = input(t_prompt).strip()
             target_val = int(t_input) if t_input.isdigit() and int(t_input) > 0 else 15
-            run_harvester(protocols=["http", "socks4", "socks5"], max_check=max(300, target_val * 15), target_alive=target_val, timeout=3.0, serve_port=port_val)
+            run_harvester(protocols=["http", "socks4", "socks5"], max_check=max(300, target_val * 15), target_alive=target_val, timeout=3.0, serve_port=port_val, open_browser=True)
         elif choice == "8":
             detected_db = find_9router_db()
             hint = f" [Terdeteksi: {detected_db}]" if detected_db else ""
@@ -414,57 +466,59 @@ def show_manual_menu():
 def show_interactive_menu():
     global CURRENT_LANG
     while True:
-        print(BANNER)
+        print_banner()
         if CURRENT_LANG == "ID":
             menu_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
-│                   {Fore.WHITE}{Style.BRIGHT}🌾 PETANIPROXY v2.0 (PUSAT AMUNISI PROXY){Fore.CYAN}                   │
+│             {Fore.WHITE}{Style.BRIGHT}🌾 FYOS PROXY HARVESTER v2.5 (ENTERPRISE ARSENAL){Fore.CYAN}          │
 │          {Fore.LIGHTBLACK_EX}Pilih Racikan Kebutuhanmu — Sekali Klik, Langsung Gas!{Fore.CYAN}        │
 ├────────────────────────────────────────────────────────────────────────┤
 │  {Fore.MAGENTA}RACIKAN SPESIAL (TINGGAL PILIH & GAS):{Fore.CYAN}                                │
-│  {Fore.GREEN}[1]{Fore.WHITE} 🐔 Racikan Ternak Akun    {Fore.LIGHTBLACK_EX}Khusus Grok/Qoder, Elite L1, Auto-BansosRouter{Fore.CYAN} │
-│  {Fore.GREEN}[2]{Fore.WHITE} 🕷️ Racikan Scraper Brutal {Fore.LIGHTBLACK_EX}Pool 30+ IP, Ganti IP Tiap Request, Anti-Block{Fore.CYAN} │
-│  {Fore.GREEN}[3]{Fore.WHITE} ⚡ Racikan Turbo Surfing  {Fore.LIGHTBLACK_EX}Ping <350ms, Node SG/ID/US, Bypass Internet+  {Fore.CYAN} │
-│  {Fore.GREEN}[4]{Fore.WHITE} 🚜 Mode Petani 24 Jam     {Fore.LIGHTBLACK_EX}Auto-Pilot looping panen tiap 15m, Port 8888  {Fore.CYAN} │
-│  {Fore.GREEN}[W]{Fore.WHITE} 🏢 Webshare Hunter        {Fore.LIGHTBLACK_EX}Panen 10-30 Proxy Residensial Lolos Cloudflare {Fore.CYAN} │
+│  {Fore.GREEN}[1]{Fore.WHITE} 🐔 Racikan Ternak Akun    {Fore.LIGHTBLACK_EX}Khusus Grok/AI, Elite L1, Auto-BansosRouter    {Fore.CYAN}│
+│  {Fore.GREEN}[2]{Fore.WHITE} 🕷️ Racikan Scraper Brutal {Fore.LIGHTBLACK_EX}Pool 30+ IP, Ganti IP Tiap Request, Anti-Block {Fore.CYAN}│
+│  {Fore.GREEN}[3]{Fore.WHITE} ⚡ Racikan Turbo Surfing  {Fore.LIGHTBLACK_EX}Ping <350ms, Node SG/ID/US, Dual RTT Speed     {Fore.CYAN}│
+│  {Fore.GREEN}[4]{Fore.WHITE} 🚜 Mode Daemon 24 Jam     {Fore.LIGHTBLACK_EX}Auto-Pilot looping panen tiap 15m, Port 8888   {Fore.CYAN}│
+│  {Fore.GREEN}[W]{Fore.WHITE} 🏢 Webshare Hunter        {Fore.LIGHTBLACK_EX}Panen 10-30 Proxy Residensial Lolos Cloudflare  {Fore.CYAN}│
 │                                                                        │
-│  {Fore.MAGENTA}EKSPOR & PEMBUKTIAN LANGSUNG:{Fore.CYAN}                                           │
-│  {Fore.CYAN}[E]{Fore.WHITE} 📥 Ekspor File Mentah     {Fore.LIGHTBLACK_EX}Panen & simpan format TXT, JSON, CSV & SOCKS5 {Fore.CYAN} │
-│  {Fore.CYAN}[T]{Fore.WHITE} 🧪 Uji Tembus Identitas   {Fore.LIGHTBLACK_EX}Live Proof: Cek apakah IP asli tertutup aman  {Fore.CYAN} │
+│  {Fore.MAGENTA}EKSPOR, DASHBOARD & PEMBUKTIAN LANGSUNG:{Fore.CYAN}                                 │
+│  {Fore.CYAN}[D]{Fore.WHITE} 🌐 Buka Web Dashboard     {Fore.LIGHTBLACK_EX}Buka Obsidian GUI interaktif di browser (8888) {Fore.CYAN}│
+│  {Fore.CYAN}[E]{Fore.WHITE} 📥 Ekspor File Mentah     {Fore.LIGHTBLACK_EX}Panen & simpan format TXT, JSON, CSV & SOCKS5  {Fore.CYAN}│
+│  {Fore.CYAN}[T]{Fore.WHITE} 🧪 Uji Tembus Identitas   {Fore.LIGHTBLACK_EX}Live Proof: Cek apakah IP asli tertutup aman   {Fore.CYAN}│
 │                                                                        │
 │  {Fore.MAGENTA}BENGKEL OPREK & PENGATURAN:{Fore.CYAN}                                             │
-│  {Fore.YELLOW}[M]{Fore.WHITE} 🛠️ Bengkel Oprek Manual   {Fore.LIGHTBLACK_EX}Atur sendiri protokol, ISO negara, & target URL{Fore.CYAN}│
-│  {Fore.YELLOW}[S]{Fore.WHITE} 📂 Gudang Hasil Panen     {Fore.LIGHTBLACK_EX}Buka riwayat proxy aktif yang tersimpan di disk{Fore.CYAN}│
-│  {Fore.BLUE}[L]{Fore.WHITE} 🌐 Ganti Bahasa (EN/ID)   {Fore.LIGHTBLACK_EX}Currently: Bahasa Indonesia                   {Fore.CYAN}│
-│  {Fore.RED}[0]{Fore.WHITE} 💀 Cabut Dulu (Rebahan)   {Fore.LIGHTBLACK_EX}Keluar dari program & sentuh rumput           {Fore.CYAN}│
+│  {Fore.YELLOW}[M]{Fore.WHITE} 🛠️ Bengkel Oprek Manual   {Fore.LIGHTBLACK_EX}Atur sendiri protokol, ISO negara, & target URL {Fore.CYAN}│
+│  {Fore.YELLOW}[S]{Fore.WHITE} 📂 Gudang Hasil Panen     {Fore.LIGHTBLACK_EX}Buka riwayat proxy aktif yang tersimpan di disk {Fore.CYAN}│
+│  {Fore.BLUE}[L]{Fore.WHITE} 🌐 Ganti Bahasa (EN/ID)   {Fore.LIGHTBLACK_EX}Currently: Bahasa Indonesia                    {Fore.CYAN}│
+│  {Fore.RED}[0]{Fore.WHITE} 💀 Cabut Dulu (Rebahan)   {Fore.LIGHTBLACK_EX}Keluar dari program & nikmati hari              {Fore.CYAN}│
 ├────────────────────────────────────────────────────────────────────────┤
-│  {Fore.LIGHTBLACK_EX}Maintainer: {Fore.YELLOW}@itzluthfi{Fore.LIGHTBLACK_EX}          Repository: {Fore.WHITE}github.com/itzluthfi{Fore.CYAN}       │
+│  {Fore.LIGHTBLACK_EX}Created By: {Fore.YELLOW}FyOS - ConFEx CCP{Fore.LIGHTBLACK_EX}   Status: {Fore.GREEN}Active & Neural Ready{Fore.CYAN}       │
 └────────────────────────────────────────────────────────────────────────┘{Style.RESET_ALL}"""
-            prompt_str = f"{Fore.YELLOW}Pilih Racikan [1-4, W, E, T, M, S, L, 0] (Default: 1): {Style.RESET_ALL}"
+            prompt_str = f"{Fore.YELLOW}Pilih Racikan [1-4, W, D, E, T, M, S, L, 0] (Default: 1): {Style.RESET_ALL}"
         else:
             menu_box = f"""{Fore.CYAN}┌────────────────────────────────────────────────────────────────────────┐
-│                  {Fore.WHITE}{Style.BRIGHT}🌾 PETANIPROXY v2.0 (ROTATING PROXY ARSENAL){Fore.CYAN}                 │
+│             {Fore.WHITE}{Style.BRIGHT}🌾 FYOS PROXY HARVESTER v2.5 (ENTERPRISE ARSENAL){Fore.CYAN}          │
 │             {Fore.LIGHTBLACK_EX}Pick Your Battle Setup — One Click to Dominate!{Fore.CYAN}            │
 ├────────────────────────────────────────────────────────────────────────┤
 │  {Fore.MAGENTA}PLUG & PLAY BATTLE PRESETS:{Fore.CYAN}                                              │
-│  {Fore.GREEN}[1]{Fore.WHITE} 🐔 Account Farming Mode   {Fore.LIGHTBLACK_EX}Tuned for Grok/AI bots, Elite L1, BansosRouter{Fore.CYAN}│
-│  {Fore.GREEN}[2]{Fore.WHITE} 🕷️ Mass Web Scraper       {Fore.LIGHTBLACK_EX}30+ Pool, Auto-Rotate per Request, Anti-Block {Fore.CYAN}│
-│  {Fore.GREEN}[3]{Fore.WHITE} ⚡ Lightning Turbo Surf   {Fore.LIGHTBLACK_EX}Ping <350ms, SG/ID/US, Bypass Geo-Restrictions {Fore.CYAN}│
-│  {Fore.GREEN}[4]{Fore.WHITE} 🚜 24/7 Farmer Daemon     {Fore.LIGHTBLACK_EX}Auto-Pilot loop every 15m, Port 8888 always on{Fore.CYAN} │
-│  {Fore.GREEN}[W]{Fore.WHITE} 🏢 Webshare Hunter        {Fore.LIGHTBLACK_EX}Harvest 10-30 Cloudflare-Bypass Residential IPs{Fore.CYAN} │
+│  {Fore.GREEN}[1]{Fore.WHITE} 🐔 Account Farming Mode   {Fore.LIGHTBLACK_EX}Tuned for Grok/AI bots, Elite L1, BansosRouter {Fore.CYAN}│
+│  {Fore.GREEN}[2]{Fore.WHITE} 🕷️ Mass Web Scraper       {Fore.LIGHTBLACK_EX}30+ Pool, Auto-Rotate per Request, Anti-Block  {Fore.CYAN}│
+│  {Fore.GREEN}[3]{Fore.WHITE} ⚡ Lightning Turbo Surf   {Fore.LIGHTBLACK_EX}Ping <350ms, SG/ID/US, Dual RTT Optimization   {Fore.CYAN}│
+│  {Fore.GREEN}[4]{Fore.WHITE} 🚜 24/7 Farmer Daemon     {Fore.LIGHTBLACK_EX}Auto-Pilot loop every 15m, Port 8888 always on {Fore.CYAN}│
+│  {Fore.GREEN}[W]{Fore.WHITE} 🏢 Webshare Hunter        {Fore.LIGHTBLACK_EX}Harvest 10-30 Cloudflare-Bypass Residential IPs {Fore.CYAN}│
 │                                                                        │
-│  {Fore.MAGENTA}EXPORTS & LIVE VERIFICATION:{Fore.CYAN}                                             │
-│  {Fore.CYAN}[E]{Fore.WHITE} 📥 Raw File Exporter      {Fore.LIGHTBLACK_EX}Export TXT, JSON, CSV & URLs for external tools{Fore.CYAN}│
-│  {Fore.CYAN}[T]{Fore.WHITE} 🧪 Live Identity Test     {Fore.LIGHTBLACK_EX}Instant Proof: Verify real IP masking on 8888 {Fore.CYAN}│
+│  {Fore.MAGENTA}EXPORTS, DASHBOARD & VERIFICATION:{Fore.CYAN}                                      │
+│  {Fore.CYAN}[D]{Fore.WHITE} 🌐 Launch Web Dashboard   {Fore.LIGHTBLACK_EX}Open Obsidian Interactive Web GUI on port 8888 {Fore.CYAN}│
+│  {Fore.CYAN}[E]{Fore.WHITE} 📥 Raw File Exporter      {Fore.LIGHTBLACK_EX}Export TXT, JSON, CSV & URLs for external tools {Fore.CYAN}│
+│  {Fore.CYAN}[T]{Fore.WHITE} 🧪 Live Identity Test     {Fore.LIGHTBLACK_EX}Instant Proof: Verify real IP masking on 8888  {Fore.CYAN}│
 │                                                                        │
 │  {Fore.MAGENTA}MANUAL TUNING & SETTINGS:{Fore.CYAN}                                               │
-│  {Fore.YELLOW}[M]{Fore.WHITE} 🛠️ Manual Tuning Workshop {Fore.LIGHTBLACK_EX}Custom protocols, ISO filters & target domain {Fore.CYAN}│
-│  {Fore.YELLOW}[S]{Fore.WHITE} 📂 Saved Proxy Vault      {Fore.LIGHTBLACK_EX}Inspect latest active proxies saved on disk   {Fore.CYAN}│
-│  {Fore.BLUE}[L]{Fore.WHITE} 🌐 Switch Language (ID/EN){Fore.LIGHTBLACK_EX}Currently: English                            {Fore.CYAN}│
-│  {Fore.RED}[0]{Fore.WHITE} 💀 Rage Quit              {Fore.LIGHTBLACK_EX}Exit program and go touch grass               {Fore.CYAN}│
+│  {Fore.YELLOW}[M]{Fore.WHITE} 🛠️ Manual Tuning Workshop {Fore.LIGHTBLACK_EX}Custom protocols, ISO filters & target domain  {Fore.CYAN}│
+│  {Fore.YELLOW}[S]{Fore.WHITE} 📂 Saved Proxy Vault      {Fore.LIGHTBLACK_EX}Inspect latest active proxies saved on disk    {Fore.CYAN}│
+│  {Fore.BLUE}[L]{Fore.WHITE} 🌐 Switch Language (ID/EN){Fore.LIGHTBLACK_EX}Currently: English                             {Fore.CYAN}│
+│  {Fore.RED}[0]{Fore.WHITE} 💀 Rage Quit              {Fore.LIGHTBLACK_EX}Exit program cleanly                           {Fore.CYAN}│
 ├────────────────────────────────────────────────────────────────────────┤
-│  {Fore.LIGHTBLACK_EX}Maintainer: {Fore.YELLOW}@itzluthfi{Fore.LIGHTBLACK_EX}          Repository: {Fore.WHITE}github.com/itzluthfi{Fore.CYAN}       │
+│  {Fore.LIGHTBLACK_EX}Created By: {Fore.YELLOW}FyOS - ConFEx CCP{Fore.LIGHTBLACK_EX}   Status: {Fore.GREEN}Active & Neural Ready{Fore.CYAN}       │
 └────────────────────────────────────────────────────────────────────────┘{Style.RESET_ALL}"""
-            prompt_str = f"{Fore.YELLOW}Select Option [1-4, W, E, T, M, S, L, 0] (Default: 1): {Style.RESET_ALL}"
+            prompt_str = f"{Fore.YELLOW}Select Option [1-4, W, D, E, T, M, S, L, 0] (Default: 1): {Style.RESET_ALL}"
 
         print(menu_box)
         try:
@@ -481,6 +535,16 @@ def show_interactive_menu():
 
         if choice.lower() == "m":
             show_manual_menu()
+            continue
+
+        if choice.lower() == "d":
+            dash_url = "http://127.0.0.1:8888/dashboard"
+            print(f"\n{Fore.CYAN}🌐 Membuka FyOS Web Dashboard di {dash_url}...{Style.RESET_ALL}")
+            try:
+                webbrowser.open(dash_url)
+            except Exception:
+                pass
+            test_live_masking(port=8888)
             continue
 
         if choice.lower() == "t":
@@ -502,7 +566,8 @@ def show_interactive_menu():
                 anonymity="elite", 
                 timeout=2.5, 
                 serve_port=8888, 
-                sync_9router=db_target
+                sync_9router=db_target,
+                open_browser=True
             )
         elif choice == "2":
             print(f"\n{Fore.GREEN}{'🕷️ Menjalankan Racikan Scraper Brutal (Shopee, Tokopedia, Web Data)...' if CURRENT_LANG == 'ID' else '🕷️ Launching Mass Web Scraper Preset...'}{Style.RESET_ALL}")
@@ -512,7 +577,8 @@ def show_interactive_menu():
                 target_alive=30, 
                 anonymity="elite", 
                 timeout=3.5, 
-                serve_port=8888
+                serve_port=8888,
+                open_browser=True
             )
         elif choice == "3":
             print(f"\n{Fore.GREEN}{'⚡ Menjalankan Racikan Turbo Surfing (Ping Terendah, SG/ID/US)...' if CURRENT_LANG == 'ID' else '⚡ Launching Lightning Turbo Surfing Preset...'}{Style.RESET_ALL}")
@@ -521,10 +587,11 @@ def show_interactive_menu():
                 max_check=350, 
                 target_alive=15, 
                 timeout=2.0, 
-                serve_port=8888
+                serve_port=8888,
+                open_browser=True
             )
         elif choice == "4":
-            print(f"\n{Fore.MAGENTA}{'🚜 Mode Petani 24 Jam Aktif: Refresh berkala setiap 15 menit. Tekan Ctrl+C untuk berhenti.' if CURRENT_LANG == 'ID' else '🚜 24/7 Farmer Daemon Active: Auto-refreshing every 15 mins. Press Ctrl+C to stop.'}{Style.RESET_ALL}")
+            print(f"\n{Fore.MAGENTA}{'🚜 Mode Daemon 24 Jam Aktif: Refresh berkala setiap 15 menit. Tekan Ctrl+C untuk berhenti.' if CURRENT_LANG == 'ID' else '🚜 24/7 Farmer Daemon Active: Auto-refreshing every 15 mins. Press Ctrl+C to stop.'}{Style.RESET_ALL}")
             while True:
                 try:
                     db_target = find_9router_db()
@@ -533,12 +600,12 @@ def show_interactive_menu():
                         max_check=300, 
                         target_alive=20, 
                         timeout=2.5, 
-                        serve_port=8888,
+                        serve_port=8888, 
                         sync_9router=db_target
                     )
                     time.sleep(15 * 60)
                 except KeyboardInterrupt:
-                    print(f"\n{Fore.YELLOW}{'Mode Petani dihentikan.' if CURRENT_LANG == 'ID' else 'Farmer daemon stopped.'}{Style.RESET_ALL}")
+                    print(f"\n{Fore.YELLOW}{'Mode Daemon dihentikan.' if CURRENT_LANG == 'ID' else 'Daemon stopped.'}{Style.RESET_ALL}")
                     break
         elif choice.lower() == "w":
             from core.webshare_hunter import run_webshare_hunter
@@ -556,11 +623,11 @@ def show_interactive_menu():
         elif choice.lower() in ("s", "saved"):
             view_saved_results()
         elif choice == "0" or choice.lower() == "q":
-            goodbye_msg = "💀 Capek panen, cabut dulu ah... Jangan lupa sentuh rumput bos! 👋" if CURRENT_LANG == "ID" else "💀 Session terminated — go touch some grass! 👋"
+            goodbye_msg = "💀 Sesi selesai. Dibuat dengan presisi oleh FyOS - ConFEx CCP! 👋" if CURRENT_LANG == "ID" else "💀 Session closed. Crafted with precision by FyOS - ConFEx CCP! 👋"
             print(f"\n{Fore.YELLOW}{goodbye_msg}{Style.RESET_ALL}\n")
             break
         else:
-            invalid_msg = "Pilihan tidak valid. Silakan pilih 1-4, E, T, M, S, L, atau 0." if CURRENT_LANG == "ID" else "Invalid option. Please choose 1-4, E, T, M, S, L, or 0."
+            invalid_msg = "Pilihan tidak valid. Silakan pilih 1-4, W, D, E, T, M, S, L, atau 0." if CURRENT_LANG == "ID" else "Invalid option. Please choose 1-4, W, D, E, T, M, S, L, or 0."
             print(f"{Fore.RED}{invalid_msg}{Style.RESET_ALL}")
 
         try:
@@ -574,7 +641,9 @@ def main():
         show_interactive_menu()
         return
 
-    parser = argparse.ArgumentParser(description="PetaniProxy v2.0 - High-Speed Multi-Protocol Proxy Harvester & Rotating Gateway")
+    parser = argparse.ArgumentParser(
+        description="FyOS Proxy Harvester v2.5 - High-Speed Multi-Protocol Proxy Harvester, Intelligent Rotating Gateway & Dashboard\nCreated By : FyOS - ConFEx CCP"
+    )
     parser.add_argument("--protocol", "-p", choices=["all", "http", "socks4", "socks5"], default="all", help="Target proxy protocol (default: all)")
     parser.add_argument("--max", "-m", type=int, default=250, help="Maximum candidate proxies to validate (default: 250)")
     parser.add_argument("--target", "-t", type=int, default=15, help="Target number of alive proxies to collect (default: 15)")
@@ -583,7 +652,8 @@ def main():
     parser.add_argument("--country", "-c", type=str, default=None, help="Filter by country ISO code (e.g. US, SG, ID, DE)")
     parser.add_argument("--anonymity", choices=["all", "elite", "anonymous", "transparent"], default="all", help="Filter by anonymity level (default: all)")
     parser.add_argument("--target-url", type=str, default=None, help="Validate proxies against specific website (e.g. https://google.com)")
-    parser.add_argument("--serve", nargs="?", const=8888, type=int, default=None, help="Start local rotating forward proxy & REST API on port (default: 8888)")
+    parser.add_argument("--serve", nargs="?", const=8888, type=int, default=None, help="Start local rotating forward proxy, REST API & Web Dashboard on port (default: 8888)")
+    parser.add_argument("--open-dashboard", action="store_true", help="Automatically launch Web Dashboard in browser upon starting server")
     parser.add_argument("--loop", "-l", type=int, default=0, help="Auto-refresh loop interval in minutes (0 = single run)")
     parser.add_argument("--output", "-o", type=str, default=None, help="Custom output directory")
     parser.add_argument("--sync-9router", type=str, default=None, help="Path to BansosRouter/9Router data.sqlite for direct database sync (or 'auto')")
@@ -592,7 +662,7 @@ def main():
 
     args = parser.parse_args()
 
-    print(BANNER)
+    print_banner()
 
     router_db = args.sync_9router
     if router_db == "auto" or router_db is None:
@@ -620,7 +690,8 @@ def main():
                     target_url=args.target_url,
                     output_dir=args.output,
                     sync_9router=router_db,
-                    serve_port=args.serve
+                    serve_port=args.serve,
+                    open_browser=args.open_dashboard
                 )
                 print(f"{Fore.LIGHTBLACK_EX}Sleeping for {args.loop} minutes before next sweep...{Style.RESET_ALL}")
                 time.sleep(args.loop * 60)
@@ -639,7 +710,8 @@ def main():
             target_url=args.target_url,
             output_dir=args.output,
             sync_9router=router_db,
-            serve_port=args.serve
+            serve_port=args.serve,
+            open_browser=args.open_dashboard
         )
 
 if __name__ == "__main__":

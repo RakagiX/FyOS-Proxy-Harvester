@@ -1,5 +1,7 @@
 """
-OmniProxy Harvester - Multi-Format Exporter
+FyOS Proxy Harvester - Multi-Format Exporter
+Created By : FyOS - ConFEx CCP
+
 Exports verified alive proxies to TXT, JSON, CSV, and optional 9Router SQLite pool.
 """
 import os
@@ -16,8 +18,8 @@ def export_all_formats(
     sync_9router_db: Optional[str] = None
 ) -> Dict[str, str]:
     """
-    Export verified proxies into TXT, JSON, and CSV in the designated output directory.
-    Returns a dictionary of generated filepaths.
+    Export verified proxies into TXT, JSON, and CSV in designated output directory.
+    Returns dictionary of generated filepaths.
     """
     if not output_dir:
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -76,6 +78,8 @@ def export_all_formats(
     # 2. Rich JSON Exporter
     json_path = os.path.join(output_dir, "proxies.json")
     json_payload = {
+        "generated_by": "FyOS - ConFEx CCP",
+        "project": "FyOS Proxy Harvester v2.5",
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "total_alive": len(live_proxies),
         "protocols": {proto: len(items) for proto, items in by_proto.items()},
@@ -89,7 +93,7 @@ def export_all_formats(
     # 3. CSV Exporter
     csv_path = os.path.join(output_dir, "proxies.csv")
     fieldnames = [
-        "protocol", "ip", "port", "proxy", "anonymity", "latency_ms", 
+        "protocol", "ip", "port", "proxy", "anonymity", "latency_ms", "tcp_rtt_ms",
         "country_code", "country", "city", "isp", "egress_ip"
     ]
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
@@ -112,7 +116,7 @@ def sync_to_9router(live_proxies: List[Dict[str, Any]], db_path: str, replace: b
     cur = conn.cursor()
     
     if replace:
-        cur.execute("DELETE FROM proxyPools WHERE data LIKE '%PetaniProxy%' OR data LIKE '%OmniProxy%' OR testStatus = 'unknown'")
+        cur.execute("DELETE FROM proxyPools WHERE data LIKE '%FyOS%' OR data LIKE '%PetaniProxy%' OR data LIKE '%OmniProxy%' OR testStatus = 'unknown'")
         conn.commit()
 
     now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat()
@@ -120,7 +124,7 @@ def sync_to_9router(live_proxies: List[Dict[str, Any]], db_path: str, replace: b
 
     for p in live_proxies:
         pid = str(uuid.uuid4())
-        name = f"PetaniProxy [{p.get('country_code', '??')}] {p['proxy']} ({p.get('protocol', 'http')})"
+        name = f"FyOS [{p.get('country_code', '??')}] {p['proxy']} ({p.get('protocol', 'http')})"
         proxy_url = f"{p.get('protocol', 'http')}://{p['proxy']}"
         payload = {
             "name": name,

@@ -1,21 +1,20 @@
 @echo off
 chcp 65001 >nul
-title PetaniProxy - Panen Proxy Segar by @itzluthfi
+title FyOS Proxy Harvester - Created By : FyOS - ConFEx CCP
 mode con: cols=105 lines=38
 cd /d "%~dp0"
 
-echo ========================================================
-echo  🌾 Starting PetaniProxy: Panen Proxy Cepat & Segar 🚜
-echo ========================================================
+echo ===================================================================
+echo   ⚡ Starting FyOS Proxy Harvester - Enterprise Edition ⚡
+echo   Created By : FyOS - ConFEx CCP
+echo ===================================================================
 
 :: Smart Python Detection (Local venv -> Global python)
 set "PY_CMD=python"
-if exist "d:\FREELANCE\grok-register\venv\Scripts\python.exe" (
-    set "PY_CMD=d:\FREELANCE\grok-register\venv\Scripts\python.exe"
-) else if exist "%~dp0venv\Scripts\python.exe" (
+if exist "%~dp0venv\Scripts\python.exe" (
     set "PY_CMD=%~dp0venv\Scripts\python.exe"
-) else if exist "%~dp0..\grok-register\venv\Scripts\python.exe" (
-    set "PY_CMD=%~dp0..\grok-register\venv\Scripts\python.exe"
+) else if exist "%~dp0.venv\Scripts\python.exe" (
+    set "PY_CMD=%~dp0.venv\Scripts\python.exe"
 )
 
 :: Check Python availability
