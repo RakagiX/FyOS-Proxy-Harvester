@@ -1,21 +1,24 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,165.154.173.250,8082,165.154.173.250:8082,Elite,128,30.1,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.173.250
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,289,70.2,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,43.153.123.79,80,43.153.123.79:80,Elite,407,32.9,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.153.123.79
-http,190.97.236.129,999,190.97.236.129:999,Elite,658,98.9,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,670,139.4,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,190.97.236.128,999,190.97.236.128:999,Elite,704,104.4,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
-http,101.32.65.42,8888,101.32.65.42:8888,Elite,856,158.4,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,101.32.72.181
-http,37.59.125.131,8888,37.59.125.131:8888,Elite,960,146.4,FR,France,Roubaix,OVH SAS,82.66.253.58
-http,124.156.194.52,8081,124.156.194.52:8081,Elite,1118,178.1,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,124.156.194.52
-http,43.156.153.104,8080,43.156.153.104:8080,Elite,1137,174.6,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.153.104
-http,107.150.41.226,18080,107.150.41.226:18080,Elite,1317,48.7,US,United States,Kansas City,"Nocix, LLC",107.150.41.226
-http,174.138.165.205,51021,174.138.165.205:51021,Elite,1548,774,US,United States,Phoenix,SECURED SERVERS LLC,38.212.59.207
-http,124.156.194.52,8080,124.156.194.52:8080,Elite,1576,174.7,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,124.156.194.52
-http,58.187.104.62,2120,58.187.104.62:2120,Elite,2202,223.3,VN,Viet Nam,Ho Chi Minh City,FPT Telecom Company,116.101.7.126
-http,111.119.162.248,10932,111.119.162.248:10932,Elite,2213,306.5,PK,Pakistan,Sinjhoro,Connect Communication,47.236.210.224
-http,111.119.162.248,10934,111.119.162.248:10934,Elite,2291,315.5,PK,Pakistan,Sinjhoro,Connect Communication,47.243.1.32
-http,43.128.76.140,8081,43.128.76.140:8081,Elite,2312,1201.4,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.128.76.140
-http,58.187.104.62,2088,58.187.104.62:2088,Elite,2358,1258.4,VN,Viet Nam,Ho Chi Minh City,FPT Telecom Company,58.187.104.62
-http,14.251.13.20,8080,14.251.13.20:8080,Elite,2365,212.5,VN,Viet Nam,Soc Son,VNPT Corp,14.251.13.20
-http,154.59.56.76,999,154.59.56.76:999,Elite,2428,97.4,VE,Venezuela,Caracas,TotalCom Venezuela C.A.,154.59.56.77
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,208,44.8,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,43.153.123.79,80,43.153.123.79:80,Elite,226,28.0,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.153.123.79
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,289,50.0,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,107.167.18.122,443,107.167.18.122:443,Elite,313,36.5,US,United States,Los Angeles,Sharktech,107.167.18.99
+http,198.46.200.118,12888,198.46.200.118:12888,Elite,413,38.4,US,United States,Los Angeles,HostPapa,198.46.200.118
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,650,135.4,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,190.97.236.128,999,190.97.236.128:999,Elite,712,105.5,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
+http,2.27.63.250,8118,2.27.63.250:8118,Elite,792,396,DE,Germany,Frankfurt am Main,Kyonix Networks Limited,2.27.63.250
+http,200.106.124.3,999,200.106.124.3:999,Elite,990,1188.9,PE,Peru,Tacna,INTEGRATEL PERÚ S.A.A.,200.106.124.3
+http,95.3.69.222,8080,95.3.69.222:8080,Elite,1032,178.7,TR,Türkiye,Ankara,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
+http,43.156.153.104,8080,43.156.153.104:8080,Elite,1145,181.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.153.104
+http,47.81.56.193,8888,47.81.56.193:8888,Elite,1145,206.4,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
+http,178.236.16.4,8888,178.236.16.4:8888,Elite,1194,222.4,KZ,Kazakhstan,Astana,NLS ASTANA LLP,178.236.16.4
+http,14.251.13.20,8080,14.251.13.20:8080,Elite,1266,218.6,VN,Viet Nam,Soc Son,VNPT Corp,14.251.13.20
+http,203.76.120.118,8080,203.76.120.118:8080,Elite,1271,242.6,BD,Bangladesh,Dhaka,Link3 Technologies Limited,203.76.120.118
+http,43.156.199.63,8080,43.156.199.63:8080,Elite,1347,182.2,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.199.63
+http,43.156.199.63,8081,43.156.199.63:8081,Elite,1429,181.4,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.199.63
+http,210.211.113.35,80,210.211.113.35:80,Elite,1442,191.5,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.35
+http,190.97.236.129,999,190.97.236.129:999,Elite,1806,126.1,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
+http,210.211.113.33,80,210.211.113.33:80,Elite,2007,193.3,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.33
+http,59.153.83.186,8080,59.153.83.186:8080,Elite,2158,1079,ID,Indonesia,Bekasi,PT Asia Teknologi Solusi,59.153.83.186
+http,58.187.104.62,2088,58.187.104.62:2088,Elite,2294,221.7,VN,Viet Nam,Ho Chi Minh City,FPT Telecom Company,58.187.104.62
+http,111.119.162.248,10926,111.119.162.248:10926,Elite,2398,250.0,PK,Pakistan,Sinjhoro,Connect Communication,47.252.0.200
