@@ -1,44 +1,26 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,198.46.200.118,12888,198.46.200.118:12888,Elite,148,12.3,US,United States,Los Angeles,HostPapa,198.46.200.118
-http,47.254.122.220,5443,47.254.122.220:5443,Elite,150,16.7,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",47.254.122.220
-http,34.43.46.91,443,34.43.46.91:443,Elite,267,34.7,US,United States,San Jose,Google LLC,8.231.16.63
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,280,62.7,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,34.43.46.91,80,34.43.46.91:80,Elite,298,33.4,US,United States,San Jose,Google LLC,8.231.16.63
-http,147.182.156.27,8080,147.182.156.27:8080,Elite,337,69.8,CA,Canada,Toronto,"DigitalOcean, LLC",147.182.156.27
-http,190.97.241.106,999,190.97.241.106:999,Elite,578,1141.2,VE,Venezuela,San Cristobal,VIGINET C.A,190.97.241.106
-http,190.97.236.129,999,190.97.236.129:999,Elite,643,101.9,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
-http,153.51.201.35,999,153.51.201.35:999,Elite,648,101.1,VE,Venezuela,Ciudad Bolivia,"GLOBALNET S&P, C.A.",153.51.201.35
-http,190.97.236.128,999,190.97.236.128:999,Elite,658,118.0,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
-http,144.124.251.24,11108,144.124.251.24:11108,Elite,671,159.2,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,674,140.3,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,144.124.251.24,10818,144.124.251.24:10818,Elite,787,132.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10605,144.124.251.24:10605,Elite,796,154.0,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10819,144.124.251.24:10819,Elite,800,132.2,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10176,144.124.251.24:10176,Elite,805,132.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,196.75.251.159,1084,196.75.251.159:1084,Elite,811,149.4,MA,Morocco,Rabat,Office National des Postes et Telecommunications ONPT Maroc Telecom / IAM,196.75.244.82
-http,144.124.251.24,10628,144.124.251.24:10628,Elite,812,133.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10551,144.124.251.24:10551,Elite,816,130.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10084,144.124.251.24:10084,Elite,829,133.2,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,11480,144.124.251.24:11480,Elite,848,183.8,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10443,144.124.251.24:10443,Elite,850,226.9,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,101.32.65.42,8888,101.32.65.42:8888,Elite,861,161.7,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,101.32.76.202
-http,144.124.251.24,10123,144.124.251.24:10123,Elite,866,132.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,18.237.9.208,1001,18.237.9.208:1001,Elite,977,1048.5,US,United States,Boardman,"Amazon.com, Inc.",18.237.9.208
-http,43.161.240.20,8080,43.161.240.20:8080,Elite,1000,158.6,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,43.161.240.20
-http,95.3.69.222,8080,95.3.69.222:8080,Elite,1051,180.6,TR,Türkiye,Ankara,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
-http,144.124.251.24,10366,144.124.251.24:10366,Elite,1090,221.5,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10372,144.124.251.24:10372,Elite,1108,212.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,210.211.113.37,80,210.211.113.37:80,Elite,1153,1218.8,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.37
-http,31.77.131.173,8080,31.77.131.173:8080,Elite,1174,134.3,NL,Netherlands,Amsterdam,PLAY2GO INTERNATIONAL LIMITED,31.77.131.173
-http,37.59.125.131,8888,37.59.125.131:8888,Elite,1273,144.1,FR,France,Roubaix,OVH SAS,82.66.253.58
-http,14.251.13.20,8080,14.251.13.20:8080,Elite,1280,207.1,VN,Viet Nam,Soc Son,VNPT Corp,14.251.13.20
-http,163.181.207.170,9999,163.181.207.170:9999,Elite,1391,208.1,VN,Viet Nam,Ho Chi Minh City,"Zhejiang Taobao Network Co.,Ltd",163.181.207.170
-http,144.124.251.24,10101,144.124.251.24:10101,Elite,1430,130.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10526,144.124.251.24:10526,Elite,1453,281.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,43.128.76.140,8080,43.128.76.140:8080,Elite,1587,175.6,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.128.76.140
-http,144.124.251.24,10829,144.124.251.24:10829,Elite,1751,130.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,124.156.194.52,8080,124.156.194.52:8080,Elite,1955,183.8,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,124.156.194.52
-http,190.12.150.244,999,190.12.150.244:999,Elite,2129,1142.6,EC,Ecuador,Santo Domingo de los Colorados,ONETELECOM CIA.LTDA.,190.12.150.244
-http,210.211.113.33,80,210.211.113.33:80,Elite,2175,1396.4,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.33
-http,144.124.251.24,11180,144.124.251.24:11180,Elite,2178,142.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,129.153.71.186,8443,129.153.71.186:8443,Elite,2191,1042.7,US,United States,Phoenix,Oracle Corporation,129.153.71.186
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,87,14.0,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,43.153.123.79,80,43.153.123.79:80,Elite,326,1062.5,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.153.123.79
+http,153.51.201.35,999,153.51.201.35:999,Elite,586,89.9,VE,Venezuela,Ciudad Bolivia,"GLOBALNET S&P, C.A.",153.51.201.35
+http,190.97.236.129,999,190.97.236.129:999,Elite,592,100.0,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
+http,190.97.236.128,999,190.97.236.128:999,Elite,652,91.3,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
+http,190.97.241.106,999,190.97.241.106:999,Elite,654,81.8,VE,Venezuela,San Cristobal,VIGINET C.A,190.97.241.106
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,759,114.0,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,95.3.69.222,8080,95.3.69.222:8080,Elite,857,156.4,TR,Türkiye,Ankara,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
+http,37.59.125.131,8888,37.59.125.131:8888,Elite,1012,99.1,FR,France,Roubaix,OVH SAS,82.66.253.58
+http,149.54.16.170,8080,149.54.16.170:8080,Elite,1193,1218.0,AF,Afghanistan,Taloqan,Government Communications Network,149.54.16.170
+http,43.156.199.63,8081,43.156.199.63:8081,Elite,1321,1240.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.199.63
+http,203.76.117.226,8118,203.76.117.226:8118,Elite,1344,672,BD,Bangladesh,Dhaka,Link3 Technologies Limited,203.76.117.226
+http,14.251.13.20,8080,14.251.13.20:8080,Elite,1345,253.5,VN,Viet Nam,Soc Son,VNPT Corp,14.251.13.20
+http,167.86.104.220,80,167.86.104.220:80,Elite,1389,109.9,FR,France,Lauterbourg,Contabo GmbH,167.86.104.220
+http,163.181.207.170,9999,163.181.207.170:9999,Elite,1537,225.5,VN,Viet Nam,Ho Chi Minh City,"Zhejiang Taobao Network Co.,Ltd",163.181.207.170
+http,163.181.207.169,9999,163.181.207.169:9999,Elite,1589,242.3,VN,Viet Nam,Ho Chi Minh City,"Zhejiang Taobao Network Co.,Ltd",163.181.207.169
+http,37.187.109.70,10111,37.187.109.70:10111,Elite,1643,105.2,FR,France,Roubaix,OVH SAS,37.187.109.70
+http,152.53.183.107,8082,152.53.183.107:8082,Elite,1707,104.6,DE,Germany,Nuremberg,netcup GmbH,152.53.183.107
+http,124.156.194.52,8081,124.156.194.52:8081,Elite,1829,203.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,124.156.194.52
+http,154.59.56.78,999,154.59.56.78:999,Elite,1873,82.7,VE,Venezuela,Caracas,TotalCom Venezuela C.A.,154.59.56.73
+http,157.66.100.23,8888,157.66.100.23:8888,Elite,1992,228.4,VN,Viet Nam,Ho Chi Minh City,VIET DIGITAL TECHNOLOGY LIABILITY COMPANY,157.66.100.23
+http,101.36.112.205,1081,101.36.112.205:1081,Elite,2185,190.1,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,101.36.112.205
+http,135.181.116.225,3001,135.181.116.225:3001,Elite,2322,1174.5,FI,Finland,Helsinki,Hetzner Online GmbH,135.181.116.225
+http,43.156.40.114,8080,43.156.40.114:8080,Elite,2383,211.9,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.40.114
+http,163.61.55.117,8081,163.61.55.117:8081,Elite,2501,1250,ID,Indonesia,Kraksaan,PT INFINITY GLOBAL DATA NUSANTARA,163.61.55.117
