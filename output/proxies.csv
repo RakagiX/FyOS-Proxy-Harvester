@@ -1,26 +1,23 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,87,14.0,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,43.153.123.79,80,43.153.123.79:80,Elite,326,1062.5,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.153.123.79
-http,153.51.201.35,999,153.51.201.35:999,Elite,586,89.9,VE,Venezuela,Ciudad Bolivia,"GLOBALNET S&P, C.A.",153.51.201.35
-http,190.97.236.129,999,190.97.236.129:999,Elite,592,100.0,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
-http,190.97.236.128,999,190.97.236.128:999,Elite,652,91.3,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
-http,190.97.241.106,999,190.97.241.106:999,Elite,654,81.8,VE,Venezuela,San Cristobal,VIGINET C.A,190.97.241.106
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,759,114.0,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,95.3.69.222,8080,95.3.69.222:8080,Elite,857,156.4,TR,Türkiye,Ankara,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
-http,37.59.125.131,8888,37.59.125.131:8888,Elite,1012,99.1,FR,France,Roubaix,OVH SAS,82.66.253.58
-http,149.54.16.170,8080,149.54.16.170:8080,Elite,1193,1218.0,AF,Afghanistan,Taloqan,Government Communications Network,149.54.16.170
-http,43.156.199.63,8081,43.156.199.63:8081,Elite,1321,1240.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.199.63
-http,203.76.117.226,8118,203.76.117.226:8118,Elite,1344,672,BD,Bangladesh,Dhaka,Link3 Technologies Limited,203.76.117.226
-http,14.251.13.20,8080,14.251.13.20:8080,Elite,1345,253.5,VN,Viet Nam,Soc Son,VNPT Corp,14.251.13.20
-http,167.86.104.220,80,167.86.104.220:80,Elite,1389,109.9,FR,France,Lauterbourg,Contabo GmbH,167.86.104.220
-http,163.181.207.170,9999,163.181.207.170:9999,Elite,1537,225.5,VN,Viet Nam,Ho Chi Minh City,"Zhejiang Taobao Network Co.,Ltd",163.181.207.170
-http,163.181.207.169,9999,163.181.207.169:9999,Elite,1589,242.3,VN,Viet Nam,Ho Chi Minh City,"Zhejiang Taobao Network Co.,Ltd",163.181.207.169
-http,37.187.109.70,10111,37.187.109.70:10111,Elite,1643,105.2,FR,France,Roubaix,OVH SAS,37.187.109.70
-http,152.53.183.107,8082,152.53.183.107:8082,Elite,1707,104.6,DE,Germany,Nuremberg,netcup GmbH,152.53.183.107
-http,124.156.194.52,8081,124.156.194.52:8081,Elite,1829,203.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,124.156.194.52
-http,154.59.56.78,999,154.59.56.78:999,Elite,1873,82.7,VE,Venezuela,Caracas,TotalCom Venezuela C.A.,154.59.56.73
-http,157.66.100.23,8888,157.66.100.23:8888,Elite,1992,228.4,VN,Viet Nam,Ho Chi Minh City,VIET DIGITAL TECHNOLOGY LIABILITY COMPANY,157.66.100.23
-http,101.36.112.205,1081,101.36.112.205:1081,Elite,2185,190.1,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,101.36.112.205
-http,135.181.116.225,3001,135.181.116.225:3001,Elite,2322,1174.5,FI,Finland,Helsinki,Hetzner Online GmbH,135.181.116.225
-http,43.156.40.114,8080,43.156.40.114:8080,Elite,2383,211.9,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.40.114
-http,163.61.55.117,8081,163.61.55.117:8081,Elite,2501,1250,ID,Indonesia,Kraksaan,PT INFINITY GLOBAL DATA NUSANTARA,163.61.55.117
+http,107.150.41.226,18080,107.150.41.226:18080,Elite,586,96.1,US,United States,Kansas City,"Nocix, LLC",107.150.41.226
+http,153.51.201.35,999,153.51.201.35:999,Elite,640,100.3,VE,Venezuela,Ciudad Bolivia,"GLOBALNET S&P, C.A.",153.51.201.35
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,661,136.3,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,95.3.69.222,8080,95.3.69.222:8080,Elite,993,177.0,TR,Türkiye,Izmir,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
+http,14.251.13.20,8080,14.251.13.20:8080,Elite,1134,210.6,VN,Viet Nam,Dan Phuong,VNPT Corp,14.251.13.20
+http,103.82.20.76,8080,103.82.20.76:8080,Elite,1145,200.5,VN,Viet Nam,Hanoi,VIETNAM POSTS AND TELECOMMUNICATIONS GROUP,42.113.76.180
+http,103.160.205.12,8081,103.160.205.12:8081,Elite,1160,580,ID,Indonesia,Kecamatan Praya Barat Daya,Indonesia Network Information Center,103.160.205.12
+http,119.95.176.156,8082,119.95.176.156:8082,Elite,1186,1201.0,PH,Philippines,Bulacan,Philippine Long Distance Telephone Co.,119.95.176.156
+http,27.147.153.179,8158,27.147.153.179:8158,Elite,1282,1291.9,BD,Bangladesh,Dhaka,Link3 Technologies Limited,27.147.153.179
+http,5.231.80.233,3306,5.231.80.233:3306,Elite,1304,171.0,IT,Italy,Milan,LAKENETWORKS,5.231.80.233
+http,186.167.113.97,999,186.167.113.97:999,Elite,1597,798,VE,Venezuela,Valencia,Corporacion Digitel C.A.,154.3.77.0
+http,103.154.231.97,8090,103.154.231.97:8090,Elite,1611,805,ID,Indonesia,Mojokerto,PT Digital Media Telematika,103.154.231.97
+http,190.97.236.128,999,190.97.236.128:999,Elite,1708,1147.3,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
+http,190.97.236.129,999,190.97.236.129:999,Elite,1708,1113.7,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
+http,194.31.108.109,2080,194.31.108.109:2080,Elite,1808,201.6,IR,Iran,Tehran,Avaye Segal Net Co. PJS,31.171.100.253
+http,59.66.218.253,7892,59.66.218.253:7892,Elite,1828,221.6,CN,China,Beijing,China Education and Research Network Center,46.250.253.204
+http,37.59.125.131,8888,37.59.125.131:8888,Elite,1831,131.5,FR,France,Roubaix,OVH SAS,82.66.253.58
+http,124.156.194.52,8080,124.156.194.52:8080,Elite,1926,185.9,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,124.156.194.52
+http,59.153.83.186,8080,59.153.83.186:8080,Elite,2025,1262.0,ID,Indonesia,Bekasi,PT Asia Teknologi Solusi,59.153.83.186
+http,43.128.76.140,8080,43.128.76.140:8080,Elite,2036,181.4,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.128.76.140
+http,43.156.199.63,8081,43.156.199.63:8081,Elite,2192,181.5,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.199.63
+http,43.156.166.134,8080,43.156.166.134:8080,Elite,2389,182.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.166.134
