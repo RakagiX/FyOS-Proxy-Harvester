@@ -1,23 +1,25 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,107.150.41.226,18080,107.150.41.226:18080,Elite,586,96.1,US,United States,Kansas City,"Nocix, LLC",107.150.41.226
-http,153.51.201.35,999,153.51.201.35:999,Elite,640,100.3,VE,Venezuela,Ciudad Bolivia,"GLOBALNET S&P, C.A.",153.51.201.35
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,661,136.3,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,95.3.69.222,8080,95.3.69.222:8080,Elite,993,177.0,TR,Türkiye,Izmir,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
-http,14.251.13.20,8080,14.251.13.20:8080,Elite,1134,210.6,VN,Viet Nam,Dan Phuong,VNPT Corp,14.251.13.20
-http,103.82.20.76,8080,103.82.20.76:8080,Elite,1145,200.5,VN,Viet Nam,Hanoi,VIETNAM POSTS AND TELECOMMUNICATIONS GROUP,42.113.76.180
-http,103.160.205.12,8081,103.160.205.12:8081,Elite,1160,580,ID,Indonesia,Kecamatan Praya Barat Daya,Indonesia Network Information Center,103.160.205.12
-http,119.95.176.156,8082,119.95.176.156:8082,Elite,1186,1201.0,PH,Philippines,Bulacan,Philippine Long Distance Telephone Co.,119.95.176.156
-http,27.147.153.179,8158,27.147.153.179:8158,Elite,1282,1291.9,BD,Bangladesh,Dhaka,Link3 Technologies Limited,27.147.153.179
-http,5.231.80.233,3306,5.231.80.233:3306,Elite,1304,171.0,IT,Italy,Milan,LAKENETWORKS,5.231.80.233
-http,186.167.113.97,999,186.167.113.97:999,Elite,1597,798,VE,Venezuela,Valencia,Corporacion Digitel C.A.,154.3.77.0
-http,103.154.231.97,8090,103.154.231.97:8090,Elite,1611,805,ID,Indonesia,Mojokerto,PT Digital Media Telematika,103.154.231.97
-http,190.97.236.128,999,190.97.236.128:999,Elite,1708,1147.3,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
-http,190.97.236.129,999,190.97.236.129:999,Elite,1708,1113.7,VE,Venezuela,San Cristobal,VIGINET C.A,153.51.201.35
-http,194.31.108.109,2080,194.31.108.109:2080,Elite,1808,201.6,IR,Iran,Tehran,Avaye Segal Net Co. PJS,31.171.100.253
-http,59.66.218.253,7892,59.66.218.253:7892,Elite,1828,221.6,CN,China,Beijing,China Education and Research Network Center,46.250.253.204
-http,37.59.125.131,8888,37.59.125.131:8888,Elite,1831,131.5,FR,France,Roubaix,OVH SAS,82.66.253.58
-http,124.156.194.52,8080,124.156.194.52:8080,Elite,1926,185.9,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,124.156.194.52
-http,59.153.83.186,8080,59.153.83.186:8080,Elite,2025,1262.0,ID,Indonesia,Bekasi,PT Asia Teknologi Solusi,59.153.83.186
-http,43.128.76.140,8080,43.128.76.140:8080,Elite,2036,181.4,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.128.76.140
-http,43.156.199.63,8081,43.156.199.63:8081,Elite,2192,181.5,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.199.63
-http,43.156.166.134,8080,43.156.166.134:8080,Elite,2389,182.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.166.134
+http,107.167.18.122,443,107.167.18.122:443,Elite,150,8.7,US,United States,Los Angeles,Sharktech,107.167.18.99
+http,54.183.235.175,1001,54.183.235.175:1001,Elite,158,19.3,US,United States,San Jose,"Amazon.com, Inc.",54.183.235.175
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,287,66.6,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,665,140.6,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,95.140.159.180,9950,95.140.159.180:9950,Elite,738,130.2,NL,Netherlands,Amsterdam,"Timeweb, LLP",70.34.202.115
+http,14.251.13.20,8080,14.251.13.20:8080,Elite,1284,205.5,VN,Viet Nam,Dan Phuong,VNPT Corp,14.251.13.20
+http,210.211.113.33,80,210.211.113.33:80,Elite,1370,185.1,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.33
+http,43.156.40.114,8080,43.156.40.114:8080,Elite,1402,182.3,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.40.114
+http,43.128.76.140,8080,43.128.76.140:8080,Elite,1403,1180.2,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.128.76.140
+http,163.181.207.215,9999,163.181.207.215:9999,Elite,1417,207.6,VN,Viet Nam,Ho Chi Minh City,"Zhejiang Taobao Network Co.,Ltd",163.181.207.215
+http,107.172.232.2,7890,107.172.232.2:7890,Elite,1498,137.2,US,United States,Los Angeles,HostPapa,203.10.96.139
+http,210.211.113.35,80,210.211.113.35:80,Elite,1555,1193.6,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.35
+http,37.59.125.131,8888,37.59.125.131:8888,Elite,1854,144.1,FR,France,Roubaix,OVH SAS,82.66.253.58
+http,210.211.113.37,80,210.211.113.37:80,Elite,1868,186.3,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.37
+http,109.164.35.23,8888,109.164.35.23:8888,Elite,1878,148.4,CZ,Czechia,Benatky nad Jizerou,"STARNET, s.r.o.",187.14.124.208
+http,43.156.153.104,8080,43.156.153.104:8080,Elite,1962,1227.4,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.153.104
+http,144.255.17.68,7890,144.255.17.68:7890,Elite,1970,256.0,CN,China,Jinan,"No.31,Jin-rong Street",141.11.86.57
+http,103.133.24.37,8080,103.133.24.37:8080,Elite,2053,1026,ID,Indonesia,Bekasi,Indonesia Network Information Center,103.133.24.37
+http,116.204.166.205,8080,116.204.166.205:8080,Elite,2088,193.2,DE,Germany,Frankfurt am Main,High Speed For Internet Services L.L.C,116.204.166.205
+http,14.225.2.98,808,14.225.2.98:808,Elite,2192,1096,VN,Viet Nam,Hanoi,VIETNAM POSTS AND TELECOMMUNICATIONS GROUP,14.225.2.98
+http,43.156.153.104,8081,43.156.153.104:8081,Elite,2358,180.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.153.104
+http,58.69.124.137,8080,58.69.124.137:8080,Elite,2367,1235.0,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,58.69.124.137
+http,152.53.183.107,8081,152.53.183.107:8081,Elite,2402,140.6,DE,Germany,Nuremberg,netcup GmbH,152.53.183.107
+http,43.128.76.140,8081,43.128.76.140:8081,Elite,2482,179.5,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.128.76.140
