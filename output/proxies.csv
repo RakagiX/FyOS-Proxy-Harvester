@@ -1,28 +1,19 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,87,14.8,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,34.43.46.91,443,34.43.46.91:443,Elite,260,11.4,US,United States,San Jose,Google LLC,34.143.51.195
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,545,107.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,169.58.34.213,3129,169.58.34.213:3129,Elite,729,107.4,FR,France,Lauterbourg,Contabo GmbH,23.109.191.78
-http,169.58.34.213,3137,169.58.34.213:3137,Elite,769,104.1,FR,France,Lauterbourg,Contabo GmbH,82.23.119.34
-http,217.182.195.221,30008,217.182.195.221:30008,Elite,831,102.2,FR,France,Roubaix,OVH SAS,152.53.157.69
-http,51.170.133.249,80,51.170.133.249:80,Elite,848,110.7,MA,Morocco,Oulad Salah,Oracle Corporation,51.170.133.249
-http,34.43.46.91,80,34.43.46.91:80,Elite,882,11.7,US,United States,San Jose,Google LLC,34.143.3.233
-http,95.3.69.222,8080,95.3.69.222:8080,Elite,889,153.3,TR,Türkiye,Izmir,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
-http,191.44.71.163,8080,191.44.71.163:8080,Elite,914,154.2,SY,Syrian Arab Republic,Damascus,High Speed For Internet Services L.L.C,201.4.65.68
-http,85.133.250.27,80,85.133.250.27:80,Elite,1096,179.2,IR,Iran,Tehran,Pars Abr Toseeh Ertebatat LTD,216.57.109.54
-http,124.156.194.52,8080,124.156.194.52:8080,Elite,1296,1250.3,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,124.156.194.52
-http,43.156.174.122,8080,43.156.174.122:8080,Elite,1297,215.8,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.174.122
-http,47.81.56.193,8888,47.81.56.193:8888,Elite,1377,238.2,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
-http,8.219.97.248,80,8.219.97.248:80,Elite,1497,208.9,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
-http,71.168.71.12,8890,71.168.71.12:8890,Elite,1674,37.4,US,United States,Manchester,Fidium,192.42.116.103
-http,165.154.7.156,8888,165.154.7.156:8888,Elite,1687,188.0,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.7.156
-http,152.53.183.107,8081,152.53.183.107:8081,Elite,1773,111.2,DE,Germany,Nuremberg,netcup GmbH,152.53.183.107
-http,202.58.64.29,8080,202.58.64.29:8080,Elite,1792,230.7,ID,Indonesia,Jatiroto,Indonesia Network Information Center,202.58.64.29
-http,186.33.45.219,999,186.33.45.219:999,Elite,1798,98.6,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,186.33.45.220
-http,154.59.56.76,999,154.59.56.76:999,Elite,1861,95.4,VE,Venezuela,Caracas,TotalCom Venezuela C.A.,154.59.56.74
-http,185.166.27.208,2020,185.166.27.208:2020,Elite,1924,1227.7,IQ,Iraq,Erbil,"Online Company for Technological Information, Supply of Electronic Equipment and Internet Services Through Wifi Ltd.",185.166.27.208
-http,43.134.17.145,8080,43.134.17.145:8080,Elite,1930,204.8,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.134.17.145
-http,43.134.49.34,8080,43.134.49.34:8080,Elite,2098,212.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.134.49.34
-http,43.156.199.63,8080,43.156.199.63:8080,Elite,2232,205.5,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.199.63
-http,43.134.186.82,8080,43.134.186.82:8080,Elite,2354,240.6,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.134.186.82
-http,103.156.75.213,8091,103.156.75.213:8091,Elite,2367,1183,ID,Indonesia,Blahbatuh,Indonesia Network Information Center,103.156.75.213
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,132,31.4,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,47.254.36.25,11080,47.254.36.25:11080,Elite,418,38.3,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",47.254.36.25
+http,185.195.71.218,18080,185.195.71.218:18080,Elite,601,133.1,CH,Switzerland,Hunenberg,Datasource AG,185.195.71.218
+http,95.3.69.222,8080,95.3.69.222:8080,Elite,879,163.2,TR,Türkiye,Izmir,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,988,126.3,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,190.97.241.106,999,190.97.241.106:999,Elite,1108,105.5,VE,Venezuela,San Cristobal,VIGINET C.A,190.97.241.106
+http,51.170.133.249,80,51.170.133.249:80,Elite,1113,121.8,MA,Morocco,Oulad Salah,Oracle Corporation,51.170.133.249
+http,43.156.166.134,8080,43.156.166.134:8080,Elite,1226,196.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.166.134
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,1423,58.1,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,43.153.123.79,80,43.153.123.79:80,Elite,1670,44.7,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.153.123.79
+http,43.134.16.198,8080,43.134.16.198:8080,Elite,1685,198.2,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.134.16.198
+http,43.134.186.82,8080,43.134.186.82:8080,Elite,1816,203.3,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.134.186.82
+http,43.156.153.104,8081,43.156.153.104:8081,Elite,1848,203.8,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.153.104
+http,37.59.125.131,8888,37.59.125.131:8888,Elite,1873,115.8,FR,France,Roubaix,OVH SAS,82.66.253.58
+http,43.163.120.171,8080,43.163.120.171:8080,Elite,2092,198.4,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.163.120.171
+http,43.128.76.140,8080,43.128.76.140:8080,Elite,2262,195.7,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.128.76.140
+http,149.54.16.170,8080,149.54.16.170:8080,Elite,2275,1137,AF,Afghanistan,Taloqan,Government Communications Network,149.54.16.170
+http,43.156.40.114,8080,43.156.40.114:8080,Elite,2307,199.3,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.40.114
