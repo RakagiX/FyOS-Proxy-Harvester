@@ -1,51 +1,14 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,159.65.233.169,54321,159.65.233.169:54321,Elite,251,56.6,US,United States,North Bergen,"DigitalOcean, LLC",159.65.233.169
-http,34.43.46.91,80,34.43.46.91:80,Elite,283,33.3,US,United States,San Jose,Google LLC,34.143.42.117
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,286,62.6,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,146.190.60.147,8013,146.190.60.147:8013,Elite,296,16.6,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,648,137.3,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,152.53.183.107,8081,152.53.183.107:8081,Elite,650,136.7,DE,Germany,Nuremberg,netcup GmbH,152.53.183.107
-http,147.161.246.246,10284,147.161.246.246:10284,Elite,654,145.2,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,11477,147.161.246.246:11477,Elite,655,144.0,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,10810,147.161.246.246:10810,Elite,658,140.7,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,10878,147.161.246.246:10878,Elite,659,141.2,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,11776,147.161.246.246:11776,Elite,661,149.3,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,10900,147.161.246.246:10900,Elite,662,139.9,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,10230,147.161.246.246:10230,Elite,663,142.2,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,12573,147.161.246.246:12573,Elite,669,138.3,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,10314,147.161.246.246:10314,Elite,669,144.4,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,10336,147.161.246.246:10336,Elite,670,146.6,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,10088,147.161.246.246:10088,Elite,670,143.8,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,11914,147.161.246.246:11914,Elite,671,145.6,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,12070,147.161.246.246:12070,Elite,673,139.5,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,22222,147.161.246.246:22222,Elite,674,139.1,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,18080,147.161.246.246:18080,Elite,679,139.7,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,12284,147.161.246.246:12284,Elite,681,139.0,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,147.161.246.246,11401,147.161.246.246:11401,Elite,682,138.5,CH,Switzerland,Zurich,Zscaler Switzerland GmbH,147.161.246.246
-http,108.165.233.48,1020,108.165.233.48:1020,Elite,820,166.2,BG,Bulgaria,Sofia,2E TELEKOMUNIKASYON LTD STI,108.165.233.48
-http,152.53.183.107,8082,152.53.183.107:8082,Elite,824,136.4,DE,Germany,Nuremberg,netcup GmbH,152.53.183.107
-http,101.32.65.42,8888,101.32.65.42:8888,Elite,850,154.5,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,101.32.76.202
-http,8.215.25.3,2080,8.215.25.3:2080,Elite,1047,192.3,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
-http,37.59.125.131,8888,37.59.125.131:8888,Elite,1083,140.8,FR,France,Roubaix,OVH SAS,82.66.253.58
-http,43.156.153.104,8080,43.156.153.104:8080,Elite,1110,179.4,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.153.104
-http,158.140.128.44,9595,158.140.128.44:9595,Elite,1118,177.7,SG,Singapore,Singapore,MYREPUBLIC LIMITED,119.234.176.4
-http,85.133.250.27,80,85.133.250.27:80,Elite,1120,203.9,IR,Iran,Tehran,Pars Abr Toseeh Ertebatat LTD,130.185.120.91
-http,47.81.56.193,8888,47.81.56.193:8888,Elite,1127,205.7,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
-http,112.169.99.71,8061,112.169.99.71:8061,Elite,1209,134.0,KR,South Korea,Seoul,Korea Telecom,175.196.197.81
-http,144.24.111.128,3129,144.24.111.128:3129,Elite,1210,232.5,IN,India,Mumbai,Oracle Corporation,144.24.111.128
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,1284,10.5,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,112.169.99.71,8085,112.169.99.71:8085,Elite,1314,134.1,KR,South Korea,Seoul,Korea Telecom,222.99.118.192
-http,193.164.7.123,10002,193.164.7.123:10002,Elite,1539,171.2,TR,Türkiye,Istanbul,KEYUBU Internet ve Bilisim Tic. Ltd. Sti.,217.181.83.70
-http,36.137.204.11,8002,36.137.204.11:8002,Elite,1548,218.1,CN,China,Yuzhong,"China Mobile Communications Group Co., LTD",137.220.43.243
-http,178.92.72.78,8080,178.92.72.78:8080,Elite,1564,245.6,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.78
-http,112.169.99.71,8013,112.169.99.71:8013,Elite,1889,130.8,KR,South Korea,Seoul,Korea Telecom,211.105.116.89
-http,178.92.72.129,8080,178.92.72.129:8080,Elite,1897,240.8,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.129
-http,103.177.8.119,10023,103.177.8.119:10023,Elite,1910,194.8,ID,Indonesia,Bekasi,Indonesia Network Information Center,103.177.8.134
-http,186.33.45.220,999,186.33.45.220:999,Elite,1923,1119.8,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,186.33.45.220
-http,43.156.199.63,8081,43.156.199.63:8081,Elite,2119,175.9,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.199.63
-http,43.157.98.90,8080,43.157.98.90:8080,Elite,2120,136.2,DE,Germany,Frankfurt am Main,Shenzhen Tencent Computer Systems Company Limited,43.157.98.90
-http,159.194.228.40,8888,159.194.228.40:8888,Elite,2179,200.6,RU,Russian Federation,Saint Petersburg,Beget LLC,169.150.224.227
-http,174.138.165.213,31070,174.138.165.213:31070,Elite,2287,1143,US,United States,Phoenix,SECURED SERVERS LLC,73.41.18.105
-http,210.211.113.35,80,210.211.113.35:80,Elite,2344,184.3,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.35
-http,43.134.17.145,8080,43.134.17.145:8080,Elite,2395,175.8,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.134.17.145
-http,159.195.194.242,8080,159.195.194.242:8080,Elite,2473,136.8,DE,Germany,Nuremberg,netcup GmbH,37.139.8.55
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,122,23.3,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,472,61.2,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,37.59.125.131,8888,37.59.125.131:8888,Elite,596,86.2,FR,France,Roubaix,OVH SAS,82.66.253.58
+http,51.170.133.249,80,51.170.133.249:80,Elite,749,374,MA,Morocco,Oulad Salah,Oracle Corporation,51.170.133.249
+http,95.3.69.222,8080,95.3.69.222:8080,Elite,836,145.0,TR,Türkiye,Izmir,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
+http,103.82.20.76,8080,103.82.20.76:8080,Elite,1286,235.3,VN,Viet Nam,Hanoi,VIETNAM POSTS AND TELECOMMUNICATIONS GROUP,42.112.52.103
+http,210.211.113.35,80,210.211.113.35:80,Elite,1286,227.9,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.35
+http,43.229.79.231,8080,43.229.79.231:8080,Elite,1291,247.3,TH,Thailand,Bangkok,"Siamdata Communication Co.,ltd.",43.229.79.231
+http,178.92.72.194,8080,178.92.72.194:8080,Elite,1342,207.9,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.194
+http,47.81.56.193,8888,47.81.56.193:8888,Elite,1350,249.6,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
+http,178.92.72.94,8080,178.92.72.94:8080,Elite,1379,215.1,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.94
+http,14.225.68.207,1337,14.225.68.207:1337,Elite,1479,243.9,VN,Viet Nam,Hai Duong,VIETNAM POSTS AND TELECOMMUNICATIONS GROUP,14.225.68.207
+http,210.211.113.33,80,210.211.113.33:80,Elite,1792,230.0,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.33
