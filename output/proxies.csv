@@ -1,26 +1,19 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,34.43.46.91,80,34.43.46.91:80,Elite,434,53.4,US,United States,San Jose,Google LLC,34.143.51.195
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,681,340,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,190.97.241.106,999,190.97.241.106:999,Elite,713,118.2,VE,Venezuela,San Cristobal,VIGINET C.A,190.97.241.106
-http,8.215.25.3,2080,8.215.25.3:2080,Elite,961,174.9,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
-http,112.169.99.71,8095,112.169.99.71:8095,Elite,989,127.2,KR,South Korea,Seoul,Korea Telecom,121.170.34.220
-http,112.169.99.71,8010,112.169.99.71:8010,Elite,1020,120.9,KR,South Korea,Seoul,Korea Telecom,121.181.20.128
-http,49.151.200.251,8080,49.151.200.251:8080,Elite,1028,170.6,PH,Philippines,Asingan,Philippine Long Distance Telephone Co.,49.151.200.251
-http,1.2.220.155,8080,1.2.220.155:8080,Elite,1102,186.9,TH,Thailand,Bangkok,TOT Public Company Limited,1.2.220.155
-http,47.81.56.193,8888,47.81.56.193:8888,Elite,1123,188.2,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
-http,165.101.43.81,3125,165.101.43.81:3125,Elite,1220,610,ID,Indonesia,South Kotabumi,PT Lintas Jaringan Nusantara,165.101.43.81
-http,81.163.26.163,11111,81.163.26.163:11111,Elite,1240,174.0,RU,Russian Federation,Moscow,JSC Selectel,149.28.228.179
-http,107.167.18.122,443,107.167.18.122:443,Elite,1254,627,US,United States,Los Angeles,Sharktech,107.167.18.99
-http,178.92.72.68,8080,178.92.72.68:8080,Elite,1265,237.4,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.68
-http,178.92.72.154,8080,178.92.72.154:8080,Elite,1284,244.6,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.154
-http,117.18.127.238,1082,117.18.127.238:1082,Elite,1330,186.5,TH,Thailand,Bangkok,"Siamdata Communication Co.,ltd.",117.18.127.238
-http,154.201.127.207,8080,154.201.127.207:8080,Elite,1549,236.0,IN,India,Dadri,CtrlS,154.201.127.207
-http,178.92.72.165,8080,178.92.72.165:8080,Elite,1552,239.4,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.165
-http,154.201.126.130,8080,154.201.126.130:8080,Elite,1554,229.6,IN,India,Dadri,CtrlS,154.201.126.130
-http,154.201.127.85,8080,154.201.127.85:8080,Elite,1578,232.7,IN,India,Dadri,CtrlS,154.201.127.85
-http,103.152.239.127,3125,103.152.239.127:3125,Elite,1839,174.2,ID,Indonesia,Jakarta,Indonesia Network Information Center,103.152.239.127
-http,51.170.133.249,80,51.170.133.249:80,Elite,1873,159.4,MA,Morocco,Oulad Salah,Oracle Corporation,51.170.133.249
-http,221.141.140.132,8118,221.141.140.132:8118,Elite,1994,997,KR,South Korea,Seoul,SK Broadband Co Ltd,187.14.63.127
-http,145.220.227.2,1081,145.220.227.2:1081,Elite,2098,1049,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.2
-http,159.65.233.169,54321,159.65.233.169:54321,Elite,2408,71.8,US,United States,North Bergen,"DigitalOcean, LLC",159.65.233.169
-http,145.220.227.2,3128,145.220.227.2:3128,Elite,2455,1207.6,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.2
+http,159.65.233.169,54321,159.65.233.169:54321,Elite,252,47.1,US,United States,North Bergen,"DigitalOcean, LLC",159.65.233.169
+http,145.220.227.6,1081,145.220.227.6:1081,Elite,1042,128.5,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.6
+http,1.231.81.166,3128,1.231.81.166:3128,Elite,1058,144.3,KR,South Korea,Seoul,SK Broadband Co Ltd,1.231.81.166
+http,47.239.13.202,3389,47.239.13.202:3389,Elite,1066,163.4,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",47.239.13.202
+http,185.109.244.69,8080,185.109.244.69:8080,Elite,1088,544,IR,Iran,Tehran,Asiatech Data Transmission company,185.109.244.69
+http,85.133.250.27,80,85.133.250.27:80,Elite,1111,203.4,IR,Iran,Tehran,Pars Abr Toseeh Ertebatat LTD,130.185.120.91
+http,43.128.109.40,8081,43.128.109.40:8081,Elite,1426,182.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.128.109.40
+http,43.157.98.90,8080,43.157.98.90:8080,Elite,1449,134.9,DE,Germany,Frankfurt am Main,Shenzhen Tencent Computer Systems Company Limited,43.157.98.90
+http,154.201.127.85,8080,154.201.127.85:8080,Elite,1626,246.8,IN,India,Dadri,CtrlS,154.201.127.85
+http,154.201.126.111,8080,154.201.126.111:8080,Elite,1634,243.9,IN,India,Dadri,CtrlS,154.201.126.111
+http,145.220.227.4,1081,145.220.227.4:1081,Elite,1634,817,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.4
+http,190.12.150.244,999,190.12.150.244:999,Elite,1834,917,EC,Ecuador,La Concordia,ONETELECOM CIA.LTDA.,190.12.150.244
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,1846,132.4,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,43.156.166.134,8080,43.156.166.134:8080,Elite,1864,182.2,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.166.134
+http,178.92.72.94,8080,178.92.72.94:8080,Elite,2206,350.4,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.94
+http,124.109.105.44,80,124.109.105.44:80,Elite,2228,251.6,BD,Bangladesh,Dhaka,Mutual Trust Bank Limited,124.109.105.44
+http,202.154.19.50,3125,202.154.19.50:3125,Elite,2247,208.5,ID,Indonesia,Mojokerto,PT Digital Media Telematika,202.154.19.50
+http,43.156.166.134,8081,43.156.166.134:8081,Elite,2475,182.1,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.166.134
