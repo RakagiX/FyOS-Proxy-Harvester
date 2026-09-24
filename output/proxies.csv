@@ -1,16 +1,33 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,218,20.9,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,107.167.18.122,443,107.167.18.122:443,Elite,330,55.7,US,United States,Los Angeles,Sharktech,107.167.18.99
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,347,65.2,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,483,94.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,193.29.225.77,8080,193.29.225.77:8080,Elite,635,111.5,FI,Finland,Helsinki,AEZA GROUP LLC,193.29.225.77
-http,95.3.69.222,8080,95.3.69.222:8080,Elite,815,133.3,TR,Türkiye,Izmir,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
-http,85.133.250.27,80,85.133.250.27:80,Elite,893,162.8,IR,Iran,Tehran,Pars Abr Toseeh Ertebatat LTD,130.185.120.91
-http,47.236.86.147,443,47.236.86.147:443,Elite,1162,222.4,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",47.236.86.147
-http,178.92.72.134,8080,178.92.72.134:8080,Elite,1286,213.8,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.134
-http,178.92.72.68,8080,178.92.72.68:8080,Elite,1335,201.5,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.68
-http,47.81.56.193,8888,47.81.56.193:8888,Elite,1363,263.9,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
-http,103.171.255.106,8080,103.171.255.106:8080,Elite,1395,249.4,ID,Indonesia,Yogyakarta,Indonesia Network Information Center,103.171.255.106
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,1583,64.1,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,38.194.246.34,999,38.194.246.34:999,Elite,1873,1097.8,MX,Mexico,Santiago de Queretaro,IENTC S DE RL DE CV,38.194.246.34
-http,185.68.185.4,8888,185.68.185.4:8888,Elite,2187,84.1,FR,France,Paris,Baykov Ilya Sergeevich,185.68.185.4
+http,107.167.18.122,443,107.167.18.122:443,Elite,112,8.0,US,United States,Los Angeles,Sharktech,107.167.18.99
+http,47.254.36.25,11080,47.254.36.25:11080,Elite,147,17.2,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",47.254.36.25
+http,43.110.40.117,8888,43.110.40.117:8888,Elite,155,17.5,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",43.110.40.117
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,161,16.3,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,153.51.241.50,999,153.51.241.50:999,Elite,503,1087.0,MX,Mexico,Cunduacan,JAVIER TAMAYO GARCIA,200.188.74.111
+http,167.86.104.220,80,167.86.104.220:80,Elite,654,140.0,FR,France,Lauterbourg,Contabo GmbH,167.86.104.220
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,658,136.9,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,193.29.225.77,8080,193.29.225.77:8080,Elite,873,178.4,FI,Finland,Helsinki,AEZA GROUP LLC,193.29.225.77
+http,174.138.165.211,38229,174.138.165.211:38229,Elite,924,462,US,United States,Phoenix,SECURED SERVERS LLC,45.86.208.113
+http,8.219.74.197,8081,8.219.74.197:8081,Elite,987,180.5,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.74.197
+http,49.0.2.104,8989,49.0.2.104:8989,Elite,1024,187.7,ID,Indonesia,Bogor,PT. Usaha Adisanggoro,49.0.2.122
+http,186.167.113.97,999,186.167.113.97:999,Elite,1034,1232.2,VE,Venezuela,Valencia,Corporacion Digitel C.A.,154.3.77.0
+http,95.3.69.222,8080,95.3.69.222:8080,Elite,1038,179.8,TR,Türkiye,Izmir,Turk Telekomunikasyon Anonim Sirketi,95.3.69.222
+http,8.215.25.3,2080,8.215.25.3:2080,Elite,1046,193.2,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
+http,103.156.14.35,8080,103.156.14.35:8080,Elite,1101,203.3,ID,Indonesia,Babat Toman,PT Lintas Jaringan Nusantara,103.156.14.35
+http,202.154.19.50,3125,202.154.19.50:3125,Elite,1132,1219.9,ID,Indonesia,Mojokerto,PT Digital Media Telematika,202.154.19.50
+http,103.82.246.19,6080,103.82.246.19:6080,Elite,1161,202.4,ID,Indonesia,Jakarta,Indonesia Network Information Center,103.82.246.19
+http,154.59.56.78,999,154.59.56.78:999,Elite,1268,125.1,VE,Venezuela,Caracas,TotalCom Venezuela C.A.,154.59.56.72
+http,178.92.72.78,8080,178.92.72.78:8080,Elite,1422,237.7,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.78
+http,37.59.125.131,8888,37.59.125.131:8888,Elite,1435,142.7,FR,France,Roubaix,OVH SAS,82.66.253.58
+http,165.99.192.25,1111,165.99.192.25:1111,Elite,1503,187.3,ID,Indonesia,Bekasi,PT IDN NUSANTARA NETWORK,165.99.192.23
+http,178.92.72.54,8080,178.92.72.54:8080,Elite,1577,238.6,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.54
+http,45.194.3.119,8080,45.194.3.119:8080,Elite,1601,246.4,IN,India,Dadri,CtrlS,45.194.3.119
+http,150.241.245.131,8080,150.241.245.131:8080,Elite,1603,238.9,IN,India,Delhi,Micro Hosting Private Limited,150.241.245.131
+http,174.138.165.213,32681,174.138.165.213:32681,Elite,1961,980,US,United States,Phoenix,SECURED SERVERS LLC,38.9.249.63
+http,8.219.97.248,80,8.219.97.248:80,Elite,2175,179.9,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
+http,185.109.244.69,8080,185.109.244.69:8080,Elite,2209,1104,IR,Iran,Tehran,Asiatech Data Transmission company,185.109.244.69
+http,174.138.162.37,34489,174.138.162.37:34489,Elite,2257,1128,US,United States,Phoenix,SECURED SERVERS LLC,70.185.51.223
+http,192.203.0.142,999,192.203.0.142:999,Elite,2286,1143,PR,Puerto Rico,San Juan,BOOM NET,192.203.0.142
+http,185.68.185.4,8888,185.68.185.4:8888,Elite,2300,128.7,FR,France,Paris,Baykov Ilya Sergeevich,185.68.185.4
+http,163.223.78.87,3127,163.223.78.87:3127,Elite,2351,1175,ID,Indonesia,Jombang,PT Big Network Indonesia,163.223.78.87
+http,217.182.195.221,30008,217.182.195.221:30008,Elite,2467,140.5,FR,France,Roubaix,OVH SAS,23.129.64.167
