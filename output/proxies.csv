@@ -1,23 +1,33 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,262,45.1,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,404,14.2,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,107.167.18.122,443,107.167.18.122:443,Elite,418,57.4,US,United States,Los Angeles,Sharktech,107.167.18.99
-http,45.71.186.213,999,45.71.186.213:999,Elite,572,286,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,181.78.194.249
-http,37.59.125.131,8888,37.59.125.131:8888,Elite,794,111.3,FR,France,Roubaix,OVH SAS,82.66.253.58
-http,165.154.7.156,8888,165.154.7.156:8888,Elite,1006,190.1,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.7.156
-http,210.211.113.37,80,210.211.113.37:80,Elite,1214,218.9,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.37
-http,103.189.223.38,8080,103.189.223.38:8080,Elite,1249,624,ID,Indonesia,Tangerang,Indonesia Network Information Center,103.189.223.38
-http,178.92.72.149,8080,178.92.72.149:8080,Elite,1362,207.4,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.149
-http,178.92.72.229,8080,178.92.72.229:8080,Elite,1398,221.4,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.229
-http,45.194.3.132,8080,45.194.3.132:8080,Elite,1476,255.9,IN,India,Dadri,CtrlS,45.194.3.132
-http,178.92.72.129,8080,178.92.72.129:8080,Elite,1504,214.0,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.129
-http,185.68.185.4,8888,185.68.185.4:8888,Elite,1592,103.3,FR,France,Paris,Baykov Ilya Sergeevich,185.68.185.4
-http,178.92.72.68,8080,178.92.72.68:8080,Elite,1620,209.4,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.68
-http,111.119.162.248,10933,111.119.162.248:10933,Elite,1721,202.7,PK,Pakistan,Karachi,Connect Communication,47.250.100.32
-http,154.201.126.44,8080,154.201.126.44:8080,Elite,1728,245.9,IN,India,Dadri,CtrlS,154.201.126.44
-http,167.86.104.220,80,167.86.104.220:80,Elite,1784,155.4,FR,France,Lauterbourg,Contabo GmbH,167.86.104.220
-http,163.5.53.34,8082,163.5.53.34:8082,Elite,1823,148.5,TR,Türkiye,Osmangazi,Vodafone Net Iletisim Hizmetler AS,163.5.53.34
-http,111.119.162.248,10980,111.119.162.248:10980,Elite,1833,219.6,PK,Pakistan,Karachi,Connect Communication,108.181.70.23
-http,27.54.121.90,8090,27.54.121.90:8090,Elite,1889,264.9,PK,Pakistan,New Mirpur City,Sky Telecom,27.54.121.90
-http,103.132.52.189,8080,103.132.52.189:8080,Elite,2233,225.6,ID,Indonesia,Pekalongan,Indonesia Network Information Center,103.132.52.189
-http,111.119.162.248,10938,111.119.162.248:10938,Elite,2339,213.5,PK,Pakistan,Karachi,Connect Communication,47.252.0.200
+http,167.99.8.113,8011,167.99.8.113:8011,Elite,50,7.2,US,United States,North Bergen,"DigitalOcean, LLC",167.99.8.113
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,110,19.6,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,107.167.18.122,443,107.167.18.122:443,Elite,303,55.9,US,United States,Los Angeles,Sharktech,107.167.18.99
+http,47.254.36.25,11080,47.254.36.25:11080,Elite,343,65.5,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",47.254.36.25
+http,145.220.227.6,9050,145.220.227.6:9050,Elite,442,83.4,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.6
+http,145.220.227.3,8080,145.220.227.3:8080,Elite,464,90.8,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.3
+http,145.220.227.1,8080,145.220.227.1:8080,Elite,501,84.5,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.1
+http,188.253.20.105,3129,188.253.20.105:3129,Elite,563,109.1,LV,Latvia,Riga,SIA VEESP,188.253.20.105
+http,145.220.227.4,1081,145.220.227.4:1081,Elite,659,94.2,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.4
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,669,95.5,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,174.138.161.146,36499,174.138.161.146:36499,Elite,672,50.8,US,United States,Phoenix,SECURED SERVERS LLC,73.245.180.158
+http,151.243.153.157,8118,151.243.153.157:8118,Elite,789,151.1,JP,Japan,Tokyo,Black Apple,151.243.153.157
+http,185.135.99.14,8080,185.135.99.14:8080,Elite,886,1173.3,TR,Türkiye,Mersin,ARINET SECURITY & INTERNET CONSULTANCY LTD,185.135.99.14
+http,101.32.65.42,8888,101.32.65.42:8888,Elite,1089,199.8,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,101.32.72.181
+http,217.182.195.221,30003,217.182.195.221:30003,Elite,1141,86.2,FR,France,Roubaix,OVH SAS,193.218.118.128
+http,103.189.223.38,8080,103.189.223.38:8080,Elite,1238,1280.5,ID,Indonesia,Tirtayasa,Indonesia Network Information Center,103.189.223.38
+http,62.146.238.61,8888,62.146.238.61:8888,Elite,1243,232.5,SG,Singapore,Singapore,Contabo Asia Private Limited,62.146.238.61
+http,47.81.56.193,8888,47.81.56.193:8888,Elite,1287,244.5,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
+http,103.171.255.178,8080,103.171.255.178:8080,Elite,1359,679,ID,Indonesia,Yogyakarta,Indonesia Network Information Center,103.171.255.178
+http,115.77.162.27,8080,115.77.162.27:8080,Elite,1360,234.6,VN,Viet Nam,Ho Chi Minh City,Viettel Group,115.77.162.27
+http,150.241.245.131,8080,150.241.245.131:8080,Elite,1364,197.0,IN,India,Delhi,Micro Hosting Private Limited,150.241.245.131
+http,36.89.82.54,8080,36.89.82.54:8080,Elite,1372,256.8,ID,Indonesia,Jakarta,Telekomunikasi Indonesia PT,36.89.82.54
+http,126.209.107.122,5050,126.209.107.122:5050,Elite,1431,1287.6,PH,Philippines,Manila,Infinivan Inc.,126.209.107.122
+http,38.194.251.246,999,38.194.251.246:999,Elite,1465,732,MX,Mexico,Santiago de Queretaro,IENTC S DE RL DE CV,38.194.251.246
+http,174.138.161.186,30001,174.138.161.186:30001,Elite,1518,759,US,United States,Phoenix,SECURED SERVERS LLC,47.151.64.222
+http,124.105.3.173,5051,124.105.3.173:5051,Elite,1611,805,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,124.105.3.173
+http,89.43.132.231,8080,89.43.132.231:8080,Elite,2071,1035,SY,Syrian Arab Republic,Kafr Takharim,High Speed For Internet Services L.L.C,89.43.132.231
+http,47.239.140.6,80,47.239.140.6:80,Elite,2077,1038,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",8.218.70.186
+http,217.182.195.221,30004,217.182.195.221:30004,Elite,2127,86.0,FR,France,Roubaix,OVH SAS,192.3.42.78
+http,145.220.227.7,8080,145.220.227.7:8080,Elite,2196,1098,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.7
+http,185.133.213.86,8074,185.133.213.86:8074,Elite,2271,1135,MM,Myanmar,Yangon,"Global Technology Co., Ltd.",185.133.213.86
+http,24.52.147.103,5999,24.52.147.103:5999,Elite,2309,34.1,US,United States,Havana,"Cass Cable TV, Inc.",24.52.147.103
