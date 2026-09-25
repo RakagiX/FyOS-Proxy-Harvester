@@ -1,22 +1,23 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,95,2.4,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,206.135.63.146,999,206.135.63.146:999,Elite,401,200,MX,Mexico,Mexico City,IENTC S DE RL DE CV,206.135.63.146
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,707,165.5,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,38.211.76.203,999,38.211.76.203:999,Elite,737,368,CO,Colombia,Garzon,FIBERNET TV SAS,38.211.76.203
-http,193.233.211.220,8443,193.233.211.220:8443,Elite,754,159.1,NL,Netherlands,Amsterdam,AEZA GROUP LLC,193.233.211.220
-http,45.167.126.128,999,45.167.126.128:999,Elite,821,107.7,CO,Colombia,Popayan,SEPCOM COMUNICACIONES SAS,45.167.126.128
-http,128.199.202.122,8080,128.199.202.122:8080,Elite,929,168.0,SG,Singapore,Singapore,"DigitalOcean, LLC",128.199.202.122
-http,167.86.104.220,80,167.86.104.220:80,Elite,977,169.6,FR,France,Lauterbourg,Contabo GmbH,167.86.104.220
-http,210.211.113.35,80,210.211.113.35:80,Elite,1076,180.7,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.35
-http,43.134.39.221,10000,43.134.39.221:10000,Elite,1105,168.6,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.134.39.221
-http,193.29.225.77,8080,193.29.225.77:8080,Elite,1134,189.4,FI,Finland,Helsinki,AEZA GROUP LLC,193.29.225.77
-http,101.36.112.205,1081,101.36.112.205:1081,Elite,1146,573,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,101.36.112.205
-http,139.59.1.14,8080,139.59.1.14:8080,Elite,1226,234.7,IN,India,Bengaluru,"DigitalOcean, LLC",139.59.1.14
-http,89.43.134.202,8080,89.43.134.202:8080,Elite,1235,206.0,SY,Syrian Arab Republic,Aleppo,High Speed For Internet Services L.L.C,89.43.134.202
-http,144.31.34.16,3129,144.31.34.16:3129,Elite,1345,144.0,DE,Germany,Berlin,Packet Loss LTD,80.67.167.81
-http,38.41.0.116,999,38.41.0.116:999,Elite,1643,821,VE,Venezuela,Domingo Pena,MDS TELECOM C.A.,38.41.29.83
-http,165.99.192.31,1111,165.99.192.31:1111,Elite,2032,1016,ID,Indonesia,Bekasi,PT IDN NUSANTARA NETWORK,165.99.192.21
-http,37.59.125.131,8888,37.59.125.131:8888,Elite,2099,166.6,FR,France,Roubaix,OVH SAS,82.66.253.58
-http,186.167.113.97,999,186.167.113.97:999,Elite,2110,1055,VE,Venezuela,Valencia,Corporacion Digitel C.A.,154.3.77.0
-http,38.75.82.210,999,38.75.82.210:999,Elite,2222,1145.5,DO,Dominican Republic,Santo Domingo Oeste,"ACOLME TECH, SRL",38.75.82.210
-http,102.68.76.247,5566,102.68.76.247:5566,Elite,2242,241.2,KE,Kenya,Nairobi,Unwired Communications Limited,102.68.76.247
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,262,45.1,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,404,14.2,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,107.167.18.122,443,107.167.18.122:443,Elite,418,57.4,US,United States,Los Angeles,Sharktech,107.167.18.99
+http,45.71.186.213,999,45.71.186.213:999,Elite,572,286,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,181.78.194.249
+http,37.59.125.131,8888,37.59.125.131:8888,Elite,794,111.3,FR,France,Roubaix,OVH SAS,82.66.253.58
+http,165.154.7.156,8888,165.154.7.156:8888,Elite,1006,190.1,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.7.156
+http,210.211.113.37,80,210.211.113.37:80,Elite,1214,218.9,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.37
+http,103.189.223.38,8080,103.189.223.38:8080,Elite,1249,624,ID,Indonesia,Tangerang,Indonesia Network Information Center,103.189.223.38
+http,178.92.72.149,8080,178.92.72.149:8080,Elite,1362,207.4,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.149
+http,178.92.72.229,8080,178.92.72.229:8080,Elite,1398,221.4,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.229
+http,45.194.3.132,8080,45.194.3.132:8080,Elite,1476,255.9,IN,India,Dadri,CtrlS,45.194.3.132
+http,178.92.72.129,8080,178.92.72.129:8080,Elite,1504,214.0,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.129
+http,185.68.185.4,8888,185.68.185.4:8888,Elite,1592,103.3,FR,France,Paris,Baykov Ilya Sergeevich,185.68.185.4
+http,178.92.72.68,8080,178.92.72.68:8080,Elite,1620,209.4,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.68
+http,111.119.162.248,10933,111.119.162.248:10933,Elite,1721,202.7,PK,Pakistan,Karachi,Connect Communication,47.250.100.32
+http,154.201.126.44,8080,154.201.126.44:8080,Elite,1728,245.9,IN,India,Dadri,CtrlS,154.201.126.44
+http,167.86.104.220,80,167.86.104.220:80,Elite,1784,155.4,FR,France,Lauterbourg,Contabo GmbH,167.86.104.220
+http,163.5.53.34,8082,163.5.53.34:8082,Elite,1823,148.5,TR,Türkiye,Osmangazi,Vodafone Net Iletisim Hizmetler AS,163.5.53.34
+http,111.119.162.248,10980,111.119.162.248:10980,Elite,1833,219.6,PK,Pakistan,Karachi,Connect Communication,108.181.70.23
+http,27.54.121.90,8090,27.54.121.90:8090,Elite,1889,264.9,PK,Pakistan,New Mirpur City,Sky Telecom,27.54.121.90
+http,103.132.52.189,8080,103.132.52.189:8080,Elite,2233,225.6,ID,Indonesia,Pekalongan,Indonesia Network Information Center,103.132.52.189
+http,111.119.162.248,10938,111.119.162.248:10938,Elite,2339,213.5,PK,Pakistan,Karachi,Connect Communication,47.252.0.200
