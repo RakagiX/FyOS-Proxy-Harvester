@@ -1,33 +1,51 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,167.99.8.113,8011,167.99.8.113:8011,Elite,50,7.2,US,United States,North Bergen,"DigitalOcean, LLC",167.99.8.113
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,110,19.6,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,107.167.18.122,443,107.167.18.122:443,Elite,303,55.9,US,United States,Los Angeles,Sharktech,107.167.18.99
-http,47.254.36.25,11080,47.254.36.25:11080,Elite,343,65.5,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",47.254.36.25
-http,145.220.227.6,9050,145.220.227.6:9050,Elite,442,83.4,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.6
-http,145.220.227.3,8080,145.220.227.3:8080,Elite,464,90.8,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.3
-http,145.220.227.1,8080,145.220.227.1:8080,Elite,501,84.5,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.1
-http,188.253.20.105,3129,188.253.20.105:3129,Elite,563,109.1,LV,Latvia,Riga,SIA VEESP,188.253.20.105
-http,145.220.227.4,1081,145.220.227.4:1081,Elite,659,94.2,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.4
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,669,95.5,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,174.138.161.146,36499,174.138.161.146:36499,Elite,672,50.8,US,United States,Phoenix,SECURED SERVERS LLC,73.245.180.158
-http,151.243.153.157,8118,151.243.153.157:8118,Elite,789,151.1,JP,Japan,Tokyo,Black Apple,151.243.153.157
-http,185.135.99.14,8080,185.135.99.14:8080,Elite,886,1173.3,TR,Türkiye,Mersin,ARINET SECURITY & INTERNET CONSULTANCY LTD,185.135.99.14
-http,101.32.65.42,8888,101.32.65.42:8888,Elite,1089,199.8,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,101.32.72.181
-http,217.182.195.221,30003,217.182.195.221:30003,Elite,1141,86.2,FR,France,Roubaix,OVH SAS,193.218.118.128
-http,103.189.223.38,8080,103.189.223.38:8080,Elite,1238,1280.5,ID,Indonesia,Tirtayasa,Indonesia Network Information Center,103.189.223.38
-http,62.146.238.61,8888,62.146.238.61:8888,Elite,1243,232.5,SG,Singapore,Singapore,Contabo Asia Private Limited,62.146.238.61
-http,47.81.56.193,8888,47.81.56.193:8888,Elite,1287,244.5,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
-http,103.171.255.178,8080,103.171.255.178:8080,Elite,1359,679,ID,Indonesia,Yogyakarta,Indonesia Network Information Center,103.171.255.178
-http,115.77.162.27,8080,115.77.162.27:8080,Elite,1360,234.6,VN,Viet Nam,Ho Chi Minh City,Viettel Group,115.77.162.27
-http,150.241.245.131,8080,150.241.245.131:8080,Elite,1364,197.0,IN,India,Delhi,Micro Hosting Private Limited,150.241.245.131
-http,36.89.82.54,8080,36.89.82.54:8080,Elite,1372,256.8,ID,Indonesia,Jakarta,Telekomunikasi Indonesia PT,36.89.82.54
-http,126.209.107.122,5050,126.209.107.122:5050,Elite,1431,1287.6,PH,Philippines,Manila,Infinivan Inc.,126.209.107.122
-http,38.194.251.246,999,38.194.251.246:999,Elite,1465,732,MX,Mexico,Santiago de Queretaro,IENTC S DE RL DE CV,38.194.251.246
-http,174.138.161.186,30001,174.138.161.186:30001,Elite,1518,759,US,United States,Phoenix,SECURED SERVERS LLC,47.151.64.222
-http,124.105.3.173,5051,124.105.3.173:5051,Elite,1611,805,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,124.105.3.173
-http,89.43.132.231,8080,89.43.132.231:8080,Elite,2071,1035,SY,Syrian Arab Republic,Kafr Takharim,High Speed For Internet Services L.L.C,89.43.132.231
-http,47.239.140.6,80,47.239.140.6:80,Elite,2077,1038,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",8.218.70.186
-http,217.182.195.221,30004,217.182.195.221:30004,Elite,2127,86.0,FR,France,Roubaix,OVH SAS,192.3.42.78
-http,145.220.227.7,8080,145.220.227.7:8080,Elite,2196,1098,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.7
-http,185.133.213.86,8074,185.133.213.86:8074,Elite,2271,1135,MM,Myanmar,Yangon,"Global Technology Co., Ltd.",185.133.213.86
-http,24.52.147.103,5999,24.52.147.103:5999,Elite,2309,34.1,US,United States,Havana,"Cass Cable TV, Inc.",24.52.147.103
+http,34.43.46.91,80,34.43.46.91:80,Elite,307,19.1,US,United States,San Jose,Google LLC,34.143.51.195
+http,145.220.227.6,8080,145.220.227.6:8080,Elite,520,117.8,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.6
+http,145.220.227.4,1081,145.220.227.4:1081,Elite,528,111.8,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.4
+http,145.220.227.5,1081,145.220.227.5:1081,Elite,530,111.1,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.5
+http,145.220.227.1,1081,145.220.227.1:1081,Elite,537,111.3,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.1
+http,145.220.227.5,8080,145.220.227.5:8080,Elite,540,109.8,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.5
+http,145.220.227.6,9050,145.220.227.6:9050,Elite,545,120.2,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.6
+http,145.220.227.5,9050,145.220.227.5:9050,Elite,704,108.4,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.5
+http,109.120.187.29,8080,109.120.187.29:8080,Elite,723,128.9,FI,Finland,Helsinki,AEZA GROUP LLC,109.120.187.29
+http,87.215.14.228,65432,87.215.14.228:65432,Elite,851,114.8,NL,Netherlands,Amsterdam,Odido Netherlands B.V.,87.215.14.228
+http,185.68.185.4,8888,185.68.185.4:8888,Elite,861,109.0,FR,France,Paris,Baykov Ilya Sergeevich,185.68.185.4
+http,193.227.129.195,8038,193.227.129.195:8038,Elite,892,446,US,United States,Bend,Tier.Net Technologies LLC,68.147.15.99
+http,194.124.36.16,8080,194.124.36.16:8080,Elite,906,169.8,TR,Türkiye,Istanbul,High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.,194.124.36.16
+http,193.43.145.231,8080,193.43.145.231:8080,Elite,913,154.5,SY,Syrian Arab Republic,Babila,Syrian Telecommunication Private Closed Joint Stock Company,193.43.145.231
+http,186.10.150.185,8080,186.10.150.185:8080,Elite,916,458,CL,Chile,Santiago,ENTEL CHILE S.A.,186.10.150.185
+http,198.145.118.103,8080,198.145.118.103:8080,Elite,957,172.5,TR,Türkiye,Reyhanli,High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.,198.145.118.103
+http,201.4.69.195,8080,201.4.69.195:8080,Elite,958,1191.0,TR,Türkiye,Kilis,High Speed For Internet Services L.L.C,201.4.69.195
+http,181.119.67.73,999,181.119.67.73:999,Elite,1027,95.8,CO,Colombia,Bogota,UFINET PANAMA S.A.,181.119.67.73
+http,103.155.198.163,8080,103.155.198.163:8080,Elite,1129,564,ID,Indonesia,Bekasi,PT Lintas Jaringan Nusantara,103.155.198.163
+http,49.147.59.16,8082,49.147.59.16:8082,Elite,1148,206.8,PH,Philippines,Calamba,Philippine Long Distance Telephone Co.,49.147.59.16
+http,210.211.113.33,80,210.211.113.33:80,Elite,1165,212.3,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.33
+http,178.92.72.149,8080,178.92.72.149:8080,Elite,1181,220.5,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.149
+http,45.198.11.177,9191,45.198.11.177:9191,Elite,1192,1263.5,ID,Indonesia,Surakarta,Indonesia Network Information Center,45.198.11.175
+http,202.58.66.44,8080,202.58.66.44:8080,Elite,1204,1258.7,ID,Indonesia,Punung,Indonesia Network Information Center,202.58.66.44
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,1207,1086.1,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,174.138.162.234,8182,174.138.162.234:8182,Elite,1209,156.5,US,United States,Phoenix,SECURED SERVERS LLC,177.246.90.45
+http,49.48.81.22,8080,49.48.81.22:8080,Elite,1209,228.3,TH,Thailand,Nakhon Ratchasima,Advanced Wireless Network Company Limited,49.48.81.22
+http,145.220.227.2,1081,145.220.227.2:1081,Elite,1244,622,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.2
+http,103.158.62.37,2626,103.158.62.37:2626,Elite,1255,1256.5,BD,Bangladesh,Rajnagar,Search IT,103.158.62.220
+http,180.191.232.80,5002,180.191.232.80:5002,Elite,1290,247.5,PH,Philippines,Columbio,"Globe Telecom GMCR,INC",180.191.232.80
+http,178.92.72.68,8080,178.92.72.68:8080,Elite,1399,223.7,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.68
+http,217.182.195.221,30002,217.182.195.221:30002,Elite,1425,111.6,FR,France,Roubaix,OVH SAS,185.220.100.243
+http,71.168.71.12,8889,71.168.71.12:8889,Elite,1439,44.3,US,United States,Manchester,Fidium,192.42.116.108
+http,111.119.162.248,10977,111.119.162.248:10977,Elite,1478,217.6,PK,Pakistan,Karachi,Connect Communication,209.46.102.22
+http,154.201.126.44,8080,154.201.126.44:8080,Elite,1495,233.2,IN,India,Dadri,CtrlS,154.201.126.44
+http,145.220.227.6,1081,145.220.227.6:1081,Elite,1588,1164.5,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.6
+http,178.92.72.129,8080,178.92.72.129:8080,Elite,1622,220.8,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.129
+http,111.119.162.248,10938,111.119.162.248:10938,Elite,1636,212.7,PK,Pakistan,Karachi,Connect Communication,8.216.119.64
+http,111.119.162.248,10901,111.119.162.248:10901,Elite,1736,211.4,PK,Pakistan,Karachi,Connect Communication,47.91.104.218
+http,217.35.245.225,8888,217.35.245.225:8888,Elite,1757,878,GB,United Kingdom,Wallasey,British Telecommunications Limited,193.9.37.18
+http,145.220.227.7,1081,145.220.227.7:1081,Elite,1791,115.4,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.7
+http,111.119.162.248,10933,111.119.162.248:10933,Elite,1807,221.8,PK,Pakistan,Karachi,Connect Communication,47.243.1.32
+http,145.220.227.7,8080,145.220.227.7:8080,Elite,1851,106.8,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.7
+http,178.92.72.94,8080,178.92.72.94:8080,Elite,1871,220.6,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.94
+http,111.119.162.248,10910,111.119.162.248:10910,Elite,1884,215.5,PK,Pakistan,Karachi,Connect Communication,47.88.81.2
+http,145.220.227.1,9050,145.220.227.1:9050,Elite,1886,110.9,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.227.1
+http,111.119.162.248,10971,111.119.162.248:10971,Elite,1999,224.6,PK,Pakistan,Karachi,Connect Communication,47.252.0.200
+http,180.191.127.7,8082,180.191.127.7:8082,Elite,2139,1069,PH,Philippines,Licab,"Globe Telecom GMCR,INC",124.104.213.76
+http,131.153.1.46,37255,131.153.1.46:37255,Elite,2210,33.5,US,United States,Washington,SECURED SERVERS LLC,67.58.250.92
+http,111.119.162.248,10936,111.119.162.248:10936,Elite,2224,210.9,PK,Pakistan,Karachi,Connect Communication,8.215.16.244
