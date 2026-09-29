@@ -1,11 +1,14 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,104.233.202.124,22609,104.233.202.124:22609,Elite,84,1.6,US,United States,San Jose,PEG TECH INC,104.233.202.124
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,96,2.8,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,257,55.8,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,107.167.18.122,443,107.167.18.122:443,Elite,400,8.8,US,United States,Los Angeles,Sharktech,107.167.18.99
-http,8.215.25.3,2080,8.215.25.3:2080,Elite,994,182.2,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
-http,165.154.7.156,8888,165.154.7.156:8888,Elite,1108,150.0,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.7.156
-http,146.190.60.147,8019,146.190.60.147:8019,Elite,1217,97.3,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
-http,178.92.72.129,8080,178.92.72.129:8080,Elite,1540,256.0,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.129
-http,184.22.3.3,8080,184.22.3.3:8080,Elite,2168,201.2,TH,Thailand,Ko Samui,Advanced Wireless Network Company Limited,184.22.3.3
-http,203.205.49.2,10222,203.205.49.2:10222,Elite,2174,172.0,VN,Viet Nam,Hanoi,CMC Telecom Infrastructure Company,203.205.49.225
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,120,23.9,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,107.167.18.122,443,107.167.18.122:443,Elite,346,45.5,US,United States,Los Angeles,Sharktech,107.167.18.99
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,574,117.3,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,101.32.65.42,8888,101.32.65.42:8888,Elite,971,180.6,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,101.32.76.202
+http,2.28.105.45,8888,2.28.105.45:8888,Elite,1100,118.6,DE,Germany,Falkenstein/Vogtl.,Hetzner Online GmbH,45.192.34.63
+http,8.215.112.214,7777,8.215.112.214:7777,Elite,1117,210.7,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.112.214
+http,200.71.109.10,999,200.71.109.10:999,Elite,1144,572,MX,Mexico,Zongozotla,DIGY NETWORKS,200.225.60.42
+http,102.0.20.200,8080,102.0.20.200:8080,Elite,1294,217.3,KE,Kenya,Nairobi,Airtel Networks Kenya Limited,102.0.20.200
+http,45.195.90.228,8080,45.195.90.228:8080,Elite,1447,230.1,IN,India,Dadri,CtrlS,45.195.90.228
+http,45.195.90.142,8080,45.195.90.142:8080,Elite,1474,273.9,IN,India,Dadri,CtrlS,45.195.90.142
+http,36.137.204.11,8002,36.137.204.11:8002,Elite,1628,245.7,CN,China,Yuzhong,"China Mobile Communications Group Co., LTD",137.220.43.243
+http,113.95.132.131,9999,113.95.132.131:9999,Elite,1908,954,CN,China,Zhaoqing,"No.31,Jin-rong Street",94.177.131.117
+http,103.13.235.86,3125,103.13.235.86:3125,Elite,1996,998,ID,Indonesia,Pontianak,Indonesia Network Information Center,103.13.235.86
