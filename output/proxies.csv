@@ -1,14 +1,35 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,120,23.9,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,107.167.18.122,443,107.167.18.122:443,Elite,346,45.5,US,United States,Los Angeles,Sharktech,107.167.18.99
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,574,117.3,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,101.32.65.42,8888,101.32.65.42:8888,Elite,971,180.6,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,101.32.76.202
-http,2.28.105.45,8888,2.28.105.45:8888,Elite,1100,118.6,DE,Germany,Falkenstein/Vogtl.,Hetzner Online GmbH,45.192.34.63
-http,8.215.112.214,7777,8.215.112.214:7777,Elite,1117,210.7,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.112.214
-http,200.71.109.10,999,200.71.109.10:999,Elite,1144,572,MX,Mexico,Zongozotla,DIGY NETWORKS,200.225.60.42
-http,102.0.20.200,8080,102.0.20.200:8080,Elite,1294,217.3,KE,Kenya,Nairobi,Airtel Networks Kenya Limited,102.0.20.200
-http,45.195.90.228,8080,45.195.90.228:8080,Elite,1447,230.1,IN,India,Dadri,CtrlS,45.195.90.228
-http,45.195.90.142,8080,45.195.90.142:8080,Elite,1474,273.9,IN,India,Dadri,CtrlS,45.195.90.142
-http,36.137.204.11,8002,36.137.204.11:8002,Elite,1628,245.7,CN,China,Yuzhong,"China Mobile Communications Group Co., LTD",137.220.43.243
-http,113.95.132.131,9999,113.95.132.131:9999,Elite,1908,954,CN,China,Zhaoqing,"No.31,Jin-rong Street",94.177.131.117
-http,103.13.235.86,3125,103.13.235.86:3125,Elite,1996,998,ID,Indonesia,Pontianak,Indonesia Network Information Center,103.13.235.86
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,105,18.4,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,107.167.18.122,443,107.167.18.122:443,Elite,362,53.3,US,United States,Los Angeles,Sharktech,107.167.18.99
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,484,44.9,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,193.233.211.220,8443,193.233.211.220:8443,Elite,572,105.5,NL,Netherlands,Amsterdam,AEZA GROUP LLC,193.233.211.220
+http,144.124.251.24,10123,144.124.251.24:10123,Elite,596,114.0,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,195.123.212.87,3056,195.123.212.87:3056,Elite,745,372,LV,Latvia,Riga,ROUTE 95 LLC,195.123.212.87
+http,141.11.21.176,8080,141.11.21.176:8080,Elite,912,126.6,NL,Netherlands,Amsterdam,OVH SAS,141.11.21.176
+http,203.205.49.2,10062,203.205.49.2:10062,Elite,1132,211.9,VN,Viet Nam,Hanoi,CMC Telecom Infrastructure Company,203.205.49.65
+http,2.28.105.45,8888,2.28.105.45:8888,Elite,1154,115.1,DE,Germany,Falkenstein/Vogtl.,Hetzner Online GmbH,45.192.34.63
+http,162.4.78.53,8080,162.4.78.53:8080,Elite,1157,219.4,ID,Indonesia,Serang,PT PANHA NETWORK SOLUTION,162.4.78.53
+http,210.211.113.37,80,210.211.113.37:80,Elite,1176,588,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.37
+http,184.82.165.104,8080,184.82.165.104:8080,Elite,1253,626,TH,Thailand,Khong Chai,Advanced Wireless Network Company Limited,184.82.165.104
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,1268,52.4,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,180.194.78.50,8082,180.194.78.50:8082,Elite,1269,211.2,PH,Philippines,Payabon,Philippine Long Distance Telephone Co.,180.194.78.50
+http,45.170.131.218,999,45.170.131.218:999,Elite,1371,685,PY,Paraguay,Ciudad del Este,GIG NET SOCIEDAD ANONIMA,45.170.131.218
+http,178.92.72.94,8080,178.92.72.94:8080,Elite,1440,203.0,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.94
+http,206.237.106.160,8080,206.237.106.160:8080,Elite,1488,222.3,PH,Philippines,Manila,Indonesia Network Information Center,206.237.106.160
+http,193.43.145.120,8080,193.43.145.120:8080,Elite,1514,145.9,SY,Syrian Arab Republic,Damascus,Syrian Telecommunication Private Closed Joint Stock Company,193.43.145.121
+http,203.205.49.2,10007,203.205.49.2:10007,Elite,1521,202.4,VN,Viet Nam,Hanoi,CMC Telecom Infrastructure Company,203.205.49.10
+http,150.241.245.211,8080,150.241.245.211:8080,Elite,1547,203.0,IN,India,Delhi,Micro Hosting Private Limited,150.241.245.211
+http,38.76.138.14,999,38.76.138.14:999,Elite,1573,786,VE,Venezuela,Caracas,"CORPORACIÓN GALA IT, C.A.",38.76.138.14
+http,177.234.221.204,999,177.234.221.204:999,Elite,1592,796,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,177.234.221.194
+http,94.102.193.91,8080,94.102.193.91:8080,Elite,1649,824,IE,Ireland,Dublin,Regional Telecom Ltd,94.102.193.91
+http,51.170.133.249,80,51.170.133.249:80,Elite,1673,141.8,MA,Morocco,Oulad Salah,Oracle Corporation,51.170.133.249
+http,201.150.148.225,8080,201.150.148.225:8080,Elite,2025,1237.0,BR,Brazil,Vigia,Halley Telecom Comercio & Serviço Ltda,201.150.148.225
+http,116.204.166.204,8080,116.204.166.204:8080,Elite,2025,165.0,DE,Germany,Frankfurt am Main,High Speed For Internet Services L.L.C,116.204.166.204
+http,178.217.168.164,55443,178.217.168.164:55443,Elite,2099,1205.6,KG,Kyrgyzstan,Bishkek,KRENA - Kyrgyz research and education network association,178.217.168.164
+http,45.71.186.213,999,45.71.186.213:999,Elite,2108,1131.1,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,181.78.194.249
+http,103.173.162.49,8818,103.173.162.49:8818,Elite,2176,1270.4,ID,Indonesia,Gempol,Indonesia Network Information Center,103.173.162.49
+http,186.10.150.185,8080,186.10.150.185:8080,Elite,2195,1181.3,CL,Chile,Santiago,ENTEL CHILE S.A.,186.10.150.185
+http,8.243.73.66,8080,8.243.73.66:8080,Elite,2270,1135,CO,Colombia,Bogota,"Level 3 Parent, LLC",8.243.73.68
+http,190.94.244.30,8080,190.94.244.30:8080,Elite,2320,72.1,VE,Venezuela,Caracas,IFX Networks Venezuela C.A.,190.94.244.30
+http,116.101.76.225,2094,116.101.76.225:2094,Elite,2411,222.6,VN,Viet Nam,Thanh Hoa,Viettel Group,171.234.160.152
+http,109.127.199.125,9999,109.127.199.125:9999,Elite,2453,414.7,SI,Slovenia,Ljubljana,ARNES,109.127.199.125
