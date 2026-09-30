@@ -1,24 +1,37 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,159.89.51.75,10000,159.89.51.75:10000,Elite,50,6.8,US,United States,North Bergen,"DigitalOcean, LLC",159.89.51.75
-http,68.183.130.198,10000,68.183.130.198:10000,Elite,58,7.2,US,United States,North Bergen,"DigitalOcean, LLC",68.183.130.198
-http,68.183.27.6,10000,68.183.27.6:10000,Elite,60,7.9,US,United States,North Bergen,"DigitalOcean, LLC",68.183.27.6
-http,159.89.87.80,10000,159.89.87.80:10000,Elite,79,7.3,US,United States,North Bergen,"DigitalOcean, LLC",159.89.87.80
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,164,15.1,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,68.183.27.147,10000,68.183.27.147:10000,Elite,216,7.3,US,United States,North Bergen,"DigitalOcean, LLC",68.183.27.147
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,541,70.0,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,185.201.65.242,1999,185.201.65.242:1999,Elite,598,113.6,IT,Italy,Milan,Host SpA,185.201.65.242
-http,107.167.18.122,443,107.167.18.122:443,Elite,743,55.9,US,United States,Los Angeles,Sharktech,107.167.18.99
-http,146.190.60.147,8006,146.190.60.147:8006,Elite,1122,111.4,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
-http,103.97.140.110,8080,103.97.140.110:8080,Elite,1259,629,ID,Indonesia,Bandung,Indonesia Network Information Center,103.97.140.110
-http,47.81.56.193,8888,47.81.56.193:8888,Elite,1280,247.3,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
-http,45.195.105.20,8080,45.195.105.20:8080,Elite,1304,204.8,IN,India,Mumbai,YOTTA NETWORK SERVICES PRIVATE LIMITED,45.195.105.20
-http,103.227.187.1,6080,103.227.187.1:6080,Elite,1343,671,ID,Indonesia,Banyuwangi,Indonesia Network Information Center,103.227.187.1
-http,178.92.72.134,8080,178.92.72.134:8080,Elite,1355,204.7,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.134
-http,153.51.241.50,999,153.51.241.50:999,Elite,1443,1125.2,MX,Mexico,Cunduacan,JAVIER TAMAYO GARCIA,200.188.74.111
-http,157.245.70.5,10000,157.245.70.5:10000,Elite,1544,105.3,NL,Netherlands,Amsterdam,"DigitalOcean, LLC",157.245.70.5
-http,177.234.211.195,999,177.234.211.195:999,Elite,1943,971,EC,Ecuador,Guayaquil,VUELATECHNOLOGY S.A.S.,177.234.211.205
-http,8.215.112.214,7777,8.215.112.214:7777,Elite,1960,233.6,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.112.214
-http,113.176.118.255,7654,113.176.118.255:7654,Elite,2105,1052,VN,Viet Nam,Dien Ban,VNPT Corp,113.176.118.255
-http,177.234.221.203,999,177.234.221.203:999,Elite,2115,1057,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,177.234.221.194
-http,38.56.111.104,999,38.56.111.104:999,Elite,2138,1069,PE,Peru,Arequipa,M & B Soluciones Peru S.A.C. FASTNET,38.56.111.106
-http,152.53.183.107,8081,152.53.183.107:8081,Elite,2301,1096.3,DE,Germany,Nuremberg,netcup GmbH,152.53.183.107
+http,34.221.158.247,1000,34.221.158.247:1000,Elite,158,13.1,US,United States,Boardman,"Amazon.com, Inc.",34.221.158.247
+http,54.235.192.64,442,54.235.192.64:442,Elite,283,69.9,US,United States,Washington,"Amazon.com, Inc.",54.235.192.64
+http,68.183.17.102,10000,68.183.17.102:10000,Elite,321,72.4,US,United States,North Bergen,"DigitalOcean, LLC",68.183.17.102
+http,68.183.130.198,10000,68.183.130.198:10000,Elite,330,68.5,US,United States,North Bergen,"DigitalOcean, LLC",68.183.130.198
+http,159.89.239.204,10000,159.89.239.204:10000,Elite,348,72.9,US,United States,North Bergen,"DigitalOcean, LLC",159.89.239.204
+http,43.165.191.196,1082,43.165.191.196:1082,Elite,570,98.2,JP,Japan,Tokyo,Shenzhen Tencent Computer Systems Company Limited,43.165.191.196
+http,205.235.1.34,999,205.235.1.34:999,Elite,725,1140.2,EC,Ecuador,Quito,TELECU TELECOMUNICACIONES DEL ECUADOR TELECUSA S.A.S.,181.78.195.137
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,726,156.0,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,181.119.224.25,8080,181.119.224.25:8080,Elite,854,131.9,EC,Ecuador,Quito,UFINET PANAMA S.A.,181.119.224.25
+http,103.172.42.81,1111,103.172.42.81:1111,Elite,939,175.8,ID,Indonesia,Cikampek,Indonesia Network Information Center,150.107.104.190
+http,103.247.23.103,1111,103.247.23.103:1111,Elite,966,175.6,ID,Indonesia,Pemalang,WIFIAN ID,103.247.21.84
+http,210.211.113.37,80,210.211.113.37:80,Elite,1012,171.4,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.37
+http,103.247.22.84,8080,103.247.22.84:8080,Elite,1045,181.4,ID,Indonesia,Bekasi,WIFIAN ID,103.247.22.84
+http,171.245.253.160,8080,171.245.253.160:8080,Elite,1049,524,VN,Viet Nam,Ho Chi Minh City,Viettel Group,171.245.253.160
+http,103.184.52.202,8080,103.184.52.202:8080,Elite,1077,538,ID,Indonesia,Semarang,Indonesia Network Information Center,124.158.186.134
+http,47.81.56.193,8888,47.81.56.193:8888,Elite,1080,187.4,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
+http,103.183.8.135,8080,103.183.8.135:8080,Elite,1105,552,ID,Indonesia,Jakarta,Indonesia Network Information Center,103.183.8.135
+http,38.56.111.104,999,38.56.111.104:999,Elite,1265,166.4,PE,Peru,Arequipa,M & B Soluciones Peru S.A.C. FASTNET,38.56.111.106
+http,103.51.205.78,8080,103.51.205.78:8080,Elite,1276,183.4,ID,Indonesia,Surakarta,"Lintas Data Prima, PT",103.51.205.78
+http,150.241.245.249,8080,150.241.245.249:8080,Elite,1313,234.9,IN,India,Delhi,Micro Hosting Private Limited,150.241.245.249
+http,190.12.150.244,999,190.12.150.244:999,Elite,1390,1176.8,EC,Ecuador,La Concordia,ONETELECOM CIA.LTDA.,190.12.150.244
+http,38.10.107.117,999,38.10.107.117:999,Elite,1511,1216.9,PE,Peru,Arequipa,MISTICOM FIBRA OPTICA S.A.C.,38.10.107.117
+http,178.92.72.154,8080,178.92.72.154:8080,Elite,1515,242.1,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.154
+http,45.194.3.119,8080,45.194.3.119:8080,Elite,1518,233.1,IN,India,Dadri,CtrlS,45.194.3.119
+http,38.58.117.72,8080,38.58.117.72:8080,Elite,1537,199.3,ID,Indonesia,Kecamatan Lembah Gumanti,PT Lintas Jaringan Nusantara,103.193.144.47
+http,154.201.126.245,8080,154.201.126.245:8080,Elite,1555,231.2,IN,India,Dadri,CtrlS,154.201.126.245
+http,178.92.72.229,8080,178.92.72.229:8080,Elite,1556,236.2,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.229
+http,178.92.72.194,8080,178.92.72.194:8080,Elite,1567,236.4,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.194
+http,103.193.144.101,8080,103.193.144.101:8080,Elite,1680,840,ID,Indonesia,Batam,PT Lintas Jaringan Nusantara,103.193.144.101
+http,179.1.182.27,999,179.1.182.27:999,Elite,1733,866,CO,Colombia,Medellin,INTERNEXA S.A. E.S.P,179.1.182.28
+http,112.203.204.176,8082,112.203.204.176:8082,Elite,1736,1190.3,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,112.203.195.217
+http,156.240.114.210,3129,156.240.114.210:3129,Elite,1828,142.8,HK,Hong Kong,Hong Kong,"Beijing Baidu Netcom Science and Technology Co., Ltd.",156.240.114.210
+http,208.95.22.65,8282,208.95.22.65:8282,Elite,1937,72.3,US,United States,Flemingsburg,"ALTIUS Broadband, LLC",208.95.20.14
+http,126.209.105.226,5050,126.209.105.226:5050,Elite,1948,974,PH,Philippines,Manila,Infinivan Inc.,126.209.105.226
+http,163.227.248.119,8818,163.227.248.119:8818,Elite,2015,1007,ID,Indonesia,Sukabumi,PT Rajasa Sinergi Komunikasi,163.227.248.5
+http,2.27.14.177,8080,2.27.14.177:8080,Elite,2412,1206,FI,Finland,Helsinki,NODE HOST LIMITED,167.99.118.80
