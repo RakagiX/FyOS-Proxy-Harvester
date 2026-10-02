@@ -1,43 +1,30 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,178,34.5,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,8.221.106.175,7000,8.221.106.175:7000,Elite,196,1092.0,US,United States,Virginia Beach,"Alibaba US Technology Co., Ltd.",8.221.106.175
-http,38.18.230.153,8888,38.18.230.153:8888,Elite,197,38.8,US,United States,Washington,Tier.Net Technologies LLC,38.18.230.153
-http,68.183.27.147,10000,68.183.27.147:10000,Elite,203,51.3,US,United States,North Bergen,"DigitalOcean, LLC",68.183.27.147
-http,68.183.17.102,10000,68.183.17.102:10000,Elite,212,51.6,US,United States,North Bergen,"DigitalOcean, LLC",68.183.17.102
-http,68.183.27.6,10000,68.183.27.6:10000,Elite,222,43.9,US,United States,North Bergen,"DigitalOcean, LLC",68.183.27.6
-http,107.167.18.122,443,107.167.18.122:443,Elite,223,37.2,US,United States,Los Angeles,Sharktech,107.167.18.99
-http,159.89.239.204,10000,159.89.239.204:10000,Elite,228,46.6,US,United States,North Bergen,"DigitalOcean, LLC",159.89.239.204
-http,108.186.180.7,5555,108.186.180.7:5555,Elite,276,35.9,US,United States,San Jose,WawaCloud Inc.,108.186.180.7
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,415,31.8,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,185.73.39.118,9999,185.73.39.118:9999,Elite,535,109.3,GB,United Kingdom,London,"Atlantic.net, Inc.",185.73.39.118
-http,38.188.201.10,999,38.188.201.10:999,Elite,549,1134.3,VE,Venezuela,Parroquia Mercedes Diaz,"SPEEDNET, C.A",38.188.201.12
-http,80.71.232.83,8082,80.71.232.83:8082,Elite,586,118.1,NL,Netherlands,Meppel,Spacecore Solution LTD,80.71.232.83
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,633,134.8,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,684,37.3,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,65.109.215.187,8090,65.109.215.187:8090,Elite,771,147.8,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.215.187
-http,223.25.110.123,8080,223.25.110.123:8080,Elite,1098,201.5,ID,Indonesia,Patikraja,MEGADATA-ISP,103.105.55.228
-http,103.162.63.106,8082,103.162.63.106:8082,Elite,1116,1265.8,ID,Indonesia,Purwakarta,Indonesia Network Information Center,103.162.63.106
-http,210.87.124.59,1111,210.87.124.59:1111,Elite,1206,207.5,ID,Indonesia,Kediri,Indonesia Network Information Center,210.87.124.170
-http,182.48.71.9,8080,182.48.71.9:8080,Elite,1207,1274.8,BD,Bangladesh,Narsingdi,Race Online Ltd.,43.239.75.36
-http,103.166.158.239,1111,103.166.158.239:1111,Elite,1232,225.0,ID,Indonesia,Tangerang,Indonesia Network Information Center,103.166.158.239
-http,101.36.112.205,1081,101.36.112.205:1081,Elite,1309,160.2,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,101.36.112.205
-http,38.49.133.178,999,38.49.133.178:999,Elite,1324,662,MX,Mexico,Santiago de Queretaro,IENTC S DE RL DE CV,38.49.133.178
-http,210.211.113.33,80,210.211.113.33:80,Elite,1326,1250.0,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.33
-http,178.92.72.68,8080,178.92.72.68:8080,Elite,1422,233.9,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.68
-http,178.92.72.94,8080,178.92.72.94:8080,Elite,1435,229.2,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.94
-http,150.241.245.211,8080,150.241.245.211:8080,Elite,1468,224.5,IN,India,Delhi,Micro Hosting Private Limited,150.241.245.211
-http,34.43.46.91,80,34.43.46.91:80,Elite,1482,30.8,US,United States,San Jose,Google LLC,34.143.51.195
-http,190.97.241.106,999,190.97.241.106:999,Elite,1501,750,VE,Venezuela,San Cristobal,VIGINET C.A,190.97.241.106
-http,65.21.201.149,8081,65.21.201.149:8081,Elite,1711,142.5,FI,Finland,Helsinki,Hetzner Online GmbH,104.28.254.16
-http,15.235.145.229,1081,15.235.145.229:1081,Elite,1722,181.5,SG,Singapore,Singapore,OVH SAS,103.1.212.251
-http,177.234.221.195,999,177.234.221.195:999,Elite,1866,933,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,177.234.221.194
-http,159.194.228.40,8888,159.194.228.40:8888,Elite,1916,186.2,RU,Russian Federation,Saint Petersburg,Beget LLC,169.150.224.227
-http,185.222.94.66,808,185.222.94.66:808,Elite,1938,184.3,AZ,Azerbaijan,Baku,AzFiberNet LLC,185.222.94.66
-http,205.164.192.115,999,205.164.192.115:999,Elite,1942,971,MX,Mexico,Yurecuaro,MULTICARRIER JE S. DE R.L. DE C.V.,205.164.192.115
-http,109.123.255.123,8388,109.123.255.123:8388,Elite,1983,133.8,FR,France,Lauterbourg,Contabo GmbH,194.53.137.42
-http,213.199.53.16,8888,213.199.53.16:8888,Elite,2047,126.9,FR,France,Lauterbourg,Contabo GmbH,213.199.53.16
-http,103.204.210.208,8080,103.204.210.208:8080,Elite,2091,1045,BD,Bangladesh,Dhaka,Level3 Carrier Limited,103.204.210.212
-http,154.59.56.74,999,154.59.56.74:999,Elite,2189,1184.0,VE,Venezuela,Caracas,TotalCom Venezuela C.A.,154.59.56.73
-http,210.211.113.37,80,210.211.113.37:80,Elite,2226,190.6,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.37
-http,156.240.114.210,3129,156.240.114.210:3129,Elite,2269,161.8,HK,Hong Kong,Hong Kong,"Beijing Baidu Netcom Science and Technology Co., Ltd.",156.240.114.210
-http,38.175.202.151,443,38.175.202.151:443,Elite,2450,171.9,JP,Japan,Tokyo,NetLab Global,38.175.202.151
+http,159.89.87.80,10000,159.89.87.80:10000,Elite,88,11.5,US,United States,North Bergen,"DigitalOcean, LLC",159.89.87.80
+http,38.18.230.153,8888,38.18.230.153:8888,Elite,114,8.3,US,United States,Washington,Tier.Net Technologies LLC,38.18.230.153
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,117,38.5,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,159.89.239.204,10000,159.89.239.204:10000,Elite,217,12.8,US,United States,North Bergen,"DigitalOcean, LLC",159.89.239.204
+http,107.167.18.122,443,107.167.18.122:443,Elite,299,55.8,US,United States,Los Angeles,Sharktech,107.167.18.99
+http,47.254.122.220,5443,47.254.122.220:5443,Elite,344,65.6,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",47.254.122.220
+http,38.51.207.118,999,38.51.207.118:999,Elite,400,200,VE,Venezuela,Maracaibo,TECNOVEN SERVICES CA,38.51.207.118
+http,185.73.39.118,9999,185.73.39.118:9999,Elite,422,80.2,GB,United Kingdom,London,"Atlantic.net, Inc.",185.73.39.118
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,486,98.2,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,80.71.232.83,8082,80.71.232.83:8082,Elite,514,102.2,NL,Netherlands,Meppel,Spacecore Solution LTD,80.71.232.83
+http,65.109.215.187,8090,65.109.215.187:8090,Elite,708,117.7,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.215.187
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,839,60.1,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,2.28.105.45,8888,2.28.105.45:8888,Elite,980,101.5,DE,Germany,Falkenstein/Vogtl.,Hetzner Online GmbH,45.192.34.63
+http,101.32.65.42,8888,101.32.65.42:8888,Elite,1025,197.1,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,101.32.72.181
+http,185.109.244.69,8080,185.109.244.69:8080,Elite,1133,1187.1,IR,Iran,Tehran,Asiatech Data Transmission company,185.109.244.69
+http,85.133.169.45,8118,85.133.169.45:8118,Elite,1237,168.7,IR,Iran,Tehran,Dade Pardaz Kimia Pouyesh PJS.,85.133.169.45
+http,156.240.114.210,3129,156.240.114.210:3129,Elite,1277,1253.4,HK,Hong Kong,Hong Kong,"Beijing Baidu Netcom Science and Technology Co., Ltd.",156.240.114.210
+http,178.92.72.194,8080,178.92.72.194:8080,Elite,1322,212.3,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.194
+http,47.81.56.193,8888,47.81.56.193:8888,Elite,1360,253.5,TH,Thailand,Bangkok,"Alibaba US Technology Co., Ltd.",47.81.56.193
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,1477,60.3,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,80.225.88.28,8082,80.225.88.28:8082,Elite,1612,98.2,IT,Italy,Siziano,Oracle Corporation,80.225.88.28
+http,210.211.113.35,80,210.211.113.35:80,Elite,1747,230.1,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.35
+http,37.59.125.131,8888,37.59.125.131:8888,Elite,1827,91.4,FR,France,Roubaix,OVH SAS,82.66.253.58
+http,185.133.213.86,8074,185.133.213.86:8074,Elite,1937,1301.0,MM,Myanmar,Yangon,"Global Technology Co., Ltd.",185.133.213.86
+http,152.53.183.107,8081,152.53.183.107:8081,Elite,1999,96.9,DE,Germany,Nuremberg,netcup GmbH,152.53.183.107
+http,103.82.20.76,8080,103.82.20.76:8080,Elite,2067,247.9,VN,Viet Nam,Hanoi,VIETNAM POSTS AND TELECOMMUNICATIONS GROUP,171.243.246.116
+http,38.56.111.104,999,38.56.111.104:999,Elite,2191,1095,PE,Peru,Arequipa,M & B Soluciones Peru S.A.C. FASTNET,38.56.111.106
+http,8.219.97.248,80,8.219.97.248:80,Elite,2236,227.4,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
+http,101.36.112.205,1081,101.36.112.205:1081,Elite,2244,197.7,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,101.36.112.205
