@@ -1,30 +1,38 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,198.199.86.11,3128,198.199.86.11:3128,Elite,53,7.6,US,United States,North Bergen,"DigitalOcean, LLC",198.199.86.11
-http,209.97.150.167,3128,209.97.150.167:3128,Elite,64,6.8,US,United States,Clifton,"DigitalOcean, LLC",209.97.150.167
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,135,21.7,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,107.167.18.122,443,107.167.18.122:443,Elite,302,56.5,US,United States,Los Angeles,Sharktech,107.167.18.99
-http,69.168.225.235,3128,69.168.225.235:3128,Elite,458,90.6,DE,Germany,Frankfurt am Main,Virtuozzo International GmbH,69.168.225.235
-http,189.174.231.88,8080,189.174.231.88:8080,Elite,476,60.3,MX,Mexico,Solidaridad,Uninet S.A. de C.V.,189.174.231.88
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,479,90.8,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,87.199.202.58,443,87.199.202.58:443,Elite,488,98.6,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,87.199.202.58
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,564,66.2,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,204.168.225.55,8888,204.168.225.55:8888,Elite,576,121.3,FI,Finland,Helsinki,Hetzner Online GmbH,104.28.222.18
-http,65.109.218.174,8443,65.109.218.174:8443,Elite,668,116.0,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.218.174
-http,38.19.36.206,999,38.19.36.206:999,Elite,735,74.8,MX,Mexico,Victoria de Durango,TV CABLE DEL GUADIANA S.A DE C.V.,38.19.36.206
-http,196.179.234.18,8989,196.179.234.18:8989,Elite,966,110.8,TN,Tunisia,Tunis,OOREDOO TUNISIE SA,196.179.234.18
-http,112.216.54.226,12121,112.216.54.226:12121,Elite,1046,523,KR,South Korea,Seoul,LG DACOM Corporation,112.216.54.226
-http,165.154.7.156,8888,165.154.7.156:8888,Elite,1074,200.1,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.7.156
-http,4.144.146.21,80,4.144.146.21:80,Elite,1111,224.2,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,128.199.202.122,8080,128.199.202.122:8080,Elite,1130,224.3,SG,Singapore,Singapore,"DigitalOcean, LLC",128.199.202.122
-http,213.163.198.77,8080,213.163.198.77:8080,Elite,1139,222.7,SG,Singapore,Singapore,UpCloud Ltd,213.163.198.77
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1150,175.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8080,102.244.78.61:8080,Elite,1151,173.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1162,167.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8090,102.244.78.61:8090,Elite,1172,169.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,103.46.8.102,8080,103.46.8.102:8080,Elite,1318,1278.9,ID,Indonesia,Gedangan,PT JARINGANKU SARANA NUSANTARA,103.46.8.102
-http,160.191.192.45,8090,160.191.192.45:8090,Elite,1337,668,ID,Indonesia,Bondowoso,Indonesia Network Information Center,160.191.192.45
-http,119.202.84.129,8080,119.202.84.129:8080,Elite,1676,179.7,KR,South Korea,Pohang,Korea Telecom,119.202.84.129
-http,177.234.221.196,999,177.234.221.196:999,Elite,1876,1104.3,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,177.234.221.194
-http,38.175.202.151,443,38.175.202.151:443,Elite,2261,221.2,JP,Japan,Tokyo,NetLab Global,38.175.202.151
-http,172.85.99.63,16062,172.85.99.63:16062,Elite,2316,1158,US,United States,Atlanta,Verizon Business,172.85.99.63
-http,218.207.164.174,7890,218.207.164.174:7890,Elite,2415,1207,CN,China,Sanming,"China Mobile Communications Group Co., LTD",203.10.99.78
+http,159.89.87.80,10000,159.89.87.80:10000,Elite,148,43.5,US,United States,North Bergen,"DigitalOcean, LLC",159.89.87.80
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,200,24.0,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,229,42.8,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,107.167.18.122,443,107.167.18.122:443,Elite,287,50.0,US,United States,Los Angeles,Sharktech,107.167.18.99
+http,68.183.35.25,10000,68.183.35.25:10000,Elite,506,104.2,GB,United Kingdom,London,"DigitalOcean, LLC",68.183.35.25
+http,185.73.39.118,9999,185.73.39.118:9999,Elite,527,102.7,GB,United Kingdom,London,"Atlantic.net, Inc.",185.73.39.118
+http,187.149.230.244,999,187.149.230.244:999,Elite,559,56.1,MX,Mexico,Mazatlan,Uninet S.A. de C.V.,187.149.230.244
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,565,123.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,89.58.42.118,3129,89.58.42.118:3129,Elite,628,112.3,DE,Germany,Nuremberg,netcup GmbH,89.58.42.118
+http,65.109.215.187,8090,65.109.215.187:8090,Elite,693,137.4,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.215.187
+http,196.179.234.18,8989,196.179.234.18:8989,Elite,729,121.4,TN,Tunisia,Tunis,OOREDOO TUNISIE SA,196.179.234.18
+http,4.144.146.21,80,4.144.146.21:80,Elite,1029,198.2,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,213.163.198.77,8080,213.163.198.77:8080,Elite,1036,195.6,SG,Singapore,Singapore,UpCloud Ltd,213.163.198.77
+http,89.110.124.45,8888,89.110.124.45:8888,Elite,1131,173.5,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,89.110.124.45
+http,178.92.72.165,8080,178.92.72.165:8080,Elite,1137,220.8,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.165
+http,103.165.157.154,3125,103.165.157.154:3125,Elite,1158,579,ID,Indonesia,Patikraja,MEGADATA-ISP,103.165.157.154
+http,45.198.11.217,9191,45.198.11.217:9191,Elite,1158,579,ID,Indonesia,Surakarta,Indonesia Network Information Center,45.198.11.217
+http,65.109.219.108,2000,65.109.219.108:2000,Elite,1204,138.6,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.219.108
+http,103.159.210.236,8080,103.159.210.236:8080,Elite,1259,249.2,BD,Bangladesh,Dhaka,Genex Infosys Limited,103.159.210.0
+http,103.169.135.43,8080,103.169.135.43:8080,Elite,1272,1285.1,ID,Indonesia,Boyolangu,Indonesia Network Information Center,103.169.135.43
+http,102.244.78.61,8087,102.244.78.61:8087,Elite,1370,209.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1370,211.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,205.164.192.115,999,205.164.192.115:999,Elite,1530,46.3,MX,Mexico,Yurecuaro,MULTICARRIER JE S. DE R.L. DE C.V.,205.164.192.115
+http,179.125.61.201,8080,179.125.61.201:8080,Elite,1588,170.7,BR,Brazil,Urania,Wconect Wireless Informatica LTDA - ME,179.125.61.201
+http,201.4.69.46,8080,201.4.69.46:8080,Elite,1856,163.2,TR,Türkiye,Kilis,High Speed For Internet Services L.L.C,201.4.69.46
+http,196.64.106.232,1936,196.64.106.232:1936,Elite,1903,951,MA,Morocco,Skhirate,Office National des Postes et Telecommunications ONPT Maroc Telecom / IAM,196.74.200.102
+http,45.147.179.118,3211,45.147.179.118:3211,Elite,1930,149.6,RU,Russian Federation,Saint Petersburg,Beget LLC,151.247.184.102
+http,160.22.205.66,8090,160.22.205.66:8090,Elite,1987,234.7,ID,Indonesia,Kisaran,Indonesia Network Information Center,160.22.205.66
+http,177.234.221.202,999,177.234.221.202:999,Elite,2021,1010,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,177.234.221.194
+http,202.58.77.195,8080,202.58.77.195:8080,Elite,2146,1073,ID,Indonesia,Blitar,Indonesia Network Information Center,202.58.79.98
+http,108.61.29.163,10001,108.61.29.163:10001,Elite,2183,26.9,US,United States,Piscataway,"The Constant Company, LLC",108.61.29.163
+http,103.193.145.155,8080,103.193.145.155:8080,Elite,2273,1136,ID,Indonesia,Batam,PT Lintas Jaringan Nusantara,103.193.145.155
+http,45.147.179.118,3210,45.147.179.118:3210,Elite,2301,151.6,RU,Russian Federation,Saint Petersburg,Beget LLC,181.215.11.29
+http,175.29.125.242,8080,175.29.125.242:8080,Elite,2452,1226,BD,Bangladesh,Dhaka,Access Telecom BD Ltd,202.4.112.82
+http,160.19.18.127,8181,160.19.18.127:8181,Elite,2475,1237,ID,Indonesia,Kecamatan Cibinong,Indonesia Network Information Center,160.236.114.7
+http,8.219.97.248,80,8.219.97.248:80,Elite,2487,201.6,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
+http,200.35.153.56,999,200.35.153.56:999,Elite,2487,1243,DO,Dominican Republic,Jarabacoa,"LAUAM MEGARED TELECOM, S.R.L.",200.35.153.9
