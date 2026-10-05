@@ -1,38 +1,51 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,159.89.87.80,10000,159.89.87.80:10000,Elite,148,43.5,US,United States,North Bergen,"DigitalOcean, LLC",159.89.87.80
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,200,24.0,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,229,42.8,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,107.167.18.122,443,107.167.18.122:443,Elite,287,50.0,US,United States,Los Angeles,Sharktech,107.167.18.99
-http,68.183.35.25,10000,68.183.35.25:10000,Elite,506,104.2,GB,United Kingdom,London,"DigitalOcean, LLC",68.183.35.25
-http,185.73.39.118,9999,185.73.39.118:9999,Elite,527,102.7,GB,United Kingdom,London,"Atlantic.net, Inc.",185.73.39.118
-http,187.149.230.244,999,187.149.230.244:999,Elite,559,56.1,MX,Mexico,Mazatlan,Uninet S.A. de C.V.,187.149.230.244
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,565,123.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,89.58.42.118,3129,89.58.42.118:3129,Elite,628,112.3,DE,Germany,Nuremberg,netcup GmbH,89.58.42.118
-http,65.109.215.187,8090,65.109.215.187:8090,Elite,693,137.4,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.215.187
-http,196.179.234.18,8989,196.179.234.18:8989,Elite,729,121.4,TN,Tunisia,Tunis,OOREDOO TUNISIE SA,196.179.234.18
-http,4.144.146.21,80,4.144.146.21:80,Elite,1029,198.2,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,213.163.198.77,8080,213.163.198.77:8080,Elite,1036,195.6,SG,Singapore,Singapore,UpCloud Ltd,213.163.198.77
-http,89.110.124.45,8888,89.110.124.45:8888,Elite,1131,173.5,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,89.110.124.45
-http,178.92.72.165,8080,178.92.72.165:8080,Elite,1137,220.8,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.165
-http,103.165.157.154,3125,103.165.157.154:3125,Elite,1158,579,ID,Indonesia,Patikraja,MEGADATA-ISP,103.165.157.154
-http,45.198.11.217,9191,45.198.11.217:9191,Elite,1158,579,ID,Indonesia,Surakarta,Indonesia Network Information Center,45.198.11.217
-http,65.109.219.108,2000,65.109.219.108:2000,Elite,1204,138.6,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.219.108
-http,103.159.210.236,8080,103.159.210.236:8080,Elite,1259,249.2,BD,Bangladesh,Dhaka,Genex Infosys Limited,103.159.210.0
-http,103.169.135.43,8080,103.169.135.43:8080,Elite,1272,1285.1,ID,Indonesia,Boyolangu,Indonesia Network Information Center,103.169.135.43
-http,102.244.78.61,8087,102.244.78.61:8087,Elite,1370,209.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1370,211.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,205.164.192.115,999,205.164.192.115:999,Elite,1530,46.3,MX,Mexico,Yurecuaro,MULTICARRIER JE S. DE R.L. DE C.V.,205.164.192.115
-http,179.125.61.201,8080,179.125.61.201:8080,Elite,1588,170.7,BR,Brazil,Urania,Wconect Wireless Informatica LTDA - ME,179.125.61.201
-http,201.4.69.46,8080,201.4.69.46:8080,Elite,1856,163.2,TR,Türkiye,Kilis,High Speed For Internet Services L.L.C,201.4.69.46
-http,196.64.106.232,1936,196.64.106.232:1936,Elite,1903,951,MA,Morocco,Skhirate,Office National des Postes et Telecommunications ONPT Maroc Telecom / IAM,196.74.200.102
-http,45.147.179.118,3211,45.147.179.118:3211,Elite,1930,149.6,RU,Russian Federation,Saint Petersburg,Beget LLC,151.247.184.102
-http,160.22.205.66,8090,160.22.205.66:8090,Elite,1987,234.7,ID,Indonesia,Kisaran,Indonesia Network Information Center,160.22.205.66
-http,177.234.221.202,999,177.234.221.202:999,Elite,2021,1010,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,177.234.221.194
-http,202.58.77.195,8080,202.58.77.195:8080,Elite,2146,1073,ID,Indonesia,Blitar,Indonesia Network Information Center,202.58.79.98
-http,108.61.29.163,10001,108.61.29.163:10001,Elite,2183,26.9,US,United States,Piscataway,"The Constant Company, LLC",108.61.29.163
-http,103.193.145.155,8080,103.193.145.155:8080,Elite,2273,1136,ID,Indonesia,Batam,PT Lintas Jaringan Nusantara,103.193.145.155
-http,45.147.179.118,3210,45.147.179.118:3210,Elite,2301,151.6,RU,Russian Federation,Saint Petersburg,Beget LLC,181.215.11.29
-http,175.29.125.242,8080,175.29.125.242:8080,Elite,2452,1226,BD,Bangladesh,Dhaka,Access Telecom BD Ltd,202.4.112.82
-http,160.19.18.127,8181,160.19.18.127:8181,Elite,2475,1237,ID,Indonesia,Kecamatan Cibinong,Indonesia Network Information Center,160.236.114.7
-http,8.219.97.248,80,8.219.97.248:80,Elite,2487,201.6,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
-http,200.35.153.56,999,200.35.153.56:999,Elite,2487,1243,DO,Dominican Republic,Jarabacoa,"LAUAM MEGARED TELECOM, S.R.L.",200.35.153.9
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,171,37.0,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,178,1084.9,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,107.167.18.122,443,107.167.18.122:443,Elite,195,30.1,US,United States,Los Angeles,Sharktech,107.167.18.99
+http,34.43.46.91,80,34.43.46.91:80,Elite,233,32.7,US,United States,San Jose,Google LLC,35.235.153.76
+http,34.43.46.91,443,34.43.46.91:443,Elite,234,32.7,US,United States,San Jose,Google LLC,35.235.153.76
+http,161.35.70.249,80,161.35.70.249:80,Elite,625,126.2,DE,Germany,Frankfurt am Main,"DigitalOcean, LLC",161.35.70.249
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,629,135.6,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,89.58.42.118,3129,89.58.42.118:3129,Elite,715,145.3,DE,Germany,Nuremberg,netcup GmbH,89.58.42.118
+http,144.124.251.24,10846,144.124.251.24:10846,Elite,735,136.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10009,144.124.251.24:10009,Elite,747,133.1,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10646,144.124.251.24:10646,Elite,748,143.5,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10333,144.124.251.24:10333,Elite,754,140.8,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10628,144.124.251.24:10628,Elite,782,132.5,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10087,144.124.251.24:10087,Elite,805,137.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10117,144.124.251.24:10117,Elite,812,150.0,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10601,144.124.251.24:10601,Elite,821,154.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10443,144.124.251.24:10443,Elite,822,144.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10176,144.124.251.24:10176,Elite,824,141.5,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10605,144.124.251.24:10605,Elite,825,152.1,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10428,144.124.251.24:10428,Elite,827,145.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10649,144.124.251.24:10649,Elite,828,133.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10811,144.124.251.24:10811,Elite,840,136.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10101,144.124.251.24:10101,Elite,883,141.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10816,144.124.251.24:10816,Elite,886,161.2,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10552,144.124.251.24:10552,Elite,887,137.6,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10008,144.124.251.24:10008,Elite,912,150.6,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10187,144.124.251.24:10187,Elite,923,155.6,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10226,144.124.251.24:10226,Elite,932,136.0,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10165,144.124.251.24:10165,Elite,940,145.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10810,144.124.251.24:10810,Elite,949,175.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,172.105.120.179,443,172.105.120.179:443,Elite,985,183.0,SG,Singapore,Singapore,"Akamai Technologies, Inc.",172.105.120.179
+http,8.215.25.3,2081,8.215.25.3:2081,Elite,1042,196.7,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
+http,8.215.25.3,2080,8.215.25.3:2080,Elite,1044,195.0,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
+http,65.109.219.108,2000,65.109.219.108:2000,Elite,1068,145.7,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.219.108
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,1101,36.8,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,102.244.78.61,8090,102.244.78.61:8090,Elite,1220,189.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1229,188.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1231,188.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8080,102.244.78.61:8080,Elite,1238,187.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,144.124.251.24,11108,144.124.251.24:11108,Elite,1251,140.9,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,4.144.146.21,80,4.144.146.21:80,Elite,1419,181.1,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,102.244.78.61,8087,102.244.78.61:8087,Elite,1451,187.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,196.179.234.18,8989,196.179.234.18:8989,Elite,1484,139.5,TN,Tunisia,Tunis,OOREDOO TUNISIE SA,196.179.234.18
+http,144.124.251.24,10123,144.124.251.24:10123,Elite,1559,289.5,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,51.170.133.249,80,51.170.133.249:80,Elite,1775,887,MA,Morocco,Oulad Salah,Oracle Corporation,51.170.133.249
+http,144.124.251.24,10453,144.124.251.24:10453,Elite,1851,147.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10610,144.124.251.24:10610,Elite,1864,173.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,210.211.113.37,80,210.211.113.37:80,Elite,2082,189.5,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.37
+http,144.124.251.24,10812,144.124.251.24:10812,Elite,2144,237.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,147.15.126.122,28080,147.15.126.122:28080,Elite,2355,152.0,BR,Brazil,Sao Paulo,Oracle Corporation,147.15.126.122
