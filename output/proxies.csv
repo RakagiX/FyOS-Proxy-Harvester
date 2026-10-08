@@ -1,36 +1,35 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,107.167.18.122,443,107.167.18.122:443,Elite,110,8.9,US,United States,Los Angeles,Sharktech,107.167.18.124
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,267,59.0,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,8.221.106.175,7000,8.221.106.175:7000,Elite,285,62.0,US,United States,Virginia Beach,"Alibaba US Technology Co., Ltd.",8.221.106.175
-http,187.201.225.188,999,187.201.225.188:999,Elite,340,48.9,MX,Mexico,Guadalajara,Uninet S.A. de C.V.,187.201.225.188
-http,34.43.46.91,80,34.43.46.91:80,Elite,385,45.5,US,United States,San Jose,Google LLC,8.231.16.63
-http,77.110.126.151,18080,77.110.126.151:18080,Elite,407,59.5,US,United States,Charlotte,NetCrafters OU,77.110.126.151
-http,34.43.46.91,443,34.43.46.91:443,Elite,421,45.6,US,United States,San Jose,Google LLC,34.143.33.137
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,729,156.4,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,136.243.116.100,8080,136.243.116.100:8080,Elite,823,155.9,DE,Germany,Falkenstein/Vogtl.,Hetzner Online GmbH,136.243.116.100
-http,194.182.178.90,3128,194.182.178.90:3128,Elite,826,413,BG,Bulgaria,Sofia,Akenes SA,194.182.178.90
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,924,2.3,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,8.215.25.3,2080,8.215.25.3:2080,Elite,995,182.7,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
-http,115.132.248.246,8081,115.132.248.246:8081,Elite,1044,522,MY,Malaysia,Kuala Lumpur,TM TECHNOLOGY SERVICES SDN BHD,115.132.248.246
-http,160.19.145.101,3127,160.19.145.101:3127,Elite,1137,191.4,ID,Indonesia,Demak,"Lintas Data Prima, PT",160.19.145.101
-http,45.195.90.142,8080,45.195.90.142:8080,Elite,1251,235.9,IN,India,Dadri,CtrlS,45.195.90.142
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1300,206.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1302,208.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8088,102.244.78.61:8088,Elite,1303,206.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8084,102.244.78.61:8084,Elite,1310,208.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1310,207.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1312,215.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8087,102.244.78.61:8087,Elite,1312,206.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8090,102.244.78.61:8090,Elite,1314,207.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8080,102.244.78.61:8080,Elite,1318,208.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1356,208.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,65.109.176.225,8443,65.109.176.225:8443,Elite,1367,173.7,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.176.225
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1371,206.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,144.31.146.190,8080,144.31.146.190:8080,Elite,1437,253.2,IN,India,Mumbai,Micro Hosting Private Limited,144.31.146.190
-http,162.214.159.94,3128,162.214.159.94:3128,Elite,1455,727,US,United States,Phoenix,Unified Layer,162.214.74.29
-http,62.72.33.196,8443,62.72.33.196:8443,Elite,1773,180.8,LT,Lithuania,Vilnius,Hostinger International Limited,62.72.33.196
-http,65.109.219.108,2000,65.109.219.108:2000,Elite,1915,176.8,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.219.108
-http,18.202.134.93,8888,18.202.134.93:8888,Elite,1952,131.1,IE,Ireland,Dublin,"Amazon.com, Inc.",18.202.134.93
-http,105.155.20.225,58080,105.155.20.225:58080,Elite,2205,151.3,MA,Morocco,Tangier,Office National des Postes et Telecommunications ONPT Maroc Telecom / IAM,196.89.221.10
-http,90.156.196.230,3128,90.156.196.230:3128,Elite,2243,1359.9,UZ,Uzbekistan,Tashkent,Uzbektelekom Joint Stock Company,193.104.179.115
-http,181.78.194.249,999,181.78.194.249:999,Elite,2274,129.3,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,181.78.194.249
+http,34.43.46.91,443,34.43.46.91:443,Elite,308,39.1,US,United States,San Jose,Google LLC,34.143.51.195
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,346,23.4,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,187.201.225.188,999,187.201.225.188:999,Elite,377,59.5,MX,Mexico,Guadalajara,Uninet S.A. de C.V.,187.201.225.188
+http,187.190.127.212,8081,187.190.127.212:8081,Elite,414,51.4,MX,Mexico,Puerto Vallarta,"TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",187.190.127.212
+http,185.244.28.78,8080,185.244.28.78:8080,Elite,497,98.2,DE,Germany,Langen,Zeljko Rosic trading as 1337 Hosting Solutions e.U.,185.244.28.78
+http,51.158.63.121,8080,51.158.63.121:8080,Elite,600,101.0,FR,France,Paris,Scaleway SAS,51.158.63.121
+http,31.131.248.51,3129,31.131.248.51:3129,Elite,638,123.6,RU,Russian Federation,Saint Petersburg,JSC Selectel,31.131.248.51
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,696,1080.3,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,51.250.119.75,2080,51.250.119.75:2080,Elite,722,134.1,RU,Russian Federation,Moscow,Yandex.Cloud LLC,51.250.119.75
+http,107.167.18.122,443,107.167.18.122:443,Elite,724,55.2,US,United States,Los Angeles,Sharktech,107.167.18.124
+http,167.233.243.116,3129,167.233.243.116:3129,Elite,814,99.1,DE,Germany,Nuremberg,Hetzner Online GmbH,167.233.243.116
+http,191.44.71.208,8080,191.44.71.208:8080,Elite,822,411,SY,Syrian Arab Republic,Damascus,High Speed For Internet Services L.L.C,191.44.71.208
+http,193.33.157.87,8080,193.33.157.87:8080,Elite,867,433,TR,Türkiye,Kilis,High Speed For Internet Services L.L.C,79.98.32.112
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,910,98.4,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,112.216.54.226,12121,112.216.54.226:12121,Elite,1041,186.2,KR,South Korea,Seoul,LG DACOM Corporation,112.216.54.226
+http,102.244.78.61,8090,102.244.78.61:8090,Elite,1136,163.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1137,165.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1143,167.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8082,102.244.78.61:8082,Elite,1172,162.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1172,163.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8080,102.244.78.61:8080,Elite,1173,163.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1174,162.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1175,164.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8087,102.244.78.61:8087,Elite,1177,163.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,4.144.146.21,80,4.144.146.21:80,Elite,1186,223.4,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,102.244.78.61,8088,102.244.78.61:8088,Elite,1190,168.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1191,168.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,130.94.57.165,8080,130.94.57.165:8080,Elite,1292,253.6,SA,Saudi Arabia,Riyadh,LIGHT NODE LIMITED,130.94.57.165
+http,163.181.207.169,9999,163.181.207.169:9999,Elite,1382,242.5,VN,Viet Nam,Ho Chi Minh City,"Zhejiang Taobao Network Co.,Ltd",163.181.207.169
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,1656,60.1,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,8.221.106.175,7000,8.221.106.175:7000,Elite,2128,5.9,US,United States,Virginia Beach,"Alibaba US Technology Co., Ltd.",8.221.106.175
+http,108.61.29.163,10001,108.61.29.163:10001,Elite,2150,14.2,US,United States,Piscataway,"The Constant Company, LLC",108.61.29.163
+http,108.181.246.55,9898,108.181.246.55:9898,Elite,2303,38.8,US,United States,Dallas,Psychz Networks,203.55.81.1
+http,173.205.202.225,8181,173.205.202.225:8181,Elite,2486,1144.4,US,United States,Fishers,"Swayzee Telephone Company, Inc.",23.185.192.66
