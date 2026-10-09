@@ -1,27 +1,25 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,192.119.102.215,1314,192.119.102.215:1314,Elite,212,44.6,US,United States,Los Angeles,HostPapa,192.119.102.215
-http,107.167.18.122,443,107.167.18.122:443,Elite,217,33.4,US,United States,Los Angeles,Sharktech,107.167.18.124
-http,34.43.46.91,443,34.43.46.91:443,Elite,280,54.9,US,United States,San Jose,Google LLC,34.143.18.241
-http,34.43.46.91,80,34.43.46.91:80,Elite,320,53.4,US,United States,San Jose,Google LLC,34.143.51.195
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,408,25.9,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,187.201.225.188,999,187.201.225.188:999,Elite,445,70.8,MX,Mexico,Guadalajara,Uninet S.A. de C.V.,187.201.225.188
-http,181.119.224.25,8080,181.119.224.25:8080,Elite,725,145.3,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,181.119.224.25
-http,65.109.215.187,8090,65.109.215.187:8090,Elite,848,179.9,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.215.187
-http,154.18.255.103,1111,154.18.255.103:1111,Elite,952,1177.4,ID,Indonesia,Kelurahan Karawang Wetan,Indonesia Network Information Center,154.18.255.103
-http,65.109.219.108,2000,65.109.219.108:2000,Elite,1089,174.6,FI,Finland,Helsinki,Hetzner Online GmbH,65.109.219.108
-http,124.40.251.160,8080,124.40.251.160:8080,Elite,1179,589,ID,Indonesia,Klaten,"Lintas Data Prima, PT",124.40.251.160
-http,102.213.179.210,8080,102.213.179.210:8080,Elite,1245,622,KE,Kenya,Athi River,NEXT THING NETWORKS Limited,102.213.179.25
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1324,211.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8090,102.244.78.61:8090,Elite,1353,224.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,188.72.42.241,47193,188.72.42.241:47193,Elite,1407,210.6,IQ,Iraq,Erbil,Pirmam For Information Technology Services Ltd,193.47.189.33
-http,210.211.113.33,80,210.211.113.33:80,Elite,1489,172.1,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.33
-http,111.119.162.248,10974,111.119.162.248:10974,Elite,1649,249.1,PK,Pakistan,Karachi,Connect Communication,4.222.217.240
-http,27.69.77.5,2111,27.69.77.5:2111,Elite,1650,209.3,VN,Viet Nam,Hanoi,Viettel Group,27.73.208.144
-http,103.102.14.48,1111,103.102.14.48:1111,Elite,1738,185.1,ID,Indonesia,Rembangan,PT Foura Inti Sinergi,103.102.14.48
-http,111.119.162.248,10949,111.119.162.248:10949,Elite,1894,263.8,PK,Pakistan,Karachi,Connect Communication,8.216.119.64
-http,111.119.162.248,10915,111.119.162.248:10915,Elite,1929,247.4,PK,Pakistan,Karachi,Connect Communication,47.237.48.66
-http,111.119.162.248,10932,111.119.162.248:10932,Elite,2081,259.7,PK,Pakistan,Karachi,Connect Communication,8.209.74.72
-http,205.164.192.115,999,205.164.192.115:999,Elite,2206,1101.9,MX,Mexico,Yurecuaro,MULTICARRIER JE S. DE R.L. DE C.V.,205.164.192.115
-http,177.234.221.200,999,177.234.221.200:999,Elite,2367,1183,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,177.234.221.194
-http,200.94.38.45,2604,200.94.38.45:2604,Elite,2449,1224,MX,Mexico,Mexico City,"Alestra, S. de R.L. de C.V.",200.94.38.42
-http,190.97.241.106,999,190.97.241.106:999,Elite,2463,1231,VE,Venezuela,San Cristobal,VIGINET C.A,190.97.241.106
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,636,135.3,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,144.124.251.24,10829,144.124.251.24:10829,Elite,650,123.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10745,144.124.251.24:10745,Elite,661,135.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10526,144.124.251.24:10526,Elite,662,132.6,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10819,144.124.251.24:10819,Elite,665,133.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10813,144.124.251.24:10813,Elite,679,138.0,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10372,144.124.251.24:10372,Elite,681,138.1,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10846,144.124.251.24:10846,Elite,707,137.6,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10443,144.124.251.24:10443,Elite,718,134.9,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10555,144.124.251.24:10555,Elite,739,132.0,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10261,144.124.251.24:10261,Elite,746,140.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10165,144.124.251.24:10165,Elite,746,135.5,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10522,144.124.251.24:10522,Elite,765,136.6,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,34.43.46.91,443,34.43.46.91:443,Elite,820,47.8,US,United States,San Jose,Google LLC,34.143.18.241
+http,144.124.251.24,10610,144.124.251.24:10610,Elite,827,128.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,34.43.46.91,80,34.43.46.91:80,Elite,839,31.3,US,United States,San Jose,Google LLC,34.143.18.241
+http,144.124.251.24,10601,144.124.251.24:10601,Elite,858,140.0,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10878,144.124.251.24:10878,Elite,871,171.0,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,4.144.146.21,80,4.144.146.21:80,Elite,989,196.8,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,1058,24.2,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1236,189.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,157.15.63.48,8080,157.15.63.48:8080,Elite,1354,677,ID,Indonesia,Malang,Indonesia Network Information Center,157.15.63.6
+http,206.135.12.153,999,206.135.12.153:999,Elite,1848,924,MX,Mexico,Mexico City,IENTC S DE RL DE CV,206.135.12.152
+http,103.158.210.80,8082,103.158.210.80:8082,Elite,2190,1095,ID,Indonesia,Baureno,PT Digital Media Telematika,103.158.210.80
