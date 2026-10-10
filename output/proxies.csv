@@ -1,26 +1,25 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,146.190.60.147,8006,146.190.60.147:8006,Elite,175,30.6,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
-http,104.225.162.20,8082,104.225.162.20:8082,Elite,244,53.8,US,United States,Charlotte,"iboss,inc",104.225.162.20
-http,108.61.29.163,10001,108.61.29.163:10001,Elite,244,122,US,United States,Piscataway,"The Constant Company, LLC",108.61.29.163
-http,187.201.225.188,999,187.201.225.188:999,Elite,318,45.0,MX,Mexico,Guadalajara,Uninet S.A. de C.V.,187.201.225.188
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,609,38.9,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,644,136.6,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,157.245.129.129,10000,157.245.129.129:10000,Elite,650,58.5,US,United States,North Bergen,"DigitalOcean, LLC",157.245.129.129
-http,47.242.218.151,9002,47.242.218.151:9002,Elite,864,152.5,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",8.210.149.36
-http,4.144.146.21,80,4.144.146.21:80,Elite,938,195.4,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,165.22.99.36,8007,165.22.99.36:8007,Elite,982,176.5,SG,Singapore,Singapore,"DigitalOcean, LLC",165.22.99.36
-http,190.60.34.250,999,190.60.34.250:999,Elite,1103,1130.7,CO,Colombia,Bogota,UFINET PANAMA S.A.,181.78.17.131
-http,124.83.40.234,8080,124.83.40.234:8080,Elite,1187,593,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,195.184.246.75
-http,178.92.72.165,8080,178.92.72.165:8080,Elite,1241,243.2,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.165
-http,139.59.1.14,8080,139.59.1.14:8080,Elite,1246,250.6,IN,India,Bengaluru,"DigitalOcean, LLC",139.59.1.14
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1273,197.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8090,102.244.78.61:8090,Elite,1329,196.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,47.242.218.151,9020,47.242.218.151:9020,Elite,1638,153.8,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",47.242.181.198
-http,111.119.162.248,10922,111.119.162.248:10922,Elite,1685,255.9,PK,Pakistan,Karachi,Connect Communication,47.91.110.1
-http,111.119.162.248,10902,111.119.162.248:10902,Elite,1996,252.4,PK,Pakistan,Karachi,Connect Communication,47.90.181.13
-http,103.204.211.48,32255,103.204.211.48:32255,Elite,2044,1022,BD,Bangladesh,Dhaka,Level3 Carrier Limited,103.204.211.48
-http,111.119.162.248,10949,111.119.162.248:10949,Elite,2050,250.1,PK,Pakistan,Karachi,Connect Communication,8.216.119.64
-http,190.12.150.244,999,190.12.150.244:999,Elite,2353,1176,EC,Ecuador,La Concordia,ONETELECOM CIA.LTDA.,190.12.150.244
-http,177.234.221.196,999,177.234.221.196:999,Elite,2361,1180,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,177.234.221.194
-http,111.119.162.248,10931,111.119.162.248:10931,Elite,2397,264.0,PK,Pakistan,Karachi,Connect Communication,47.236.210.224
-http,45.115.114.41,2379,45.115.114.41:2379,Elite,2416,1208,BD,Bangladesh,Dhaka,Drik ICT Ltd,45.115.114.41
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,145,34.9,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,156,38.9,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,146.190.60.147,8011,146.190.60.147:8011,Elite,225,16.3,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
+http,108.61.29.163,10001,108.61.29.163:10001,Elite,245,57.6,US,United States,Piscataway,"The Constant Company, LLC",108.61.29.163
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,298,66.7,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,187.201.225.188,999,187.201.225.188:999,Elite,303,41.8,MX,Mexico,Guadalajara,Uninet S.A. de C.V.,187.201.225.188
+http,34.43.46.91,80,34.43.46.91:80,Elite,308,42.8,US,United States,San Jose,Google LLC,34.143.51.195
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,644,137.1,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,159.195.194.242,8080,159.195.194.242:8080,Elite,660,136.4,DE,Germany,Nuremberg,netcup GmbH,188.226.169.246
+http,47.242.218.151,9002,47.242.218.151:9002,Elite,853,156.6,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",8.210.149.36
+http,181.119.224.25,8080,181.119.224.25:8080,Elite,861,111.4,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,181.119.224.25
+http,47.242.218.151,9020,47.242.218.151:9020,Elite,868,156.4,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",47.242.181.198
+http,18.163.100.225,8080,18.163.100.225:8080,Elite,972,159.0,HK,Hong Kong,Hong Kong,"Amazon.com, Inc.",146.56.142.151
+http,34.43.46.91,443,34.43.46.91:443,Elite,995,43.1,US,United States,San Jose,Google LLC,34.143.51.195
+http,178.252.171.226,8080,178.252.171.226:8080,Elite,1122,561,IR,Iran,Hashtgerd,GOSTARESH-E-ERTEBATAT-E MABNA COMPANY Private Joint Stock,31.171.100.50
+http,150.241.245.249,8080,150.241.245.249:8080,Elite,1220,240.1,IN,India,Delhi,Micro Hosting Private Limited,150.241.245.249
+http,111.119.162.248,10939,111.119.162.248:10939,Elite,1800,253.5,PK,Pakistan,Karachi,Connect Communication,8.208.75.96
+http,43.128.63.68,7890,43.128.63.68:7890,Elite,1849,157.0,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,43.128.63.68
+http,111.119.162.248,10900,111.119.162.248:10900,Elite,1904,299.6,PK,Pakistan,Karachi,Connect Communication,8.208.75.96
+http,111.119.162.248,10902,111.119.162.248:10902,Elite,2007,258.9,PK,Pakistan,Karachi,Connect Communication,47.90.181.13
+http,103.184.180.2,1111,103.184.180.2:1111,Elite,2157,1078,ID,Indonesia,Surabaya,"Lintas Data Prima, PT",103.184.180.2
+http,203.205.49.2,10205,203.205.49.2:10205,Elite,2328,1202.8,VN,Viet Nam,Hanoi,CMC Telecom Infrastructure Company,203.205.49.208
+http,130.49.186.40,2080,130.49.186.40:2080,Elite,2331,226.2,RU,Russian Federation,Moscow,TIME-HOST LTD,104.28.253.240
+http,181.188.203.112,999,181.188.203.112:999,Elite,2482,1183.7,EC,Ecuador,Quito,UFINET PANAMA S.A.,181.188.203.115
