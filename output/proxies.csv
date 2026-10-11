@@ -1,31 +1,51 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,64.181.247.193,443,64.181.247.193:443,Elite,83,41,US,United States,San Jose,Oracle Corporation,64.181.247.193
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,99,2.3,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,47.254.122.220,5443,47.254.122.220:5443,Elite,99,3.1,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",47.254.122.220
-http,54.201.143.198,1001,54.201.143.198:1001,Elite,183,19.3,US,United States,Boardman,"Amazon.com, Inc.",54.201.143.198
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,284,58.6,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,52.1.121.155,7000,52.1.121.155:7000,Elite,287,66.1,US,United States,Washington,"Amazon.com, Inc.",52.1.121.155
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,692,152.2,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,825,9.7,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,101.32.65.42,8888,101.32.65.42:8888,Elite,830,146.8,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,101.32.72.181
-http,104.251.93.39,16062,104.251.93.39:16062,Elite,871,67.4,US,United States,Las Vegas,Verizon Business,104.251.93.39
-http,194.87.10.245,1234,194.87.10.245:1234,Elite,919,170.5,SG,Singapore,Singapore,Baxet Group Inc.,194.87.10.245
-http,18.163.100.225,8080,18.163.100.225:8080,Elite,1144,149.4,HK,Hong Kong,Hong Kong,"Amazon.com, Inc.",146.56.142.151
-http,109.252.226.30,8080,109.252.226.30:8080,Elite,1200,188.0,RU,Russian Federation,Moscow,PJSC Moscow city telephone network,109.252.226.30
-http,82.47.161.152,8443,82.47.161.152:8443,Elite,1223,222.2,TR,Türkiye,Ankara,Datacamp Limited,82.47.161.152
-http,34.43.46.91,443,34.43.46.91:443,Elite,1313,48.0,US,United States,San Jose,Google LLC,34.143.51.195
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1423,229.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1431,221.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8090,102.244.78.61:8090,Elite,1447,226.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8087,102.244.78.61:8087,Elite,1451,229.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1451,225.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,103.134.221.52,1111,103.134.221.52:1111,Elite,1463,273.8,ID,Indonesia,Depok,Indonesia Network Information Center,103.134.223.5
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1481,225.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8084,102.244.78.61:8084,Elite,1482,1229.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1631,231.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8088,102.244.78.61:8088,Elite,1963,223.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,194.87.197.21,8080,194.87.197.21:8080,Elite,2063,1224.5,RU,Russian Federation,Saint Petersburg,LLC Baxet,89.105.219.180
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,2088,221.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,154.27.196.249,999,154.27.196.249:999,Elite,2110,1055,MX,Mexico,Colima,MULTICARRIER JE S. DE R.L. DE C.V.,154.27.196.248
-http,49.147.104.23,8082,49.147.104.23:8082,Elite,2271,1202.0,PH,Philippines,Bacolod City,Philippine Long Distance Telephone Co.,49.147.104.23
-http,34.43.46.91,80,34.43.46.91:80,Elite,2390,45.7,US,United States,San Jose,Google LLC,34.143.18.241
+http,104.225.162.20,8082,104.225.162.20:8082,Elite,98,25.5,US,United States,Charlotte,"iboss,inc",104.225.162.20
+http,38.156.238.24,999,38.156.238.24:999,Elite,322,1083.6,DO,Dominican Republic,Santo Domingo Este,"BITNET DOMINICANA, S.R.L.",38.156.238.26
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,409,60.7,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,467,96.0,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,167.233.243.116,3129,167.233.243.116:3129,Elite,538,96.7,DE,Germany,Nuremberg,Hetzner Online GmbH,167.233.243.116
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,559,65.1,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,152.0.45.48,8080,152.0.45.48:8080,Elite,749,374,DO,Dominican Republic,Santiago de los Caballeros,Compañía Dominicana de Teléfonos S. A.,152.0.45.48
+http,116.204.166.39,8080,116.204.166.39:8080,Elite,776,140.7,DE,Germany,Frankfurt am Main,High Speed For Internet Services L.L.C,116.204.166.39
+http,201.4.64.239,8080,201.4.64.239:8080,Elite,832,140.9,TR,Türkiye,Kilis,High Speed For Internet Services L.L.C,201.4.64.239
+http,201.4.69.240,8080,201.4.69.240:8080,Elite,837,138.3,TR,Türkiye,Kilis,High Speed For Internet Services L.L.C,201.4.69.240
+http,177.139.174.81,8080,177.139.174.81:8080,Elite,850,1134.9,BR,Brazil,Sao Paulo,TELEFÔNICA BRASIL S.A,177.139.174.81
+http,201.7.31.181,8080,201.7.31.181:8080,Elite,868,1178.0,TR,Türkiye,Istanbul,High Speed For Internet Services L.L.C,201.7.31.181
+http,38.191.161.88,999,38.191.161.88:999,Elite,889,52.9,DO,Dominican Republic,Santo Domingo Este,THREE NETWORKS SRL,38.191.161.90
+http,201.7.31.232,8080,201.7.31.232:8080,Elite,907,146.7,TR,Türkiye,Istanbul,High Speed For Internet Services L.L.C,201.7.31.230
+http,201.7.31.37,8080,201.7.31.37:8080,Elite,994,142.6,TR,Türkiye,Istanbul,High Speed For Internet Services L.L.C,153.56.249.33
+http,101.32.65.42,8888,101.32.65.42:8888,Elite,1046,201.8,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,101.32.72.181
+http,201.7.31.60,8080,201.7.31.60:8080,Elite,1055,527,TR,Türkiye,Istanbul,High Speed For Internet Services L.L.C,201.7.31.60
+http,102.244.78.61,8088,102.244.78.61:8088,Elite,1113,161.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8080,102.244.78.61:8080,Elite,1115,161.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1119,160.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1121,160.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8090,102.244.78.61:8090,Elite,1122,160.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1123,160.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1124,160.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,103.55.106.81,8080,103.55.106.81:8080,Elite,1139,569,IN,India,Gurugram,SBR Telecom Pvt. Ltd,103.55.106.122
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1145,162.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,4.144.146.21,80,4.144.146.21:80,Elite,1151,224.2,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,144.31.146.10,8080,144.31.146.10:8080,Elite,1220,185.9,IN,India,Mumbai,Micro Hosting Private Limited,144.31.146.10
+http,112.205.44.177,8080,112.205.44.177:8080,Elite,1255,220.4,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,112.205.44.177
+http,112.198.138.29,8082,112.198.138.29:8082,Elite,1293,252.0,PH,Philippines,Manila,Globe Telecom Inc.,112.198.138.29
+http,118.179.191.167,81,118.179.191.167:81,Elite,1371,685,BD,Bangladesh,Dhaka,Amber IT Limited,118.179.191.167
+http,187.249.114.254,8080,187.249.114.254:8080,Elite,1419,709,MX,Mexico,Teapa,Transtelco Inc,187.249.114.254
+http,161.22.33.109,999,161.22.33.109:999,Elite,1515,757,VE,Venezuela,Caracas,"THUNDERNET, C.A.",161.22.33.107
+http,102.66.161.31,8888,102.66.161.31:8888,Elite,1535,767,ZA,South Africa,Emakhazeni,HERO TELECOMS PTY LTD,102.66.161.31
+http,38.41.0.116,999,38.41.0.116:999,Elite,1542,771,VE,Venezuela,Domingo Pena,MDS TELECOM C.A.,38.41.29.83
+http,190.97.241.106,999,190.97.241.106:999,Elite,1554,85.6,VE,Venezuela,San Cristobal,VIGINET C.A,190.97.241.106
+http,45.198.147.14,8080,45.198.147.14:8080,Elite,1703,239.8,ID,Indonesia,Bekasi,PT. Eka Mas Republik,45.198.147.14
+http,49.147.125.164,5050,49.147.125.164:5050,Elite,1880,360.4,PH,Philippines,Bacolod City,Philippine Long Distance Telephone Co.,49.147.125.164
+http,38.103.250.121,8080,38.103.250.121:8080,Elite,2020,1292.0,ID,Indonesia,Jekulo,Indonesia Network Information Center,38.103.250.121
+http,203.130.10.94,8080,203.130.10.94:8080,Elite,2037,194.3,PK,Pakistan,Karachi,"Supernet, PDS Limited",202.143.119.193
+http,95.211.47.55,8088,95.211.47.55:8088,Elite,2090,111.6,NL,Netherlands,Amsterdam,LeaseWeb Netherlands B.V.,108.165.147.64
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,2132,161.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,201.4.69.45,8080,201.4.69.45:8080,Elite,2210,140.5,TR,Türkiye,Kilis,High Speed For Internet Services L.L.C,188.132.249.103
+http,149.2.82.195,999,149.2.82.195:999,Elite,2259,1129,DO,Dominican Republic,Santo Domingo,"TELECABLE DOMINICANO, S.A.",149.2.82.194
+http,45.198.10.39,9191,45.198.10.39:9191,Elite,2286,1143,ID,Indonesia,Selogiri,Indonesia Network Information Center,38.253.240.151
+http,190.7.19.110,8080,190.7.19.110:8080,Elite,2292,1146,AR,Argentina,Corrientes,Gigared S.A.,190.7.19.110
+http,103.172.71.203,8080,103.172.71.203:8080,Elite,2294,1147,ID,Indonesia,Purwakarta,Indonesia Network Information Center,103.172.71.203
+http,103.184.180.2,1111,103.184.180.2:1111,Elite,2361,1180,ID,Indonesia,Surabaya,"Lintas Data Prima, PT",103.184.180.2
+http,185.225.41.171,8080,185.225.41.171:8080,Elite,2404,1202,SY,Syrian Arab Republic,Qadsayya,Syrian Telecommunication Private Closed Joint Stock Company,178.169.0.16
+http,38.194.246.34,999,38.194.246.34:999,Elite,2462,69.6,MX,Mexico,Santiago de Queretaro,IENTC S DE RL DE CV,38.194.246.34
