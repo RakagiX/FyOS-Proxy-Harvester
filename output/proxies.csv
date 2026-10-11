@@ -1,18 +1,34 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,159.203.61.169,3128,159.203.61.169:3128,Elite,359,81.6,CA,Canada,Toronto,"DigitalOcean, LLC",159.203.61.169
-http,64.181.247.193,443,64.181.247.193:443,Elite,402,201,US,United States,San Jose,Oracle Corporation,64.181.247.193
-http,134.209.29.120,3128,134.209.29.120:3128,Elite,643,135.2,GB,United Kingdom,London,"DigitalOcean, LLC",134.209.29.120
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,787,155.4,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,101.32.65.42,8888,101.32.65.42:8888,Elite,799,139.2,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,101.32.72.181
-http,47.242.218.151,9002,47.242.218.151:9002,Elite,944,138.4,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",8.210.149.36
-http,144.79.228.174,8080,144.79.228.174:8080,Elite,1044,1193.8,ID,Indonesia,Gambiran Satu,PT Teja Bala Abadi,144.79.228.174
-http,103.154.231.61,8090,103.154.231.61:8090,Elite,1050,1214.3,ID,Indonesia,Banyubiru,PT Digital Media Telematika,103.154.231.29
-http,34.43.46.91,80,34.43.46.91:80,Elite,1068,53.4,US,United States,San Jose,Google LLC,34.143.18.241
-http,182.48.71.9,8080,182.48.71.9:8080,Elite,1163,581,BD,Bangladesh,Narsingdi,Race Online Ltd.,43.239.75.6
-http,102.244.78.61,8087,102.244.78.61:8087,Elite,1340,206.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,185.171.202.73,8443,185.171.202.73:8443,Elite,1376,191.2,FR,France,Paris,Dyjix SAS,185.171.202.73
-http,144.31.146.190,8080,144.31.146.190:8080,Elite,1407,233.4,IN,India,Mumbai,Micro Hosting Private Limited,144.31.146.190
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1410,204.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,45.194.3.132,8080,45.194.3.132:8080,Elite,1544,233.4,IN,India,Dadri,CtrlS,45.194.3.132
-http,45.229.17.94,999,45.229.17.94:999,Elite,1677,838,EC,Ecuador,Palenque,TURBONET S.A.,45.229.17.89
-http,103.162.61.49,8080,103.162.61.49:8080,Elite,2284,1142,ID,Indonesia,Semarang,Indonesia Network Information Center,43.252.106.152
+http,108.61.29.163,10001,108.61.29.163:10001,Elite,199,47.4,US,United States,Piscataway,"The Constant Company, LLC",108.61.29.163
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,465,24.4,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,144.124.251.24,10814,144.124.251.24:10814,Elite,599,118.2,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10601,144.124.251.24:10601,Elite,599,114.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10122,144.124.251.24:10122,Elite,600,114.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10372,144.124.251.24:10372,Elite,603,116.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10088,144.124.251.24:10088,Elite,607,117.8,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10443,144.124.251.24:10443,Elite,614,114.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,144.124.251.24,10771,144.124.251.24:10771,Elite,724,169.0,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,82.47.161.152,8443,82.47.161.152:8443,Elite,820,163.3,TR,Türkiye,Ankara,Datacamp Limited,82.47.161.152
+http,144.124.251.24,10101,144.124.251.24:10101,Elite,855,169.8,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,112.216.54.226,12121,112.216.54.226:12121,Elite,876,438,KR,South Korea,Seoul,LG DACOM Corporation,112.216.54.226
+http,94.228.121.237,8080,94.228.121.237:8080,Elite,894,145.3,RU,Russian Federation,Saint Petersburg,JSC TIMEWEB,104.28.196.105
+http,144.124.251.24,10412,144.124.251.24:10412,Elite,896,181.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
+http,160.238.185.192,999,160.238.185.192:999,Elite,916,169.8,PY,Paraguay,Santa Rita,FLYNET SRL,160.238.185.192
+http,4.144.146.21,80,4.144.146.21:80,Elite,980,183.2,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,216.243.112.186,8080,216.243.112.186:8080,Elite,1081,196.3,ID,Indonesia,Jakarta,Indonesia Network Information Center,216.243.112.186
+http,178.92.72.54,8080,178.92.72.54:8080,Elite,1090,216.0,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.54
+http,178.92.72.165,8080,178.92.72.165:8080,Elite,1127,219.5,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.165
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1213,183.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1215,192.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1222,188.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,122.54.139.32,5050,122.54.139.32:5050,Elite,1347,196.8,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,122.54.139.32
+http,111.119.162.248,10982,111.119.162.248:10982,Elite,1402,254.1,PK,Pakistan,Karachi,Connect Communication,193.29.139.193
+http,223.205.80.25,8080,223.205.80.25:8080,Elite,1617,1234.8,TH,Thailand,Ban Na Doem,Advanced Wireless Network Company Limited,223.205.80.25
+http,38.57.65.195,999,38.57.65.195:999,Elite,1639,1128.1,DO,Dominican Republic,Santo Domingo Este,"FALCO TELECOM, S.R.L.",38.57.65.192
+http,111.119.162.248,10914,111.119.162.248:10914,Elite,1661,251.3,PK,Pakistan,Karachi,Connect Communication,47.237.48.66
+http,111.119.162.248,10943,111.119.162.248:10943,Elite,1688,303.0,PK,Pakistan,Karachi,Connect Communication,149.22.87.204
+http,103.172.71.229,9191,103.172.71.229:9191,Elite,1694,198.4,ID,Indonesia,Bekasi,Indonesia Network Information Center,103.172.71.229
+http,178.185.244.154,8080,178.185.244.154:8080,Elite,1806,1191.6,RU,Russian Federation,Saint Petersburg,PJSC Rostelecom,178.185.244.154
+http,111.119.162.248,10939,111.119.162.248:10939,Elite,1873,237.2,PK,Pakistan,Karachi,Connect Communication,8.208.75.96
+http,203.201.190.33,8080,203.201.190.33:8080,Elite,2050,1025,ID,Indonesia,Upt Way Terusan Sp. 2,PT WIRA HASTA JITU,203.201.190.33
+http,111.119.162.248,10913,111.119.162.248:10913,Elite,2192,243.7,PK,Pakistan,Karachi,Connect Communication,47.237.48.65
