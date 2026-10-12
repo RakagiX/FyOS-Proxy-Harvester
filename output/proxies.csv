@@ -1,20 +1,29 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,108.61.29.163,10001,108.61.29.163:10001,Elite,139,69,US,United States,Piscataway,"The Constant Company, LLC",108.61.29.163
-http,43.173.120.13,8899,43.173.120.13:8899,Elite,762,41.5,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,995,130.0,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,102.244.78.61,8088,102.244.78.61:8088,Elite,1208,186.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1212,184.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8090,102.244.78.61:8090,Elite,1217,187.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1223,181.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1231,191.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8084,102.244.78.61:8084,Elite,1237,186.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8087,102.244.78.61:8087,Elite,1243,198.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1244,194.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,178.92.72.134,8080,178.92.72.134:8080,Elite,1286,200.6,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.134
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,1346,42.1,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,181.78.195.137,999,181.78.195.137:999,Elite,1526,110.0,EC,Ecuador,Quito,Ufinet Panama S.A.,205.235.1.115
-http,111.119.162.248,10912,111.119.162.248:10912,Elite,1638,230.6,PK,Pakistan,Karachi,Connect Communication,47.88.81.2
-http,176.111.37.5,39811,176.111.37.5:39811,Elite,2155,137.5,SE,Sweden,Stockholm,Cogento Backbone Limited,176.111.37.5
-http,177.234.217.43,999,177.234.217.43:999,Elite,2199,1099,EC,Ecuador,Quito,Ufinet Panama S.A.,177.234.217.42
-http,103.158.210.25,8080,103.158.210.25:8080,Elite,2227,1113,ID,Indonesia,Baureno,PT Digital Media Telematika,103.158.210.25
-http,196.64.117.148,2001,196.64.117.148:2001,Elite,2293,1146,MA,Morocco,Rabat,Office National des Postes et Telecommunications ONPT Maroc Telecom / IAM,196.64.99.20
+http,108.61.29.163,10001,108.61.29.163:10001,Elite,281,67.3,US,United States,Piscataway,"The Constant Company, LLC",108.61.29.163
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,296,31.3,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,134.209.29.120,3128,134.209.29.120:3128,Elite,634,137.2,GB,United Kingdom,London,"DigitalOcean, LLC",134.209.29.120
+http,43.173.120.13,8899,43.173.120.13:8899,Elite,689,24.4,US,United States,San Jose,Shenzhen Tencent Computer Systems Company Limited,43.173.120.13
+http,185.171.202.73,8443,185.171.202.73:8443,Elite,709,144.9,FR,France,Paris,Dyjix SAS,185.171.202.73
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,716,155.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,112.216.54.226,12121,112.216.54.226:12121,Elite,800,129.3,KR,South Korea,Seoul,LG DACOM Corporation,112.216.54.226
+http,8.215.25.3,2080,8.215.25.3:2080,Elite,960,171.9,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
+http,200.128.84.82,3128,200.128.84.82:3128,Elite,969,176.6,BR,Brazil,Feira de Santana,UNIVERSIDADE FEDERAL DA BAHIA,200.128.84.82
+http,8.215.25.3,2081,8.215.25.3:2081,Elite,975,176.1,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
+http,45.198.11.164,9191,45.198.11.164:9191,Elite,1032,183.6,ID,Indonesia,Surakarta,Indonesia Network Information Center,45.198.11.164
+http,82.47.161.152,8443,82.47.161.152:8443,Elite,1123,203.4,TR,Türkiye,Ankara,Datacamp Limited,82.47.161.152
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1290,204.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1291,205.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8087,102.244.78.61:8087,Elite,1292,204.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8088,102.244.78.61:8088,Elite,1295,204.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8082,102.244.78.61:8082,Elite,1295,204.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1296,205.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1297,205.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8080,102.244.78.61:8080,Elite,1297,204.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8090,102.244.78.61:8090,Elite,1314,205.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1324,204.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,144.31.146.10,8080,144.31.146.10:8080,Elite,1404,226.0,IN,India,Mumbai,Micro Hosting Private Limited,144.31.146.10
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1559,205.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,109.127.199.112,9999,109.127.199.112:9999,Elite,1801,281.9,SI,Slovenia,Ljubljana,ARNES,153.5.82.14
+http,204.168.225.55,8888,204.168.225.55:8888,Elite,1802,170.0,FI,Finland,Helsinki,Hetzner Online GmbH,104.28.222.16
+http,181.78.195.137,999,181.78.195.137:999,Elite,2139,1167.8,EC,Ecuador,Quito,Ufinet Panama S.A.,205.235.1.115
+http,38.7.195.51,999,38.7.195.51:999,Elite,2429,1214,CL,Chile,Santiago,GRUPO ZGH SPA,151.241.85.26
