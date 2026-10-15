@@ -1,24 +1,16 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,66.95.81.180,8080,66.95.81.180:8080,Elite,194,31.8,US,United States,Washington,RCN,66.95.81.180
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,244,24.3,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,104.129.203.85,9480,104.129.203.85:9480,Elite,370,39.6,US,United States,San Jose,"ZSCALER, INC.",104.129.203.85
-http,146.190.60.147,8011,146.190.60.147:8011,Elite,374,39.5,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
-http,146.190.60.147,8005,146.190.60.147:8005,Elite,400,43.3,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
-http,146.190.60.147,8018,146.190.60.147:8018,Elite,518,39.7,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,595,122.2,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,191.44.91.60,8080,191.44.91.60:8080,Elite,928,175.2,SY,Syrian Arab Republic,Damascus,High Speed For Internet Services L.L.C,191.44.91.60
-http,82.139.170.187,8080,82.139.170.187:8080,Elite,1020,143.0,PL,Poland,Bialystok,Politechnika Bialostocka,82.139.170.187
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1225,196.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8088,102.244.78.61:8088,Elite,1242,196.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8090,102.244.78.61:8090,Elite,1243,197.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8087,102.244.78.61:8087,Elite,1243,191.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8084,102.244.78.61:8084,Elite,1245,197.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1266,194.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1267,187.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1279,186.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1477,197.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1482,197.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,190.7.214.134,8080,190.7.214.134:8080,Elite,2166,1083,CR,Costa Rica,San Jose,American Data Networks,190.7.214.134
-http,45.125.64.215,443,45.125.64.215:443,Elite,2175,223.7,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
-http,165.154.7.156,8888,165.154.7.156:8888,Elite,2439,176.7,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.7.156
-http,102.244.78.61,8080,102.244.78.61:8080,Elite,2448,187.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,66.95.81.180,8080,66.95.81.180:8080,Elite,79,6.2,US,United States,Washington,RCN,66.95.81.180
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,312,17.2,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,104.129.203.85,9480,104.129.203.85:9480,Elite,422,68.9,US,United States,San Jose,"ZSCALER, INC.",104.129.203.85
+http,45.125.64.215,443,45.125.64.215:443,Elite,1116,224.3,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,1139,62.5,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,144.31.146.10,8080,144.31.146.10:8080,Elite,1195,187.9,IN,India,Mumbai,Micro Hosting Private Limited,144.31.146.10
+http,45.198.11.162,9191,45.198.11.162:9191,Elite,1289,244.1,ID,Indonesia,Surakarta,Indonesia Network Information Center,45.198.10.131
+http,38.19.43.77,999,38.19.43.77:999,Elite,1493,74.6,CO,Colombia,Guatavita,SUPER REDES S.A.S,38.19.43.76
+http,38.194.246.34,999,38.194.246.34:999,Elite,1532,766,MX,Mexico,Santiago de Queretaro,IENTC S DE RL DE CV,206.135.47.106
+http,201.7.31.56,8080,201.7.31.56:8080,Elite,1965,982,TR,Türkiye,Istanbul,High Speed For Internet Services L.L.C,201.7.31.56
+http,45.198.20.173,8080,45.198.20.173:8080,Elite,2017,1265.5,ID,Indonesia,Kecamatan Cileungsi,Indonesia Network Information Center,45.198.20.173
+http,158.101.89.163,3123,158.101.89.163:3123,Elite,2312,157.7,JP,Japan,Tokyo,Oracle Corporation,158.101.89.163
+http,103.158.237.90,8080,103.158.237.90:8080,Elite,2387,1193,PK,Pakistan,Lahore,Gerrys Information Technology PVT Ltd,103.158.237.90
+http,210.211.113.33,80,210.211.113.33:80,Elite,2390,1258.9,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.33
+http,45.71.186.213,999,45.71.186.213:999,Elite,2453,1226,EC,Ecuador,Guayaquil,Ufinet Panama S.A.,181.78.194.249
