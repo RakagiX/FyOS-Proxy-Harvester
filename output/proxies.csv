@@ -1,16 +1,15 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,66.95.81.180,8080,66.95.81.180:8080,Elite,79,6.2,US,United States,Washington,RCN,66.95.81.180
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,312,17.2,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,104.129.203.85,9480,104.129.203.85:9480,Elite,422,68.9,US,United States,San Jose,"ZSCALER, INC.",104.129.203.85
-http,45.125.64.215,443,45.125.64.215:443,Elite,1116,224.3,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,1139,62.5,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,144.31.146.10,8080,144.31.146.10:8080,Elite,1195,187.9,IN,India,Mumbai,Micro Hosting Private Limited,144.31.146.10
-http,45.198.11.162,9191,45.198.11.162:9191,Elite,1289,244.1,ID,Indonesia,Surakarta,Indonesia Network Information Center,45.198.10.131
-http,38.19.43.77,999,38.19.43.77:999,Elite,1493,74.6,CO,Colombia,Guatavita,SUPER REDES S.A.S,38.19.43.76
-http,38.194.246.34,999,38.194.246.34:999,Elite,1532,766,MX,Mexico,Santiago de Queretaro,IENTC S DE RL DE CV,206.135.47.106
-http,201.7.31.56,8080,201.7.31.56:8080,Elite,1965,982,TR,Türkiye,Istanbul,High Speed For Internet Services L.L.C,201.7.31.56
-http,45.198.20.173,8080,45.198.20.173:8080,Elite,2017,1265.5,ID,Indonesia,Kecamatan Cileungsi,Indonesia Network Information Center,45.198.20.173
-http,158.101.89.163,3123,158.101.89.163:3123,Elite,2312,157.7,JP,Japan,Tokyo,Oracle Corporation,158.101.89.163
-http,103.158.237.90,8080,103.158.237.90:8080,Elite,2387,1193,PK,Pakistan,Lahore,Gerrys Information Technology PVT Ltd,103.158.237.90
-http,210.211.113.33,80,210.211.113.33:80,Elite,2390,1258.9,VN,Viet Nam,Hanoi,Vietel - CHT Compamy Ltd,210.211.113.33
-http,45.71.186.213,999,45.71.186.213:999,Elite,2453,1226,EC,Ecuador,Guayaquil,Ufinet Panama S.A.,181.78.194.249
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,110,31.8,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,34.43.46.91,443,34.43.46.91:443,Elite,238,11.3,US,United States,San Jose,Google LLC,34.143.51.195
+http,34.43.46.91,80,34.43.46.91:80,Elite,455,35.8,US,United States,San Jose,Google LLC,34.143.51.195
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,562,113.5,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,563,53.1,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,47.237.12.129,8080,47.237.12.129:8080,Elite,1102,206.6,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",47.237.12.129
+http,45.125.64.215,443,45.125.64.215:443,Elite,1122,216.7,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
+http,8.215.25.3,2080,8.215.25.3:2080,Elite,1166,221.2,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1187,171.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1189,172.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,144.31.146.190,8080,144.31.146.190:8080,Elite,1221,193.8,IN,India,Mumbai,Micro Hosting Private Limited,144.31.146.190
+http,178.92.72.134,8080,178.92.72.134:8080,Elite,1233,203.2,IN,India,Mumbai,Micro Hosting Private Limited,178.92.72.134
+http,180.148.4.74,8080,180.148.4.74:8080,Elite,1596,798,VN,Viet Nam,Ho Chi Minh City,Vietnam Technology and Telecommunication JSC,180.148.4.74
+http,179.1.126.25,999,179.1.126.25:999,Elite,2222,1111,CO,Colombia,Quibdo,INTERNEXA S.A. E.S.P,179.1.126.26
