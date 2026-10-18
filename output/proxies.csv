@@ -1,36 +1,36 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,760,11.3,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,168.227.239.66,20000,168.227.239.66:20000,Elite,834,160.8,BR,Brazil,Joinville,BRASIL TECPAR AMIGO AVATO,177.126.10.185
-http,181.188.203.40,999,181.188.203.40:999,Elite,854,116.9,EC,Ecuador,Montalvo,Ufinet Panama S.A.,181.188.203.40
-http,47.242.218.151,9011,47.242.218.151:9011,Elite,856,160.4,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",8.218.151.24
-http,45.125.64.215,443,45.125.64.215:443,Elite,917,165.6,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
-http,112.169.99.71,8043,112.169.99.71:8043,Elite,1031,132.4,KR,South Korea,Seongnam-si,Korea Telecom,121.170.38.172
-http,78.17.144.104,18080,78.17.144.104:18080,Elite,1094,161.6,FI,Finland,Helsinki,HOSTKEY B.V.,176.58.105.121
-http,206.135.12.153,999,206.135.12.153:999,Elite,1106,54.9,MX,Mexico,Mexico City,IENTC S DE RL DE CV,206.135.12.152
-http,168.227.239.66,10000,168.227.239.66:10000,Elite,1207,158.8,BR,Brazil,Joinville,BRASIL TECPAR AMIGO AVATO,168.196.138.12
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1322,215.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1360,211.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1361,216.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,144.31.146.195,8080,144.31.146.195:8080,Elite,1413,232.4,IN,India,Mumbai,Micro Hosting Private Limited,144.31.146.195
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1450,725,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1491,239.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,101.32.94.127,8089,101.32.94.127:8089,Elite,1547,109.7,JP,Japan,Kawasaki,Shenzhen Tencent Computer Systems Company Limited,101.32.94.127
-http,206.135.62.8,999,206.135.62.8:999,Elite,1598,57.9,MX,Mexico,Mexico City,IENTC S DE RL DE CV,206.135.62.8
-http,200.10.31.42,8081,200.10.31.42:8081,Elite,1702,106.8,CO,Colombia,Pereira,SUPER REDES S.A.S,200.10.31.42
-http,103.133.201.243,8080,103.133.201.243:8080,Elite,1754,266.6,BD,Bangladesh,Dhaka,Antaranga Dot Com Ltd,103.133.201.175
-http,116.104.251.199,2038,116.104.251.199:2038,Elite,1821,217.7,VN,Viet Nam,Thanh Hoa,Viettel Group,116.104.251.199
-http,206.135.72.8,999,206.135.72.8:999,Elite,1833,67.1,MX,Mexico,Mexico City,IENTC S DE RL DE CV,206.135.72.8
-http,47.242.218.151,9028,47.242.218.151:9028,Elite,1849,156.7,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",8.218.179.191
-http,8.243.167.51,999,8.243.167.51:999,Elite,1907,953,CO,Colombia,Bogota,"Level 3 Parent, LLC",8.243.167.51
-http,103.184.52.66,8080,103.184.52.66:8080,Elite,1909,1251.3,ID,Indonesia,Jakarta,Indonesia Network Information Center,103.184.52.66
-http,116.104.251.199,2045,116.104.251.199:2045,Elite,1936,206.7,VN,Viet Nam,Thanh Hoa,Viettel Group,117.1.209.15
-http,116.104.251.199,2048,116.104.251.199:2048,Elite,1960,267.8,VN,Viet Nam,Thanh Hoa,Viettel Group,27.73.209.139
-http,185.196.61.251,8081,185.196.61.251:8081,Elite,2111,61.7,CA,Canada,Toronto,"BrainStorm Network, Inc",104.28.208.123
-http,189.51.168.22,999,189.51.168.22:999,Elite,2124,1062,MX,Mexico,Merida,Comunicación por Fibra SA de CV,189.51.168.22
-http,116.104.251.199,2091,116.104.251.199:2091,Elite,2148,206.7,VN,Viet Nam,Thanh Hoa,Viettel Group,116.101.0.43
-http,110.74.195.34,25,110.74.195.34:25,Elite,2183,217.6,KH,Cambodia,Phnom Penh,"EZECOM CO., LTD.",110.74.195.34
-http,186.167.114.146,999,186.167.114.146:999,Elite,2262,1131,VE,Venezuela,Valencia,Corporacion Digitel C.A.,186.167.114.146
-http,116.104.251.199,2069,116.104.251.199:2069,Elite,2357,221.5,VN,Viet Nam,Thanh Hoa,Viettel Group,117.1.209.15
-http,179.1.182.28,999,179.1.182.28:999,Elite,2387,1193,CO,Colombia,Medellin,INTERNEXA S.A. E.S.P,179.1.182.27
-http,47.242.218.151,9001,47.242.218.151:9001,Elite,2412,152.1,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",47.242.218.151
-http,34.43.46.91,80,34.43.46.91:80,Elite,2444,33.3,US,United States,San Jose,Google LLC,34.143.51.195
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,132,47.5,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,34.43.46.91,443,34.43.46.91:443,Elite,181,20.4,US,United States,San Jose,Google LLC,34.143.51.195
+http,34.43.46.91,80,34.43.46.91:80,Elite,192,20.1,US,United States,San Jose,Google LLC,34.143.51.195
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,504,53.4,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,596,119.4,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,91.107.247.193,7001,91.107.247.193:7001,Elite,668,131.7,DE,Germany,Nuremberg,Hetzner Online GmbH,91.107.247.193
+http,168.227.239.66,10000,168.227.239.66:10000,Elite,845,155.6,BR,Brazil,Joinville,BRASIL TECPAR AMIGO AVATO,131.221.93.248
+http,4.144.146.21,80,4.144.146.21:80,Elite,1075,196.1,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,45.125.64.215,443,45.125.64.215:443,Elite,1093,208.7,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
+http,8.215.25.3,2080,8.215.25.3:2080,Elite,1109,213.0,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
+http,8.215.25.3,2081,8.215.25.3:2081,Elite,1110,210.8,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
+http,168.227.239.66,20000,168.227.239.66:20000,Elite,1154,155.3,BR,Brazil,Joinville,BRASIL TECPAR AMIGO AVATO,177.126.10.2
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1228,186.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,20.33.10.132,443,20.33.10.132:443,Elite,1234,245.6,ZA,South Africa,Johannesburg,Microsoft Corporation,20.33.10.79
+http,102.244.78.61,8087,102.244.78.61:8087,Elite,1249,184.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1252,183.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8082,102.244.78.61:8082,Elite,1263,186.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1263,185.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1268,183.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8090,102.244.78.61:8090,Elite,1270,183.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1287,186.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,8.219.97.248,80,8.219.97.248:80,Elite,1444,196.1,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
+http,205.164.192.115,999,205.164.192.115:999,Elite,1672,43.4,MX,Mexico,Yurecuaro,MULTICARRIER JE S. DE R.L. DE C.V.,205.164.192.115
+http,165.154.7.156,8888,165.154.7.156:8888,Elite,1710,175.4,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.7.156
+http,103.20.102.155,2927,103.20.102.155:2927,Elite,1802,242.0,VN,Viet Nam,Ho Chi Minh City,Vietnam Internet Network Information Center VNNIC,103.20.102.155
+http,103.20.102.155,2929,103.20.102.155:2929,Elite,1968,239.2,VN,Viet Nam,Ho Chi Minh City,Vietnam Internet Network Information Center VNNIC,103.20.102.155
+http,20.33.10.79,80,20.33.10.79:80,Elite,2013,244.8,ZA,South Africa,Johannesburg,Microsoft Corporation,20.33.10.79
+http,185.130.50.208,80,185.130.50.208:80,Elite,2021,1010,IR,Iran,Zanjan,Mizban Dade Shetaban Co. Ltd,185.130.50.208
+http,116.104.251.199,2076,116.104.251.199:2076,Elite,2145,229.3,VN,Viet Nam,Thanh Hoa,Viettel Group,27.73.209.139
+http,47.242.218.151,9006,47.242.218.151:9006,Elite,2209,174.3,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",8.218.96.59
+http,116.104.251.199,2035,116.104.251.199:2035,Elite,2263,228.6,VN,Viet Nam,Thanh Hoa,Viettel Group,58.186.113.101
+http,116.104.251.199,2045,116.104.251.199:2045,Elite,2293,227.8,VN,Viet Nam,Thanh Hoa,Viettel Group,27.73.208.37
+http,103.181.162.25,8080,103.181.162.25:8080,Elite,2330,1165,BD,Bangladesh,Dhaka,Business Zone Limited,103.155.27.7
+http,38.196.221.6,999,38.196.221.6:999,Elite,2406,1203,DO,Dominican Republic,Pedro Brand,"ACOLME TECH, SRL",38.196.221.5
+http,38.194.246.34,999,38.194.246.34:999,Elite,2425,45.2,MX,Mexico,Santiago de Queretaro,IENTC S DE RL DE CV,206.135.47.106
