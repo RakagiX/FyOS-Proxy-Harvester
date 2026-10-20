@@ -1,20 +1,25 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,143,1043.0,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,38.41.0.116,999,38.41.0.116:999,Elite,422,211,VE,Venezuela,Domingo Pena,MDS TELECOM C.A.,38.41.29.83
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,476,93.3,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,34.43.46.91,80,34.43.46.91:80,Elite,991,37.7,US,United States,San Jose,Google LLC,34.143.51.195
-http,34.43.46.91,443,34.43.46.91:443,Elite,1014,17.1,US,United States,San Jose,Google LLC,34.143.51.195
-http,190.12.150.244,999,190.12.150.244:999,Elite,1033,86.6,EC,Ecuador,La Concordia,ONETELECOM CIA.LTDA.,190.12.150.244
-http,172.105.149.160,5000,172.105.149.160:5000,Elite,1118,14.7,US,United States,Atlanta,"Akamai Technologies, Inc.",16.163.182.8
-http,45.125.64.215,443,45.125.64.215:443,Elite,1124,214.9,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
-http,4.144.146.21,80,4.144.146.21:80,Elite,1179,222.6,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,91.146.56.46,9000,91.146.56.46:9000,Elite,1200,158.4,RU,Russian Federation,Izhevsk,OOO NI,89.169.53.40
-http,181.232.191.248,999,181.232.191.248:999,Elite,1329,664,DO,Dominican Republic,Santo Domingo Este,AIRTIME TECHNOLOGY SRL,181.232.191.254
-http,45.194.46.57,8080,45.194.46.57:8080,Elite,1423,210.7,IN,India,Dadri,CtrlS,45.194.46.57
-http,45.194.90.194,8080,45.194.90.194:8080,Elite,1432,226.2,IN,India,Dadri,CtrlS,45.194.90.194
-http,47.242.218.151,9026,47.242.218.151:9026,Elite,1892,199.7,HK,Hong Kong,Hong Kong,"Alibaba US Technology Co., Ltd.",47.243.152.76
-http,36.94.149.149,8090,36.94.149.149:8090,Elite,1974,987,ID,Indonesia,Jakarta,Telekomunikasi Indonesia PT,36.64.2.214
-http,38.246.200.34,999,38.246.200.34:999,Elite,2323,47.6,MX,Mexico,Ixmiquilpan,RADIOCOMUNICACIONES DE IXMIQUILPAN SA DE CV,38.246.200.34
-http,103.156.75.243,3125,103.156.75.243:3125,Elite,2361,1180,ID,Indonesia,Blahbatuh,Indonesia Network Information Center,103.251.8.52
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,2418,1081.9,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,203.205.49.2,10243,203.205.49.2:10243,Elite,2474,1296.7,VN,Viet Nam,Hanoi,CMC Telecom Infrastructure Company,203.205.49.246
+http,146.190.60.147,8013,146.190.60.147:8013,Elite,152,34.5,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,358,69.2,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,762,136.9,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,38.63.98.55,999,38.63.98.55:999,Elite,842,421,VE,Venezuela,Cabimas,COLNETWORK C.A.,38.63.98.55
+http,45.125.64.215,443,45.125.64.215:443,Elite,893,165.7,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
+http,4.144.146.21,80,4.144.146.21:80,Elite,967,174.4,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,119.93.139.196,8082,119.93.139.196:8082,Elite,973,1219.9,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,119.93.139.196
+http,8.215.25.3,2080,8.215.25.3:2080,Elite,1030,189.1,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
+http,58.69.124.137,8080,58.69.124.137:8080,Elite,1108,1204.3,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,58.69.124.137
+http,103.204.46.2,8090,103.204.46.2:8090,Elite,1125,562,ID,Indonesia,Pacitan,Indonesia Network Information Center,103.204.46.10
+http,34.43.46.91,80,34.43.46.91:80,Elite,1215,35.0,US,United States,San Jose,Google LLC,34.143.51.195
+http,102.244.78.61,8090,102.244.78.61:8090,Elite,1251,293.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8087,102.244.78.61:8087,Elite,1275,242.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1279,194.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,38.246.200.34,999,38.246.200.34:999,Elite,1314,38.5,MX,Mexico,Ixmiquilpan,RADIOCOMUNICACIONES DE IXMIQUILPAN SA DE CV,38.246.200.34
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1401,295.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1420,194.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,113.161.93.6,8080,113.161.93.6:8080,Elite,1470,735,VN,Viet Nam,Ho Chi Minh City,VNPT Corp,113.161.93.6
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1496,197.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1504,194.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,45.65.226.173,999,45.65.226.173:999,Elite,1574,787,AR,Argentina,Moron,SOLUTION LAN S.A,45.65.226.169
+http,188.93.147.168,8118,188.93.147.168:8118,Elite,1655,9.2,US,United States,Gunnison,"Fly.io, Inc.",171.25.193.78
+http,103.153.62.217,8181,103.153.62.217:8181,Elite,2176,1088,ID,Indonesia,Jakarta,Indonesia Network Information Center,103.153.62.217
+http,103.184.52.66,8080,103.184.52.66:8080,Elite,2493,199.0,ID,Indonesia,Jakarta,Indonesia Network Information Center,103.184.52.66
