@@ -1,41 +1,29 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,221,49.0,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,367,36.4,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,569,120.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,45.65.224.125,999,45.65.224.125:999,Elite,750,143.5,AR,Argentina,Moron,SOLUTION LAN S.A,45.65.224.125
-http,158.220.80.184,3129,158.220.80.184:3129,Elite,861,121.7,GB,United Kingdom,Portsmouth,Contabo GmbH,158.220.80.184
-http,45.65.226.171,999,45.65.226.171:999,Elite,930,1204.9,AR,Argentina,Moron,SOLUTION LAN S.A,45.65.226.169
-http,45.125.64.215,443,45.125.64.215:443,Elite,968,178.7,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
-http,195.154.191.26,1092,195.154.191.26:1092,Elite,993,116.0,FR,France,Paris,Scaleway SAS,82.108.118.125
-http,178.169.0.18,8080,178.169.0.18:8080,Elite,1038,1233.8,SY,Syrian Arab Republic,Ḩamah,Syrian Telecommunication Private Closed Joint Stock Company,178.169.0.18
-http,112.203.194.62,8082,112.203.194.62:8082,Elite,1158,579,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,112.203.200.208
-http,165.99.194.184,8080,165.99.194.184:8080,Elite,1179,589,ID,Indonesia,Jakenan,PT Network Bumi Saridin,165.99.194.184
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1183,173.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1183,174.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1198,174.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1199,174.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1207,175.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1211,177.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,203.205.49.2,10026,203.205.49.2:10026,Elite,1246,623,VN,Viet Nam,Hanoi,CMC Telecom Infrastructure Company,203.205.49.29
-http,113.161.93.6,8080,113.161.93.6:8080,Elite,1259,629,VN,Viet Nam,Ho Chi Minh City,VNPT Corp,113.161.93.6
-http,103.82.246.23,6080,103.82.246.23:6080,Elite,1349,217.1,ID,Indonesia,Depok,Indonesia Network Information Center,103.82.246.19
-http,205.164.192.115,999,205.164.192.115:999,Elite,1461,40.4,MX,Mexico,Yurecuaro,MULTICARRIER JE S. DE R.L. DE C.V.,205.164.192.115
-http,111.125.242.34,1111,111.125.242.34:1111,Elite,1487,230.1,IN,India,Mumbai,Microscan Internet Limited,111.125.242.34
-http,203.205.49.2,10191,203.205.49.2:10191,Elite,1570,198.5,VN,Viet Nam,Hanoi,CMC Telecom Infrastructure Company,203.205.49.194
-http,206.135.62.8,999,206.135.62.8:999,Elite,1630,815,MX,Mexico,Mexico City,IENTC S DE RL DE CV,206.135.62.8
-http,103.46.8.85,8080,103.46.8.85:8080,Elite,1689,1238.7,ID,Indonesia,Sumbermanjing Wetan,PT JARINGANKU SARANA NUSANTARA,103.46.8.85
-http,45.43.60.220,8080,45.43.60.220:8080,Elite,1730,865,JP,Japan,Tokyo,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,45.43.60.220
-http,45.195.90.142,8080,45.195.90.142:8080,Elite,1733,235.1,IN,India,Dadri,CtrlS,45.195.90.142
-http,209.14.115.9,999,209.14.115.9:999,Elite,1781,890,CO,Colombia,Bogota,TV AZTECA SUCURSAL COLOMBIA,191.97.10.117
-http,103.153.149.59,8034,103.153.149.59:8034,Elite,1807,903,ID,Indonesia,Blahbatuh,PT JARINGANKU SARANA NUSANTARA,163.61.225.61
-http,200.76.169.46,999,200.76.169.46:999,Elite,1848,924,MX,Mexico,Mexico City,"Alestra, S. de R.L. de C.V.",200.76.169.46
-http,190.60.44.4,999,190.60.44.4:999,Elite,2029,1014,CO,Colombia,Barranquilla,Ufinet Panama S.A.,190.60.44.4
-http,49.145.58.197,8082,49.145.58.197:8082,Elite,2040,1020,PH,Philippines,Cebu City,Philippine Long Distance Telephone Co.,49.145.58.197
-http,38.7.195.51,999,38.7.195.51:999,Elite,2060,1156.8,CL,Chile,Santiago,GRUPO ZGH SPA,151.241.85.26
-http,157.173.115.35,1081,157.173.115.35:1081,Elite,2117,1220.7,FR,France,Lauterbourg,Contabo GmbH,157.173.115.35
-http,103.173.162.237,8818,103.173.162.237:8818,Elite,2126,1237.4,ID,Indonesia,Kadungora,Indonesia Network Information Center,103.173.162.237
-http,196.251.212.52,8081,196.251.212.52:8081,Elite,2320,1160,ZA,South Africa,Brits,Info-Gro PTY Ltd,196.251.212.52
-http,160.30.204.24,50005,160.30.204.24:50005,Elite,2322,250.6,VN,Viet Nam,Hanoi,VIETSERVER SERVICES TECHNOLOGY COMPANY LIMITED,216.131.78.250
-http,200.94.38.46,2604,200.94.38.46:2604,Elite,2349,1174,MX,Mexico,Mexico City,"Alestra, S. de R.L. de C.V.",200.94.38.42
-http,79.98.32.137,8080,79.98.32.137:8080,Elite,2403,1180.0,TR,Türkiye,Adana,High Speed For Internet Services L.L.C,79.98.32.137
-http,103.172.120.33,8080,103.172.120.33:8080,Elite,2478,1239,ID,Indonesia,Karangrayung,Indonesia Network Information Center,103.172.120.33
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,116,58,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,691,131.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,45.65.224.125,999,45.65.224.125:999,Elite,802,160.1,AR,Argentina,Moron,SOLUTION LAN S.A,45.65.224.125
+http,205.164.192.115,999,205.164.192.115:999,Elite,947,50.8,MX,Mexico,Yurecuaro,MULTICARRIER JE S. DE R.L. DE C.V.,205.164.192.115
+http,112.216.54.226,12121,112.216.54.226:12121,Elite,952,170.6,KR,South Korea,Seoul,LG DACOM Corporation,112.216.54.227
+http,126.209.13.13,8087,126.209.13.13:8087,Elite,1061,1256.8,PH,Philippines,Manila,Infinivan Inc.,126.209.13.13
+http,4.144.146.21,80,4.144.146.21:80,Elite,1064,208.3,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,166.1.61.101,8081,166.1.61.101:8081,Elite,1077,189.7,JP,Japan,Tokyo,Amarutu Technology Ltd,166.1.61.101
+http,151.243.153.157,8118,151.243.153.157:8118,Elite,1137,135.1,JP,Japan,Tokyo,Black Apple,151.243.153.157
+http,103.172.17.51,8080,103.172.17.51:8080,Elite,1140,1268.2,ID,Indonesia,Wanareja,Indonesia Network Information Center,103.172.17.114
+http,45.125.64.215,443,45.125.64.215:443,Elite,1165,227.8,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
+http,138.252.98.109,8080,138.252.98.109:8080,Elite,1183,1282.7,ID,Indonesia,Jabung,PT Java Internet Solution,138.252.98.109
+http,103.154.231.61,8090,103.154.231.61:8090,Elite,1198,221.3,ID,Indonesia,Banyubiru,PT Digital Media Telematika,103.154.231.29
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1224,182.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1229,217.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1229,181.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1260,183.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8087,102.244.78.61:8087,Elite,1262,188.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,34.43.46.91,443,34.43.46.91:443,Elite,1514,33.6,US,United States,San Jose,Google LLC,34.143.43.175
+http,102.0.21.148,8080,102.0.21.148:8080,Elite,1530,765,KE,Kenya,Kijabe,Airtel Networks Kenya Limited,102.0.21.148
+http,34.43.46.91,80,34.43.46.91:80,Elite,1895,34.0,US,United States,San Jose,Google LLC,34.143.51.195
+http,112.203.32.62,8082,112.203.32.62:8082,Elite,2029,1014,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,112.203.39.211
+http,182.253.204.196,8080,182.253.204.196:8080,Elite,2100,1050,ID,Indonesia,Jakarta,BIZNET,182.253.204.196
+http,195.154.191.26,1088,195.154.191.26:1088,Elite,2135,132.7,FR,France,Paris,Scaleway SAS,212.180.101.252
+http,38.7.195.52,999,38.7.195.52:999,Elite,2183,1091,CL,Chile,Santiago,GRUPO ZGH SPA,151.241.85.26
+http,103.162.63.74,8080,103.162.63.74:8080,Elite,2236,1263.3,ID,Indonesia,Cilacap,Indonesia Network Information Center,103.162.63.70
+http,222.127.68.126,8080,222.127.68.126:8080,Elite,2390,1195,PH,Philippines,Zumarraga,Globe Telecom Inc.,222.127.68.126
+http,38.103.250.121,8080,38.103.250.121:8080,Elite,2440,1271.0,ID,Indonesia,Jekulo,Indonesia Network Information Center,38.103.250.121
