@@ -1,29 +1,25 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,116,58,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,691,131.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,45.65.224.125,999,45.65.224.125:999,Elite,802,160.1,AR,Argentina,Moron,SOLUTION LAN S.A,45.65.224.125
-http,205.164.192.115,999,205.164.192.115:999,Elite,947,50.8,MX,Mexico,Yurecuaro,MULTICARRIER JE S. DE R.L. DE C.V.,205.164.192.115
-http,112.216.54.226,12121,112.216.54.226:12121,Elite,952,170.6,KR,South Korea,Seoul,LG DACOM Corporation,112.216.54.227
-http,126.209.13.13,8087,126.209.13.13:8087,Elite,1061,1256.8,PH,Philippines,Manila,Infinivan Inc.,126.209.13.13
-http,4.144.146.21,80,4.144.146.21:80,Elite,1064,208.3,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,166.1.61.101,8081,166.1.61.101:8081,Elite,1077,189.7,JP,Japan,Tokyo,Amarutu Technology Ltd,166.1.61.101
-http,151.243.153.157,8118,151.243.153.157:8118,Elite,1137,135.1,JP,Japan,Tokyo,Black Apple,151.243.153.157
-http,103.172.17.51,8080,103.172.17.51:8080,Elite,1140,1268.2,ID,Indonesia,Wanareja,Indonesia Network Information Center,103.172.17.114
-http,45.125.64.215,443,45.125.64.215:443,Elite,1165,227.8,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
-http,138.252.98.109,8080,138.252.98.109:8080,Elite,1183,1282.7,ID,Indonesia,Jabung,PT Java Internet Solution,138.252.98.109
-http,103.154.231.61,8090,103.154.231.61:8090,Elite,1198,221.3,ID,Indonesia,Banyubiru,PT Digital Media Telematika,103.154.231.29
-http,102.244.78.61,8084,102.244.78.61:8084,Elite,1224,182.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1229,217.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1229,181.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1260,183.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8087,102.244.78.61:8087,Elite,1262,188.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,34.43.46.91,443,34.43.46.91:443,Elite,1514,33.6,US,United States,San Jose,Google LLC,34.143.43.175
-http,102.0.21.148,8080,102.0.21.148:8080,Elite,1530,765,KE,Kenya,Kijabe,Airtel Networks Kenya Limited,102.0.21.148
-http,34.43.46.91,80,34.43.46.91:80,Elite,1895,34.0,US,United States,San Jose,Google LLC,34.143.51.195
-http,112.203.32.62,8082,112.203.32.62:8082,Elite,2029,1014,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,112.203.39.211
-http,182.253.204.196,8080,182.253.204.196:8080,Elite,2100,1050,ID,Indonesia,Jakarta,BIZNET,182.253.204.196
-http,195.154.191.26,1088,195.154.191.26:1088,Elite,2135,132.7,FR,France,Paris,Scaleway SAS,212.180.101.252
-http,38.7.195.52,999,38.7.195.52:999,Elite,2183,1091,CL,Chile,Santiago,GRUPO ZGH SPA,151.241.85.26
-http,103.162.63.74,8080,103.162.63.74:8080,Elite,2236,1263.3,ID,Indonesia,Cilacap,Indonesia Network Information Center,103.162.63.70
-http,222.127.68.126,8080,222.127.68.126:8080,Elite,2390,1195,PH,Philippines,Zumarraga,Globe Telecom Inc.,222.127.68.126
-http,38.103.250.121,8080,38.103.250.121:8080,Elite,2440,1271.0,ID,Indonesia,Jekulo,Indonesia Network Information Center,38.103.250.121
+http,34.43.46.91,80,34.43.46.91:80,Elite,315,12.9,US,United States,San Jose,Google LLC,34.143.51.195
+http,45.65.226.171,999,45.65.226.171:999,Elite,727,363,AR,Argentina,Moron,SOLUTION LAN S.A,45.65.226.169
+http,45.188.124.108,999,45.188.124.108:999,Elite,751,1131.5,MX,Mexico,Rioverde,DIGY NETWORKS,45.188.124.108
+http,166.1.90.109,7890,166.1.90.109:7890,Elite,780,13.1,US,United States,Dover,OVH SAS,140.188.129.202
+http,112.216.54.226,12121,112.216.54.226:12121,Elite,1039,195.7,KR,South Korea,Seoul,LG DACOM Corporation,112.216.54.227
+http,45.125.64.215,443,45.125.64.215:443,Elite,1096,208.8,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1133,160.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1148,162.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1160,160.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1169,161.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8090,102.244.78.61:8090,Elite,1177,160.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,4.144.146.21,80,4.144.146.21:80,Elite,1184,220.3,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1188,160.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,177.234.211.175,999,177.234.211.175:999,Elite,1201,1141.8,EC,Ecuador,Guayaquil,VUELATECHNOLOGY S.A.S.,177.234.211.174
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,1243,17.0,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,45.195.105.20,8080,45.195.105.20:8080,Elite,1252,198.4,IN,India,Mumbai,YOTTA NETWORK SERVICES PRIVATE LIMITED,45.195.105.20
+http,103.158.210.24,8090,103.158.210.24:8090,Elite,1657,828,ID,Indonesia,Baureno,PT Digital Media Telematika,103.158.210.24
+http,45.195.90.142,8080,45.195.90.142:8080,Elite,1662,262.1,IN,India,Dadri,CtrlS,45.195.90.142
+http,112.207.166.195,8082,112.207.166.195:8082,Elite,1682,1261.1,PH,Philippines,Bustos,Philippine Long Distance Telephone Co.,112.207.166.195
+http,103.46.11.129,8090,103.46.11.129:8090,Elite,1821,1299.5,ID,Indonesia,Malang,"Lintas Data Prima, PT",103.46.11.129
+http,45.43.60.220,8080,45.43.60.220:8080,Elite,1979,156.3,JP,Japan,Tokyo,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,45.43.60.220
+http,45.167.124.161,999,45.167.124.161:999,Elite,2035,77.5,CO,Colombia,Popayan,SEPCOM COMUNICACIONES SAS,45.167.124.31
+http,124.105.110.52,8082,124.105.110.52:8082,Elite,2359,246.3,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,124.105.110.52
+http,157.20.244.77,8080,157.20.244.77:8080,Elite,2406,241.5,ID,Indonesia,Pekalongan,Indonesia Network Information Center,157.20.244.77
