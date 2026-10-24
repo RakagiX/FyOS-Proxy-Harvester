@@ -1,39 +1,21 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,201.79.50.139,10000,201.79.50.139:10000,Elite,153,34.8,CA,Canada,Toronto,"DigitalOcean, LLC",201.79.50.139
-http,146.190.60.147,8008,146.190.60.147:8008,Elite,341,65.0,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,480,94.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,38.123.48.70,999,38.123.48.70:999,Elite,601,300,DO,Dominican Republic,Santo Domingo Este,BRAVIC SRL,154.59.207.252
-http,45.232.77.153,9292,45.232.77.153:9292,Elite,666,1159.4,BR,Brazil,Buritama,GARCIA TELECOMUNICACOES LTDA,138.0.204.74
-http,102.244.78.61,8084,102.244.78.61:8084,Elite,1121,161.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1124,162.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,4.144.146.21,80,4.144.146.21:80,Elite,1147,218.2,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,38.94.74.5,999,38.94.74.5:999,Elite,1149,574,MX,Mexico,Santiago de Queretaro,JESUS MANUEL OLGUIN GUZMAN,170.239.149.197
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1156,164.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8087,102.244.78.61:8087,Elite,1156,160.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1158,164.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1160,160.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1160,160.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,45.70.52.248,8080,45.70.52.248:8080,Elite,1195,117.5,BR,Brazil,Rio de Janeiro,NC BRASIL TELECOM E SERVICOS LTDA- ME,45.70.52.248
-http,103.68.215.115,8181,103.68.215.115:8181,Elite,1240,239.4,ID,Indonesia,Tangerang,Indonesia Network Information Center,103.68.215.115
-http,45.194.3.132,8080,45.194.3.132:8080,Elite,1341,205.1,IN,India,Dadri,CtrlS,45.194.3.132
-http,45.194.90.194,8080,45.194.90.194:8080,Elite,1367,205.0,IN,India,Dadri,CtrlS,45.194.90.194
-http,180.191.153.75,2020,180.191.153.75:2020,Elite,1427,294.9,PH,Philippines,Maco,"Globe Telecom GMCR,INC",180.191.153.75
-http,45.194.3.119,8080,45.194.3.119:8080,Elite,1431,208.5,IN,India,Dadri,CtrlS,45.194.3.119
-http,154.201.126.44,8080,154.201.126.44:8080,Elite,1441,256.0,IN,India,Dadri,CtrlS,154.201.126.44
-http,205.164.192.115,999,205.164.192.115:999,Elite,1453,1090.8,MX,Mexico,Yurecuaro,MULTICARRIER JE S. DE R.L. DE C.V.,205.164.192.115
-http,179.184.163.133,44443,179.184.163.133:44443,Elite,1490,745,BR,Brazil,Belo Horizonte,TELEFÔNICA BRASIL S.A,186.232.94.66
-http,170.246.146.192,8080,170.246.146.192:8080,Elite,1609,126.9,BR,Brazil,Arapongas,CONECTTIVA TELECOM LTDA.,170.246.146.192
-http,1.10.248.226,80,1.10.248.226:80,Elite,1620,259.7,TH,Thailand,Bangkok,TOT Public Company Limited,1.10.248.226
-http,38.172.130.175,999,38.172.130.175:999,Elite,1812,1163.5,PE,Peru,Lima,CONEX TV E.I.R.L.,38.172.130.175
-http,177.234.211.205,999,177.234.211.205:999,Elite,1832,916,EC,Ecuador,Guayaquil,VUELATECHNOLOGY S.A.S.,177.234.211.205
-http,201.4.68.106,8080,201.4.68.106:8080,Elite,1932,147.0,TR,Türkiye,Kilis,High Speed For Internet Services L.L.C,201.4.68.106
-http,103.180.123.49,8788,103.180.123.49:8788,Elite,1977,988,ID,Indonesia,Jakarta,Indonesia Network Information Center,103.180.123.49
-http,148.224.14.219,999,148.224.14.219:999,Elite,1991,995,MX,Mexico,Apatzingan,Jorge Luis Torres Fernandez,148.224.14.218
-http,175.139.172.120,8080,175.139.172.120:8080,Elite,2089,1280.6,MY,Malaysia,Kuala Lumpur,TM TECHNOLOGY SERVICES SDN BHD,175.139.172.120
-http,181.78.195.136,999,181.78.195.136:999,Elite,2205,109.5,EC,Ecuador,Naranjito,UFINET PANAMA S.A.,205.235.1.36
-http,27.147.142.157,9249,27.147.142.157:9249,Elite,2292,1469.2,BD,Bangladesh,Dhaka,Link3 Technologies Limited,27.147.142.156
-http,118.71.233.85,2071,118.71.233.85:2071,Elite,2339,260.3,VN,Viet Nam,Hanoi,FPT Telecom Company,27.69.71.250
-http,191.44.91.56,8080,191.44.91.56:8080,Elite,2358,1179,SY,Syrian Arab Republic,Damascus,High Speed For Internet Services L.L.C,193.33.157.7
-http,157.15.172.20,8080,157.15.172.20:8080,Elite,2395,278.8,ID,Indonesia,Kendari,Indonesia Network Information Center,157.15.172.3
-http,118.179.136.153,81,118.179.136.153:81,Elite,2412,1206,BD,Bangladesh,Dhaka,Amber IT Limited,118.179.136.152
-http,103.172.17.51,8080,103.172.17.51:8080,Elite,2488,1244,ID,Indonesia,Wanareja,Indonesia Network Information Center,103.172.17.103
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,165,1057.7,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,77.110.107.229,8080,77.110.107.229:8080,Elite,465,92.4,DE,Germany,Frankfurt am Main,GLOBAL CONNECTIVITY SOLUTIONS LLP,77.110.107.229
+http,190.166.204.189,8080,190.166.204.189:8080,Elite,527,1122.0,DO,Dominican Republic,Santo Domingo,Compañía Dominicana de Teléfonos S. A.,190.166.204.189
+http,41.128.72.136,1981,41.128.72.136:1981,Elite,851,1189.9,EG,Egypt,As Saliḩiyah al Jadidah,Link Egypt Link.NET,41.128.72.136
+http,45.125.64.215,443,45.125.64.215:443,Elite,1053,201.5,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1118,163.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1123,159.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1152,164.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8082,102.244.78.61:8082,Elite,1155,161.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1155,162.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1159,160.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,8.215.25.3,2080,8.215.25.3:2080,Elite,1236,232.2,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
+http,181.78.57.230,999,181.78.57.230:999,Elite,1460,730,CR,Costa Rica,San Jose,UFINET PANAMA S.A.,181.78.57.231
+http,118.71.227.154,2104,118.71.227.154:2104,Elite,1948,263.1,VN,Viet Nam,Hanoi,FPT Telecom Company,42.115.72.47
+http,45.71.186.211,999,45.71.186.211:999,Elite,2237,1118,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,181.78.194.249
+http,117.0.77.231,2104,117.0.77.231:2104,Elite,2299,264.7,VN,Viet Nam,Thai Nguyen,Viettel Group,42.115.72.47
+http,42.115.72.47,2104,42.115.72.47:2104,Elite,2413,263.8,VN,Viet Nam,Hanoi,FPT Telecom Company,42.115.72.47
+http,103.250.68.129,9249,103.250.68.129:9249,Elite,2452,1226,BD,Bangladesh,Dhaka,Next Online Ltd.,103.250.68.129
+http,77.95.2.9,8080,77.95.2.9:8080,Elite,2470,213.3,TJ,Tajikistan,Dushanbe,Tajik Academician Research and Educational Network Association,77.95.2.9
+http,186.167.53.178,8282,186.167.53.178:8282,Elite,2482,1069.8,VE,Venezuela,Barquisimeto,Corporacion Digitel C.A.,186.167.53.178
