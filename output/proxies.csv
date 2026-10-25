@@ -1,18 +1,21 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,140,36.0,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,34.43.46.91,80,34.43.46.91:80,Elite,250,38.5,US,United States,San Jose,Google LLC,34.143.43.175
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,479,93.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,85.115.209.63,1085,85.115.209.63:1085,Elite,844,118.2,NL,Netherlands,Amsterdam,GODLIKE DIGITAL SOLUTIONS S.R.L.,85.115.209.63
-http,200.121.48.105,999,200.121.48.105:999,Elite,908,454,PE,Peru,Lima,INTEGRATEL PERÚ S.A.A.,200.121.48.105
-http,45.125.64.215,443,45.125.64.215:443,Elite,1104,209.8,HK,Hong Kong,Hong Kong,Tele Asia Limited,45.125.64.215
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1135,161.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,4.144.146.21,80,4.144.146.21:80,Elite,1142,219.7,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1163,165.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8084,102.244.78.61:8084,Elite,1164,160.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1164,162.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,45.198.11.164,9191,45.198.11.164:9191,Elite,1273,240.9,ID,Indonesia,Jakarta,Indonesia Network Information Center,103.172.71.165
-http,58.69.124.137,8080,58.69.124.137:8080,Elite,1504,752,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,58.69.124.137
-http,124.217.5.100,5050,124.217.5.100:5050,Elite,1901,230.7,PH,Philippines,Cebu City,Philippine Long Distance Telephone Co.,124.217.5.100
-http,186.67.94.10,999,186.67.94.10:999,Elite,2047,122.2,CL,Chile,Santiago,ENTEL CHILE S.A.,186.67.94.10
-http,43.156.66.78,12345,43.156.66.78:12345,Elite,2061,219.2,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.66.78
-http,190.12.150.244,999,190.12.150.244:999,Elite,2358,100.9,EC,Ecuador,La Concordia,ONETELECOM CIA.LTDA.,190.12.150.244
+http,209.97.150.167,3128,209.97.150.167:3128,Elite,156,38.3,US,United States,Clifton,"DigitalOcean, LLC",209.97.150.167
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,158,21.3,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,34.43.46.91,80,34.43.46.91:80,Elite,199,20.7,US,United States,San Jose,Google LLC,34.143.56.137
+http,34.43.46.91,443,34.43.46.91:443,Elite,218,21.1,US,United States,San Jose,Google LLC,34.143.51.195
+http,138.68.60.8,3128,138.68.60.8:3128,Elite,245,44.0,US,United States,San Jose,"DigitalOcean, LLC",138.68.60.8
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,598,126.6,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,85.115.209.63,1085,85.115.209.63:1085,Elite,832,139.8,NL,Netherlands,Amsterdam,GODLIKE DIGITAL SOLUTIONS S.R.L.,85.115.209.63
+http,138.117.76.178,999,138.117.76.178:999,Elite,1000,1212.8,AR,Argentina,Posadas,MARANDU COMUNICACIONES SOCIEDAD DEL ESTADO,138.117.76.178
+http,43.165.135.162,60000,43.165.135.162:60000,Elite,1014,136.2,JP,Japan,Tokyo,Shenzhen Tencent Computer Systems Company Limited,43.165.135.162
+http,4.144.146.21,80,4.144.146.21:80,Elite,1047,213.4,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,43.156.66.78,12345,43.156.66.78:12345,Elite,1059,1259.0,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.156.66.78
+http,130.110.103.245,3128,130.110.103.245:3128,Elite,1112,197.8,SA,Saudi Arabia,Jeddah,Oracle Corporation,130.110.103.245
+http,121.101.133.96,8080,121.101.133.96:8080,Elite,1193,596,ID,Indonesia,Klaten,PT SELARAS CITRA TERABIT,121.101.133.96
+http,203.175.103.193,8080,203.175.103.193:8080,Elite,1238,217.3,ID,Indonesia,Kuningan,Indonesia Network Information Center,203.175.103.193
+http,45.194.91.7,8080,45.194.91.7:8080,Elite,1250,229.9,IN,India,Dadri,CtrlS,45.194.91.7
+http,205.164.192.115,999,205.164.192.115:999,Elite,1693,59.0,MX,Mexico,Yurecuaro,MULTICARRIER JE S. DE R.L. DE C.V.,205.164.192.115
+http,186.67.94.10,999,186.67.94.10:999,Elite,1836,141.7,CL,Chile,Santiago,ENTEL CHILE S.A.,186.67.94.10
+http,206.135.47.110,999,206.135.47.110:999,Elite,1937,968,MX,Mexico,Mexico City,IENTC S DE RL DE CV,206.135.47.106
+http,103.167.68.84,8080,103.167.68.84:8080,Elite,2221,1110,ID,Indonesia,Bandung,Indonesia Network Information Center,103.167.68.84
+http,103.133.201.133,8090,103.133.201.133:8090,Elite,2321,273.0,BD,Bangladesh,Dhaka,Antaranga Dot Com Ltd,160.202.146.48
