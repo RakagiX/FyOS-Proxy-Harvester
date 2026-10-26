@@ -1,20 +1,16 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,138.68.60.8,3128,138.68.60.8:3128,Elite,213,35.0,US,United States,San Jose,"DigitalOcean, LLC",138.68.60.8
-http,201.79.50.139,10000,201.79.50.139:10000,Elite,265,58.3,CA,Canada,Toronto,"DigitalOcean, LLC",201.79.50.139
-http,34.43.46.91,80,34.43.46.91:80,Elite,493,31.3,US,United States,San Jose,Google LLC,34.143.51.195
-http,34.43.46.91,443,34.43.46.91:443,Elite,494,28.3,US,United States,San Jose,Google LLC,34.143.51.195
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,568,129.4,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,145.220.227.164,8118,145.220.227.164:8118,Elite,588,119.9,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.183.29
-http,4.144.146.21,80,4.144.146.21:80,Elite,1054,199.7,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,124.105.236.145,9090,124.105.236.145:9090,Elite,1080,540,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,124.105.236.145
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1175,183.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8084,102.244.78.61:8084,Elite,1182,180.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8087,102.244.78.61:8087,Elite,1186,182.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1187,178.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1187,179.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1189,175.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1193,175.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1196,179.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,1238,54.1,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,152.67.191.232,6800,152.67.191.232:6800,Elite,1239,244.4,IN,India,Hyderabad,Oracle Corporation,152.67.191.232
-http,145.220.227.57,3128,145.220.227.57:3128,Elite,1521,1164.9,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.183.29
+http,18.221.175.172,8000,18.221.175.172:8000,Elite,91,38.4,US,United States,Columbus,"Amazon.com, Inc.",18.221.175.172
+http,181.119.224.25,8080,181.119.224.25:8080,Elite,575,106.7,EC,Ecuador,Guayaquil,UFINET PANAMA S.A.,181.119.224.25
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,585,94.2,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,34.43.46.91,443,34.43.46.91:443,Elite,677,34.7,US,United States,San Jose,Google LLC,34.143.56.137
+http,77.42.95.221,8889,77.42.95.221:8889,Elite,1028,115.2,FI,Finland,Helsinki,Hetzner Online GmbH,187.14.50.103
+http,47.236.86.147,443,47.236.86.147:443,Elite,1122,221.7,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",47.236.86.147
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1123,162.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1124,160.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8082,102.244.78.61:8082,Elite,1130,164.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1155,167.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1168,163.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1173,161.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1186,163.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,34.43.46.91,80,34.43.46.91:80,Elite,1536,38.5,US,United States,San Jose,Google LLC,34.143.51.195
+http,157.15.62.74,8080,157.15.62.74:8080,Elite,2019,1009,ID,Indonesia,Malang,Indonesia Network Information Center,157.15.62.74
