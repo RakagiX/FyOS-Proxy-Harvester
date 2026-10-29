@@ -1,31 +1,37 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,167.99.8.113,8010,167.99.8.113:8010,Elite,67,13.1,US,United States,North Bergen,"DigitalOcean, LLC",167.99.8.113
-http,130.127.204.197,8080,130.127.204.197:8080,Elite,202,19.7,US,United States,Clemson,Clemson University,130.127.255.222
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,236,33.8,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,146.190.60.147,8010,146.190.60.147:8010,Elite,324,59.5,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
-http,47.254.122.220,5443,47.254.122.220:5443,Elite,328,60.2,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",47.254.122.220
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,458,93.6,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,186.96.111.214,999,186.96.111.214:999,Elite,463,65.6,CO,Colombia,San Martin,TV AZTECA SUCURSAL COLOMBIA,147.75.122.107
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,538,63.5,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,144.124.251.24,10008,144.124.251.24:10008,Elite,547,95.5,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10015,144.124.251.24:10015,Elite,556,221.6,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10877,144.124.251.24:10877,Elite,605,107.9,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10590,144.124.251.24:10590,Elite,614,97.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,45.189.57.114,3129,45.189.57.114:3129,Elite,638,99.3,EC,Ecuador,Paute,CBVISION S.A.,45.189.57.114
-http,144.124.251.24,10165,144.124.251.24:10165,Elite,702,104.3,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10226,144.124.251.24:10226,Elite,735,99.0,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10111,144.124.251.24:10111,Elite,744,91.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10167,144.124.251.24:10167,Elite,754,97.4,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,144.124.251.24,10605,144.124.251.24:10605,Elite,901,102.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,34.43.46.91,443,34.43.46.91:443,Elite,938,34.1,US,United States,San Jose,Google LLC,34.143.51.195
-http,172.237.41.254,9999,172.237.41.254:9999,Elite,990,191.9,IN,India,Mumbai,"Akamai Technologies, Inc.",172.237.41.254
-http,144.124.251.24,10649,144.124.251.24:10649,Elite,1050,87.7,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,165.154.7.156,8888,165.154.7.156:8888,Elite,1062,204.1,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.7.156
-http,4.144.146.21,80,4.144.146.21:80,Elite,1150,226.7,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,144.124.251.24,10117,144.124.251.24:10117,Elite,1216,87.2,NL,Netherlands,Amsterdam,SERVERS TECH FZCO,144.124.251.24
-http,43.252.237.76,8080,43.252.237.76:8080,Elite,1326,236.4,ID,Indonesia,Bogor,PT. Usaha Adisanggoro,43.252.237.76
-http,103.187.86.10,8080,103.187.86.10:8080,Elite,1509,754,ID,Indonesia,Paleteang,Indonesia Network Information Center,103.187.86.10
-http,170.246.36.225,999,170.246.36.225:999,Elite,2275,1137,AR,Argentina,Caleta Olivia,CARRASCO LEONARDO JAVIER NETLINK,170.246.36.225
-http,45.43.60.220,8080,45.43.60.220:8080,Elite,2280,1140,JP,Japan,Tokyo,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,45.43.60.220
-http,160.22.45.66,8080,160.22.45.66:8080,Elite,2352,1176,ID,Indonesia,Jakarta,Indonesia Network Information Center,160.22.45.66
-http,1.20.101.33,80,1.20.101.33:80,Elite,2379,1189,TH,Thailand,Bangkok,TOT Public Company Limited,1.20.101.33
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,347,59.5,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,201.79.50.139,10000,201.79.50.139:10000,Elite,370,79.0,CA,Canada,Toronto,"DigitalOcean, LLC",201.79.50.139
+http,130.127.204.197,8080,130.127.204.197:8080,Elite,376,76.8,US,United States,Clemson,Clemson University,130.127.255.222
+http,34.43.46.91,80,34.43.46.91:80,Elite,611,73.6,US,United States,San Jose,Google LLC,34.143.51.195
+http,161.22.33.194,999,161.22.33.194:999,Elite,618,105.5,VE,Venezuela,Caracas,"THUNDERNET, C.A.",161.22.33.195
+http,34.43.46.91,443,34.43.46.91:443,Elite,651,46.7,US,United States,San Jose,Google LLC,34.143.51.195
+http,45.189.57.114,3129,45.189.57.114:3129,Elite,674,151.1,EC,Ecuador,Paute,CBVISION S.A.,45.189.57.114
+http,94.183.206.215,8080,94.183.206.215:8080,Elite,713,147.5,NL,Netherlands,Amsterdam,Vladislav Doniy,51.158.242.135
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,719,147.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,165.154.7.156,8888,165.154.7.156:8888,Elite,828,146.9,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.7.156
+http,4.144.146.21,80,4.144.146.21:80,Elite,919,168.1,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,209.45.65.53,1011,209.45.65.53:1011,Elite,978,167.9,PE,Peru,Lima,Red Cientifica Peruana,209.45.65.53
+http,49.151.189.78,8082,49.151.189.78:8082,Elite,1002,1213.4,PH,Philippines,San Fernando,Philippine Long Distance Telephone Co.,49.151.189.78
+http,160.22.134.95,1111,160.22.134.95:1111,Elite,1006,1246.8,ID,Indonesia,Pasarkemis,Indonesia Network Information Center,160.22.134.233
+http,8.219.97.248,80,8.219.97.248:80,Elite,1060,168.9,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
+http,203.177.217.221,8082,203.177.217.221:8082,Elite,1119,212.1,PH,Philippines,Bay,"Globe Telecom GMCR,INC",203.177.217.221
+http,103.172.70.203,9191,103.172.70.203:9191,Elite,1284,1203.9,ID,Indonesia,Surakarta,Indonesia Network Information Center,103.172.70.203
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1504,204.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1509,206.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8082,102.244.78.61:8082,Elite,1522,203.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,222.127.76.123,8082,222.127.76.123:8082,Elite,1777,888,PH,Philippines,Catarman,Globe Telecom Inc.,222.127.76.123
+http,157.15.62.74,8080,157.15.62.74:8080,Elite,1787,893,ID,Indonesia,Malang,Indonesia Network Information Center,157.15.62.74
+http,179.60.189.81,999,179.60.189.81:999,Elite,1795,897,EC,Ecuador,Quito,Eliana Vanessa Morocho Oña,179.60.189.81
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,1847,9.5,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,206.135.47.108,999,206.135.47.108:999,Elite,1917,65.9,MX,Mexico,Mexico City,IENTC S DE RL DE CV,206.135.47.106
+http,145.220.227.145,8080,145.220.227.145:8080,Elite,1920,144.3,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.183.29
+http,186.67.94.10,999,186.67.94.10:999,Elite,2052,1026,CL,Chile,Santiago,ENTEL CHILE S.A.,186.67.94.10
+http,182.52.113.106,80,182.52.113.106:80,Elite,2123,1061,TH,Thailand,Bangkok,TOT Public Company Limited,182.52.113.106
+http,185.8.148.81,8085,185.8.148.81:8085,Elite,2151,1075,IT,Italy,Siena,Digital Telecommunication Services S.r.l.,217.112.96.34
+http,103.46.8.61,8080,103.46.8.61:8080,Elite,2177,1088,ID,Indonesia,Sumbermanjing Wetan,PT JARINGANKU SARANA NUSANTARA,103.46.8.61
+http,145.220.227.132,1081,145.220.227.132:1081,Elite,2185,141.0,NL,Netherlands,Gemeente Utrecht,SURF B.V.,145.220.183.29
+http,103.199.117.206,8080,103.199.117.206:8080,Elite,2250,1224.4,ID,Indonesia,Cilacap,Indonesia Network Information Center,103.199.117.207
+http,103.189.117.82,1111,103.189.117.82:1111,Elite,2386,1227.6,ID,Indonesia,Banyumas,Indonesia Network Information Center,103.189.117.82
+http,36.64.241.218,8080,36.64.241.218:8080,Elite,2423,1211,ID,Indonesia,Jakarta,Telekomunikasi Indonesia PT,36.64.241.218
+http,103.253.124.98,80,103.253.124.98:80,Elite,2430,1215,ID,Indonesia,Batam,Pemerintah Kota Batam,103.253.124.30
+http,201.170.52.13,999,201.170.52.13:999,Elite,2464,1232,MX,Mexico,Tijuana,Uninet S.A. de C.V.,187.249.67.253
