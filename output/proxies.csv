@@ -1,35 +1,24 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,167.99.8.113,8006,167.99.8.113:8006,Elite,45,7.6,US,United States,North Bergen,"DigitalOcean, LLC",167.99.8.113
-http,167.99.8.113,8010,167.99.8.113:8010,Elite,49,8.6,US,United States,North Bergen,"DigitalOcean, LLC",167.99.8.113
-http,167.99.8.113,8002,167.99.8.113:8002,Elite,81,7.9,US,United States,North Bergen,"DigitalOcean, LLC",167.99.8.113
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,101,17.6,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,167.99.8.113,8011,167.99.8.113:8011,Elite,165,9.1,US,United States,North Bergen,"DigitalOcean, LLC",167.99.8.113
-http,142.93.65.222,3129,142.93.65.222:3129,Elite,171,9.4,US,United States,Clifton,"DigitalOcean, LLC",142.93.65.222
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,466,99.6,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,45.189.57.114,3129,45.189.57.114:3129,Elite,490,95.9,EC,Ecuador,Paute,CBVISION S.A.,45.189.57.114
-http,37.59.138.176,8080,37.59.138.176:8080,Elite,902,1121.9,FR,France,Paris,OVH SAS,37.59.138.176
-http,38.196.176.132,999,38.196.176.132:999,Elite,1070,535,DO,Dominican Republic,San Pedro de Macoris,"VALNET WIRELESS, S.R.L.",38.196.176.130
-http,195.181.40.34,8080,195.181.40.34:8080,Elite,1077,538,IR,Iran,Babol,Iran Telecommunication Company PJS,2.179.186.75
-http,4.144.146.21,80,4.144.146.21:80,Elite,1148,220.2,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,190.110.34.21,999,190.110.34.21:999,Elite,1214,607,DO,Dominican Republic,Santiago de los Caballeros,"WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L",190.110.34.22
-http,8.215.25.3,2081,8.215.25.3:2081,Elite,1240,234.9,ID,Indonesia,Jakarta,"Alibaba US Technology Co., Ltd.",8.215.25.3
-http,110.76.147.26,1111,110.76.147.26:1111,Elite,1252,626,ID,Indonesia,Yogyakarta,Indonesia Network Information Center,110.76.147.150
-http,122.102.52.24,1081,122.102.52.24:1081,Elite,1308,249.3,ID,Indonesia,Jakarta,PT MEGAXUS INFOTECH,122.102.52.24
-http,172.237.41.254,9999,172.237.41.254:9999,Elite,1338,286.8,IN,India,Mumbai,"Akamai Technologies, Inc.",172.237.41.254
-http,90.146.196.18,8080,90.146.196.18:8080,Elite,1350,153.0,AT,Austria,Traun,LIWEST Kabelmedien GmbH,90.146.196.18
-http,181.78.195.137,999,181.78.195.137:999,Elite,1507,1130.1,EC,Ecuador,Quito,UFINET PANAMA S.A.,205.235.1.36
-http,190.12.150.244,999,190.12.150.244:999,Elite,1508,94.7,EC,Ecuador,La Concordia,ONETELECOM CIA.LTDA.,190.12.150.244
-http,212.175.50.76,8085,212.175.50.76:8085,Elite,1517,1207.6,TR,Türkiye,Ankara,Turk Telekomunikasyon Anonim Sirketi,212.175.50.76
-http,38.50.165.122,999,38.50.165.122:999,Elite,1554,42.3,DO,Dominican Republic,Dajabon,"NEXTELECOM, S.R.L.",38.50.165.124
-http,210.61.97.16,7071,210.61.97.16:7071,Elite,1609,197.9,TW,Taiwan,Taoyuan,"Chunghwa Telecom Co., Ltd.",210.61.97.17
-http,182.53.202.229,80,182.53.202.229:80,Elite,1830,1314.7,TH,Thailand,Songkhla,TOT Public Company Limited,182.53.202.229
-http,121.101.129.131,8080,121.101.129.131:8080,Elite,1832,1319.1,ID,Indonesia,Klaten,PT SELARAS CITRA TERABIT,121.101.129.131
-http,182.52.113.109,80,182.52.113.109:80,Elite,1854,1310.0,TH,Thailand,Bangkok,TOT Public Company Limited,182.52.113.109
-http,103.147.134.137,8080,103.147.134.137:8080,Elite,1917,253.6,ID,Indonesia,Pamekasan,Indonesia Network Information Center,103.147.134.137
-http,103.125.19.94,8080,103.125.19.94:8080,Elite,1975,240.1,ID,Indonesia,Kresek,Indonesia Network Information Center,103.125.19.94
-http,38.211.68.74,999,38.211.68.74:999,Elite,2009,1004,CO,Colombia,Popayan,SEPCOM COMUNICACIONES SAS,45.167.125.221
-http,180.211.161.26,8080,180.211.161.26:8080,Elite,2025,303.7,BD,Bangladesh,Dhaka,Bangladesh Telegraph & Telephone Board,180.211.161.26
-http,45.198.10.189,9191,45.198.10.189:9191,Elite,2050,241.5,ID,Indonesia,Selogiri,Indonesia Network Information Center,103.172.71.244
-http,122.102.126.74,8080,122.102.126.74:8080,Elite,2245,1256.5,IN,India,Chennai,ARJUN TELECOM PVT. LTD.,122.102.126.74
-http,200.107.239.218,999,200.107.239.218:999,Elite,2326,1163,HN,Honduras,San Pedro Sula,Redes y Telecomunicaciones,200.107.239.218
-http,209.14.109.213,999,209.14.109.213:999,Elite,2493,1246,PE,Peru,Lima,CORPORACION TARAZONA CATV S.A.C.,209.14.109.212
+http,159.223.167.188,10000,159.223.167.188:10000,Elite,259,50.1,US,United States,North Bergen,"DigitalOcean, LLC",159.223.167.188
+http,130.127.204.197,8080,130.127.204.197:8080,Elite,289,54.9,US,United States,Clemson,Clemson University,130.127.255.222
+http,34.43.46.91,443,34.43.46.91:443,Elite,299,33.4,US,United States,San Jose,Google LLC,34.143.51.195
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,446,37.7,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,523,35.9,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,185.192.21.82,8080,185.192.21.82:8080,Elite,627,145.3,DE,Germany,Frankfurt am Main,Scalaxy B.V.,185.192.21.82
+http,13.115.246.29,18080,13.115.246.29:18080,Elite,663,119.0,JP,Japan,Tokyo,"Amazon.com, Inc.",13.115.246.29
+http,45.189.57.114,3129,45.189.57.114:3129,Elite,710,135.0,EC,Ecuador,Paute,CBVISION S.A.,45.189.57.114
+http,4.144.146.21,80,4.144.146.21:80,Elite,999,182.4,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1239,190.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1241,189.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8082,102.244.78.61:8082,Elite,1247,189.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1266,192.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1274,189.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1276,188.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1279,191.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,38.41.0.60,11201,38.41.0.60:11201,Elite,1626,813,VE,Venezuela,Caracas,MDS TELECOM C.A.,38.41.27.150
+http,45.194.46.57,8080,45.194.46.57:8080,Elite,1651,249.5,IN,India,Dadri,CtrlS,45.194.46.57
+http,177.234.217.235,999,177.234.217.235:999,Elite,1761,115.7,EC,Ecuador,Quito,UFINET PANAMA S.A.,177.234.217.92
+http,177.234.217.46,999,177.234.217.46:999,Elite,1991,1151.8,EC,Ecuador,Quito,UFINET PANAMA S.A.,177.234.217.42
+http,201.7.31.179,8080,201.7.31.179:8080,Elite,2011,1005,TR,Türkiye,Istanbul,High Speed For Internet Services L.L.C,201.7.31.179
+http,38.194.250.66,999,38.194.250.66:999,Elite,2218,1109,MX,Mexico,Santiago de Queretaro,IENTC S DE RL DE CV,38.194.250.66
+http,181.78.44.63,999,181.78.44.63:999,Elite,2453,1226,HN,Honduras,San Pedro Sula,UFINET PANAMA S.A.,181.78.44.63
