@@ -1,36 +1,36 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,152.53.81.29,8888,152.53.81.29:8888,Elite,129,24.7,US,United States,Washington,netcup GmbH,152.53.81.29
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,164,24.2,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,34.43.46.91,443,34.43.46.91:443,Elite,245,33.2,US,United States,San Jose,Google LLC,34.143.59.54
-http,34.43.46.91,80,34.43.46.91:80,Elite,253,19.1,US,United States,San Jose,Google LLC,34.143.59.54
-http,79.127.223.56,40367,79.127.223.56:40367,Elite,522,1036.9,US,United States,Washington,Datacamp Limited,71.105.159.17
-http,204.199.106.226,999,204.199.106.226:999,Elite,629,102.8,CO,Colombia,Bogota,"Level 3 Parent, LLC",8.242.147.166
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,637,94.2,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,194.55.234.58,8080,194.55.234.58:8080,Elite,662,122.5,RU,Russian Federation,Moscow,KVIKTEL LLC,203.23.179.228
-http,194.124.37.122,8080,194.124.37.122:8080,Elite,794,146.8,TR,Türkiye,Antakya,High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.,194.124.37.122
-http,47.87.9.77,443,47.87.9.77:443,Elite,865,58.2,MX,Mexico,Santiago de Queretaro,"Alibaba US Technology Co., Ltd.",47.87.9.77
-http,45.190.13.12,999,45.190.13.12:999,Elite,959,55.1,HN,Honduras,Puerto Cortez,AIR NETWORK S. DE R. L. DE C.V.,45.190.13.195
-http,79.127.223.34,8001,79.127.223.34:8001,Elite,1050,3.1,US,United States,Washington,Datacamp Limited,97.8.75.234
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1138,162.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1138,162.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,4.144.146.21,80,4.144.146.21:80,Elite,1140,223.1,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1167,162.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1170,162.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,103.193.144.91,8080,103.193.144.91:8080,Elite,1258,629,ID,Indonesia,Batam,PT Lintas Jaringan Nusantara,103.193.144.91
-http,160.19.18.121,8181,160.19.18.121:8181,Elite,1265,241.9,ID,Indonesia,Bandung,Indonesia Network Information Center,160.19.18.121
-http,103.247.14.138,7778,103.247.14.138:7778,Elite,1275,243.4,ID,Indonesia,Magelang,PT SELARAS CITRA TERABIT,103.247.14.138
-http,38.194.246.34,999,38.194.246.34:999,Elite,1332,1095.3,MX,Mexico,Santiago de Queretaro,IENTC S DE RL DE CV,206.135.47.106
-http,103.181.255.105,8080,103.181.255.105:8080,Elite,1419,709,ID,Indonesia,Kedungtuban,Indonesia Network Information Center,103.181.255.102
-http,38.226.251.67,999,38.226.251.67:999,Elite,1463,731,AR,Argentina,San Juan,SAN JUAN INNOVA S.E.,38.226.251.67
-http,27.147.157.125,12051,27.147.157.125:12051,Elite,1557,290.9,BD,Bangladesh,Dhaka,Link3 Technologies Limited,27.147.157.125
-http,160.19.16.66,8080,160.19.16.66:8080,Elite,1583,1267.8,ID,Indonesia,Tanjungbalai,Indonesia Network Information Center,160.19.16.66
-http,206.135.47.109,999,206.135.47.109:999,Elite,1864,932,MX,Mexico,Mexico City,IENTC S DE RL DE CV,206.135.47.106
-http,119.63.130.153,8080,119.63.130.153:8080,Elite,1912,956,PK,Pakistan,Karachi,TRANS WORLD ASSOCIATES PVT LIMITED,117.20.28.218
-http,110.76.147.26,1111,110.76.147.26:1111,Elite,1972,1289.4,ID,Indonesia,Yogyakarta,Indonesia Network Information Center,110.76.147.150
-http,45.227.195.121,8082,45.227.195.121:8082,Elite,2013,1006,BR,Brazil,Barao de Cotegipe,MHNET TELECOM,45.227.195.121
-http,103.132.53.28,8080,103.132.53.28:8080,Elite,2080,1267.3,ID,Indonesia,Pemalang,Indonesia Network Information Center,103.132.53.28
-http,160.19.41.44,80,160.19.41.44:80,Elite,2164,1082,IN,India,Delhi,NIXI,203.101.126.125
-http,101.255.137.49,80,101.255.137.49:80,Elite,2227,1113,ID,Indonesia,Jakarta,PT Remala Abadi,101.255.138.82
-http,144.79.181.39,8090,144.79.181.39:8090,Elite,2374,1187,ID,Indonesia,Medan,PT SAHABAT INDONESIA INTERNET,144.79.181.39
-http,8.219.97.248,80,8.219.97.248:80,Elite,2401,223.0,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
-http,202.58.77.73,800,202.58.77.73:800,Elite,2450,1275.6,ID,Indonesia,Blitar,Indonesia Network Information Center,202.58.72.72
+http,152.53.81.29,8888,152.53.81.29:8888,Elite,334,16.6,US,United States,Washington,netcup GmbH,152.53.81.29
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,416,51.9,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,190.61.61.210,999,190.61.61.210:999,Elite,434,70.7,CO,Colombia,Bogota,UFINET PANAMA S.A.,190.61.61.211
+http,209.14.115.9,999,209.14.115.9:999,Elite,440,220,CO,Colombia,Bogota,TV AZTECA SUCURSAL COLOMBIA,191.97.10.117
+http,45.174.242.147,999,45.174.242.147:999,Elite,480,1080.8,MX,Mexico,Champoton,SISTEMAS Y SOLUCIONES DE CAMPECHE SAS DE CV,45.174.242.147
+http,5.88.145.106,8080,5.88.145.106:8080,Elite,849,148.4,IT,Italy,Foiano della Chiana,Fastweb SpA,2.32.175.26
+http,190.12.150.244,999,190.12.150.244:999,Elite,863,431,EC,Ecuador,Rosa Zarate,ONETELECOM CIA.LTDA.,190.12.150.244
+http,205.164.46.6,3165,205.164.46.6:3165,Elite,889,17.6,US,United States,San Jose,Grass DataCo BVI Ltd.,205.164.46.6
+http,190.43.59.71,999,190.43.59.71:999,Elite,953,1141.3,PE,Peru,Viru,INTEGRATEL PERÚ S.A.A.,190.43.59.71
+http,206.135.47.108,999,206.135.47.108:999,Elite,1034,1048.0,MX,Mexico,Mexico City,IENTC S DE RL DE CV,206.135.47.106
+http,45.189.57.114,3129,45.189.57.114:3129,Elite,1057,86.9,EC,Ecuador,Paute,CBVISION S.A.,45.189.57.114
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,1096,134.5,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,4.144.146.21,80,4.144.146.21:80,Elite,1132,214.5,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,34.43.46.91,80,34.43.46.91:80,Elite,1147,20.7,US,United States,San Jose,Google LLC,35.230.222.184
+http,202.21.101.37,8088,202.21.101.37:8088,Elite,1180,1227.0,MN,Mongolia,Ulaanbaatar,Mobinet LLC,202.21.101.37
+http,103.19.58.139,8080,103.19.58.139:8080,Elite,1212,232.9,ID,Indonesia,Cirebon,PT BINA INFORMATIKA SOLUSI,103.19.58.139
+http,160.19.18.216,8080,160.19.18.216:8080,Elite,1242,621,ID,Indonesia,Bandung,Indonesia Network Information Center,160.19.18.216
+http,200.10.31.42,8081,200.10.31.42:8081,Elite,1337,668,CO,Colombia,Pereira,SUPER REDES S.A.S,200.10.31.42
+http,103.180.119.107,8080,103.180.119.107:8080,Elite,1479,1293.0,ID,Indonesia,Surabaya,Indonesia Network Information Center,103.180.119.107
+http,45.174.241.224,999,45.174.241.224:999,Elite,1565,782,MX,Mexico,Othon P. Blanco,SISTEMAS Y SOLUCIONES DE CAMPECHE SAS DE CV,45.174.241.225
+http,210.87.93.42,8080,210.87.93.42:8080,Elite,1662,1290.2,ID,Indonesia,Bandar Lampung,Indonesia Network Information Center,210.87.93.41
+http,103.86.117.98,8080,103.86.117.98:8080,Elite,1865,1289.3,ID,Indonesia,Pagantenan,Indonesia Network Information Center,103.86.116.3
+http,134.249.185.223,41890,134.249.185.223:41890,Elite,1921,960,UA,Ukraine,Chornomorsk,Kyivstar PJSC,134.249.185.223
+http,177.234.217.85,999,177.234.217.85:999,Elite,1962,981,EC,Ecuador,Quito,UFINET PANAMA S.A.,177.234.217.83
+http,181.225.44.46,999,181.225.44.46:999,Elite,2031,1062.2,VE,Venezuela,Caracas,IFX Networks Venezuela C.A.,190.94.212.169
+http,13.143.240.243,999,13.143.240.243:999,Elite,2140,1070,VE,Venezuela,Maracaibo,MARATEL CA,13.143.240.111
+http,103.227.187.3,6090,103.227.187.3:6090,Elite,2179,254.8,ID,Indonesia,Purwoharjo,Indonesia Network Information Center,103.227.187.3
+http,181.78.195.136,999,181.78.195.136:999,Elite,2193,1126.5,EC,Ecuador,Naranjito,UFINET PANAMA S.A.,205.235.1.36
+http,103.39.51.160,8088,103.39.51.160:8088,Elite,2245,1122,ID,Indonesia,Kuningan,PT Mega Mentari Mandiri,103.39.51.160
+http,103.172.120.219,7778,103.172.120.219:7778,Elite,2274,229.3,ID,Indonesia,Semarang,Indonesia Network Information Center,103.172.120.114
+http,103.172.71.165,9191,103.172.71.165:9191,Elite,2284,1142,ID,Indonesia,Mojolaban,Indonesia Network Information Center,103.172.71.165
+http,103.160.205.12,8081,103.160.205.12:8081,Elite,2366,1183,ID,Indonesia,Kecamatan Wanasaba,Indonesia Network Information Center,103.160.205.12
+http,190.110.36.195,999,190.110.36.195:999,Elite,2417,1208,DO,Dominican Republic,Santiago de los Caballeros,"CENTRIC MOBILITY CEMO , S.R.L",190.110.36.192
+http,103.160.40.250,8080,103.160.40.250:8080,Elite,2457,1228,ID,Indonesia,Pandeglang,Indonesia Network Information Center,103.144.186.234
+http,190.97.232.128,999,190.97.232.128:999,Elite,2474,1237,VE,Venezuela,La Villa del Rosario,VIGINET C.A,190.97.232.131
