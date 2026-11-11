@@ -1,29 +1,17 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,34.43.46.91,80,34.43.46.91:80,Elite,290,57.7,US,United States,San Jose,Google LLC,34.143.51.195
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,294,57.4,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,34.43.46.91,443,34.43.46.91:443,Elite,309,60.4,US,United States,San Jose,Google LLC,34.143.51.195
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,711,159.7,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,4.144.146.21,80,4.144.146.21:80,Elite,910,172.7,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,193.181.35.167,8118,193.181.35.167:8118,Elite,984,151.9,SE,Sweden,Stockholm,PVDataNet AB,193.181.35.167
-http,165.22.99.36,8015,165.22.99.36:8015,Elite,1020,164.3,SG,Singapore,Singapore,"DigitalOcean, LLC",165.22.99.36
-http,103.167.132.161,80,103.167.132.161:80,Elite,1087,182.0,ID,Indonesia,Jakarta,Indonesia Network Information Center,103.167.132.161
-http,184.170.169.216,8888,184.170.169.216:8888,Elite,1194,64.8,US,United States,Westfield,Metronet,193.56.117.196
-http,45.194.3.119,8080,45.194.3.119:8080,Elite,1246,388.1,IN,India,Dadri,CtrlS,45.194.3.119
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1318,219.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1320,218.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1332,211.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8084,102.244.78.61:8084,Elite,1339,213.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1342,211.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1343,213.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,45.189.57.114,3129,45.189.57.114:3129,Elite,1382,250.2,EC,Ecuador,Paute,CBVISION S.A.,45.189.57.114
-http,43.167.240.38,8118,43.167.240.38:8118,Elite,1383,108.9,JP,Japan,Tokyo,Shenzhen Tencent Computer Systems Company Limited,43.167.240.38
-http,154.201.126.44,8080,154.201.126.44:8080,Elite,1530,226.3,IN,India,Dadri,CtrlS,154.201.126.44
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1571,218.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,170.244.91.144,999,170.244.91.144:999,Elite,1592,796,VE,Venezuela,Caracas,"WELLCOMM TECNOLOGÍA, C.A.",170.244.91.145
-http,118.179.191.167,81,118.179.191.167:81,Elite,1682,1271.1,BD,Bangladesh,Dhaka,Amber IT Limited,118.179.191.167
-http,182.52.113.54,80,182.52.113.54:80,Elite,1790,185.7,TH,Thailand,Bangkok,TOT Public Company Limited,182.52.113.54
-http,210.87.93.42,8080,210.87.93.42:8080,Elite,1842,921,ID,Indonesia,Bandar Lampung,Indonesia Network Information Center,210.87.93.41
-http,45.43.60.220,8080,45.43.60.220:8080,Elite,1889,944,JP,Japan,Tokyo,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,45.43.60.220
-http,204.199.106.226,999,204.199.106.226:999,Elite,2073,1228.8,CO,Colombia,Bogota,"Level 3 Parent, LLC",8.242.147.166
-http,103.172.71.165,9191,103.172.71.165:9191,Elite,2094,1047,ID,Indonesia,Mojolaban,Indonesia Network Information Center,103.172.71.165
-http,27.147.155.206,12051,27.147.155.206:12051,Elite,2372,239.5,BD,Bangladesh,Dhaka,Link3 Technologies Limited,202.74.243.181
+http,146.190.60.147,8008,146.190.60.147:8008,Elite,236,39.8,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
+http,34.43.46.91,80,34.43.46.91:80,Elite,275,30.2,US,United States,San Jose,Google LLC,34.96.27.122
+http,34.43.46.91,443,34.43.46.91:443,Elite,331,30.5,US,United States,San Jose,Google LLC,34.96.27.122
+http,139.59.140.242,5228,139.59.140.242:5228,Elite,598,126.6,DE,Germany,Frankfurt am Main,"DigitalOcean, LLC",139.59.140.242
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,609,119.3,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,45.189.57.114,3129,45.189.57.114:3129,Elite,704,124.4,EC,Ecuador,Paute,CBVISION S.A.,45.189.57.114
+http,4.144.146.21,80,4.144.146.21:80,Elite,1084,202.5,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,165.154.7.156,8888,165.154.7.156:8888,Elite,1158,174.9,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.7.156
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1203,181.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1237,186.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1243,180.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1252,188.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,27.147.155.206,12051,27.147.155.206:12051,Elite,1502,751,BD,Bangladesh,Dhaka,Link3 Technologies Limited,202.74.243.181
+http,177.234.217.235,999,177.234.217.235:999,Elite,1601,116.5,EC,Ecuador,Quito,UFINET PANAMA S.A.,177.234.217.92
+http,200.49.99.78,9991,200.49.99.78:9991,Elite,1608,804,AR,Argentina,Santa Fe,Telecom Argentina S.A.,200.49.99.78
+http,123.231.252.218,8080,123.231.252.218:8080,Elite,2205,1102,ID,Indonesia,Jakarta,PT Aplikanusa Lintasarta,123.231.252.218
