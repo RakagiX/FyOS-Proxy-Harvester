@@ -1,6 +1,28 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,216.152.152.44,80,216.152.152.44:80,Elite,349,61.0,US,United States,Los Angeles,GTHost,216.152.152.44
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,464,90.2,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,4.144.146.21,80,4.144.146.21:80,Elite,1150,225.6,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,27.147.155.206,12051,27.147.155.206:12051,Elite,1802,240.1,BD,Bangladesh,Dhaka,Link3 Technologies Limited,202.74.243.181
-http,102.38.7.149,18000,102.38.7.149:18000,Elite,2464,1232,LY,Libya,Tripoli,Giga for Telecommunication and Technology Limited,102.38.7.149
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,368,9.7,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,134.209.29.120,3128,134.209.29.120:3128,Elite,651,139.8,GB,United Kingdom,London,"DigitalOcean, LLC",134.209.29.120
+http,147.161.135.21,10919,147.161.135.21:10919,Elite,678,146.5,DE,Germany,Frankfurt am Main,Zscaler Switzerland GmbH,136.226.164.101
+http,147.161.136.13,12331,147.161.136.13:12331,Elite,688,180.3,DE,Germany,Frankfurt am Main,Zscaler Switzerland GmbH,136.226.162.166
+http,136.226.162.24,12707,136.226.162.24:12707,Elite,689,175.8,DE,Germany,Frankfurt am Main,Zscaler Switzerland GmbH,136.226.162.179
+http,45.189.57.114,3129,45.189.57.114:3129,Elite,694,137.3,EC,Ecuador,Paute,CBVISION S.A.,45.189.57.114
+http,136.226.162.24,12345,136.226.162.24:12345,Elite,712,145.4,DE,Germany,Frankfurt am Main,Zscaler Switzerland GmbH,136.226.162.179
+http,34.43.46.91,443,34.43.46.91:443,Elite,800,45.3,US,United States,San Jose,Google LLC,34.143.51.195
+http,136.226.162.24,11366,136.226.162.24:11366,Elite,860,182.0,DE,Germany,Frankfurt am Main,Zscaler Switzerland GmbH,136.226.162.179
+http,80.90.178.167,1081,80.90.178.167:1081,Elite,871,180.0,RU,Russian Federation,Saint Petersburg,JSC TIMEWEB,80.90.178.167
+http,4.144.146.21,80,4.144.146.21:80,Elite,912,168.7,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,43.160.222.70,3128,43.160.222.70:3128,Elite,915,168.1,SG,Singapore,Singapore,Shenzhen Tencent Computer Systems Company Limited,43.160.222.70
+http,188.166.178.163,3129,188.166.178.163:3129,Elite,1029,181.8,SG,Singapore,Singapore,"DigitalOcean, LLC",188.166.178.163
+http,34.43.46.91,80,34.43.46.91:80,Elite,1074,45.7,US,United States,San Jose,Google LLC,34.143.51.195
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,1110,179.9,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1491,210.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1499,208.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1503,206.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1507,208.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8082,102.244.78.61:8082,Elite,1511,207.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1513,207.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1521,208.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,103.90.27.126,8080,103.90.27.126:8080,Elite,1676,311.2,ID,Indonesia,Medan,PT Arana Teknologi Indonesia,103.90.27.126
+http,57.182.226.41,3128,57.182.226.41:3128,Elite,2055,1027,JP,Japan,Tokyo,"Amazon.com, Inc.",57.182.226.41
+http,200.110.218.10,999,200.110.218.10:999,Elite,2156,1193.2,AR,Argentina,Buenos Aires,CPS,200.110.218.12
+http,103.146.170.193,83,103.146.170.193:83,Elite,2375,1187,IN,India,Nalgonda,NIXI,103.146.170.252
+http,116.101.73.52,2095,116.101.73.52:2095,Elite,2399,1199,VN,Viet Nam,Hanoi,Viettel Group,171.237.182.122
