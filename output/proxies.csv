@@ -1,19 +1,21 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,938,109.1,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,102.244.78.61,8084,102.244.78.61:8084,Elite,1153,166.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1154,166.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1158,166.4,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1161,168.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1164,167.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1164,167.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1164,167.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,4.144.146.21,80,4.144.146.21:80,Elite,1176,226.0,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,184.75.221.82,3118,184.75.221.82:3118,Elite,1235,617,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
-http,188.166.178.163,3129,188.166.178.163:3129,Elite,1392,280.4,SG,Singapore,Singapore,"DigitalOcean, LLC",188.166.178.163
-http,45.189.57.114,3129,45.189.57.114:3129,Elite,1535,94.0,EC,Ecuador,Paute,CBVISION S.A.,45.189.57.114
-http,24.152.58.125,999,24.152.58.125:999,Elite,1907,953,CO,Colombia,Bucaramanga,ATENEA TELECOMUNICACIONES S.A.S,24.152.58.125
-http,38.180.137.149,999,38.180.137.149:999,Elite,2070,1035,US,United States,Dallas,Scalaxy B.V.,38.180.137.149
-http,192.203.0.78,999,192.203.0.78:999,Elite,2219,1109,PR,Puerto Rico,Yabucoa,BOOM NET,192.203.0.78
-http,131.221.42.221,4040,131.221.42.221:4040,Elite,2289,1144,CO,Colombia,Yopal,CABLE & TV YOPAL S.A.S INTERNET INALÁMBRICO,190.121.153.195
-http,177.234.217.45,999,177.234.217.45:999,Elite,2307,1144.8,EC,Ecuador,Quito,UFINET PANAMA S.A.,177.234.217.42
-http,203.99.54.238,8090,203.99.54.238:8090,Elite,2395,224.6,PK,Pakistan,Islamabad,Naya Tel Pvt. Limited,203.99.54.238
+http,34.43.46.91,80,34.43.46.91:80,Elite,256,34.7,US,United States,San Jose,Google LLC,35.235.130.204
+http,34.43.46.91,443,34.43.46.91:443,Elite,337,34.0,US,United States,San Jose,Google LLC,35.235.130.204
+http,184.75.221.82,3118,184.75.221.82:3118,Elite,453,70.6,CA,Canada,Toronto,Amanah Tech Inc.,184.75.221.82
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,723,132.9,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,943,10.5,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,38.7.23.105,999,38.7.23.105:999,Elite,959,1089.8,MX,Mexico,Morelia,INTERNET TELEFONIA Y TV DE MICHOACAN SA DE CV,38.7.23.105
+http,4.144.146.21,80,4.144.146.21:80,Elite,960,175.6,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,188.166.178.163,3129,188.166.178.163:3129,Elite,1016,187.4,SG,Singapore,Singapore,"DigitalOcean, LLC",188.166.178.163
+http,8.219.97.248,80,8.219.97.248:80,Elite,1102,174.9,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1258,194.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1268,214.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8081,102.244.78.61:8081,Elite,1268,194.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1269,193.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1271,213.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1274,212.9,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8082,102.244.78.61:8082,Elite,1297,194.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,186.148.31.28,999,186.148.31.28:999,Elite,1846,923,CL,Chile,Pozo Almonte,TELEFÓNICA CHILE S.A.,204.199.140.48
+http,170.78.208.28,999,170.78.208.28:999,Elite,1998,999,MX,Mexico,San Juan del Rio,Wantelco SAS de CV,170.78.208.17
+http,177.234.217.85,999,177.234.217.85:999,Elite,2198,1099,EC,Ecuador,Quito,UFINET PANAMA S.A.,177.234.217.83
+http,85.132.108.42,3128,85.132.108.42:3128,Elite,2426,196.5,AZ,Azerbaijan,Baku,SELNET LLC,85.132.108.42
