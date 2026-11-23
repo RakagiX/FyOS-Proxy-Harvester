@@ -1,29 +1,19 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,20.98.234.24,8080,20.98.234.24:8080,Elite,122,33.1,US,United States,Chase City,Microsoft Corporation,20.98.234.24
-http,34.43.46.91,443,34.43.46.91:443,Elite,164,18.6,US,United States,San Jose,Google LLC,35.235.130.204
-http,34.43.46.91,80,34.43.46.91:80,Elite,169,11.5,US,United States,San Jose,Google LLC,35.235.130.204
-http,47.77.214.110,80,47.77.214.110:80,Elite,310,49.4,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",104.28.195.192
-http,159.65.27.1,10000,159.65.27.1:10000,Elite,449,98.0,GB,United Kingdom,London,"DigitalOcean, LLC",159.65.27.1
-http,46.101.21.9,10000,46.101.21.9:10000,Elite,494,97.5,GB,United Kingdom,London,"DigitalOcean, LLC",46.101.21.9
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,528,113.5,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,179.49.115.201,8080,179.49.115.201:8080,Elite,539,86.6,HN,Honduras,San Pedro Sula,ASOCIACION DE SERVICIO DE INTERNET S. DE RL.,170.245.59.113
-http,91.107.186.23,8081,91.107.186.23:8081,Elite,916,112.3,DE,Germany,Falkenstein/Vogtl.,Hetzner Online GmbH,192.241.155.6
-http,77.42.95.221,8889,77.42.95.221:8889,Elite,1054,128.3,FI,Finland,Helsinki,Hetzner Online GmbH,187.13.207.242
-http,4.144.146.21,80,4.144.146.21:80,Elite,1057,214.2,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1148,173.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1149,169.7,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1153,171.2,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8083,102.244.78.61:8083,Elite,1154,170.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8084,102.244.78.61:8084,Elite,1178,171.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1185,169.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,38.226.243.163,8080,38.226.243.163:8080,Elite,1235,233.9,ID,Indonesia,Bandung,Indonesia Network Information Center,38.226.243.163
-http,183.88.218.225,8080,183.88.218.225:8080,Elite,1284,227.4,TH,Thailand,Bangkok,Advanced Wireless Network Company Limited,183.88.218.225
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1377,171.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,45.43.60.220,8080,45.43.60.220:8080,Elite,1620,143.5,JP,Japan,Tokyo,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,45.43.60.220
-http,103.184.52.66,8080,103.184.52.66:8080,Elite,1818,909,ID,Indonesia,Bandung,Indonesia Network Information Center,103.184.52.66
-http,20.33.10.132,443,20.33.10.132:443,Elite,1889,239.4,ZA,South Africa,Johannesburg,Microsoft Corporation,20.33.10.79
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,1946,49.9,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,45.198.10.106,8080,45.198.10.106:8080,Elite,2155,1270.8,ID,Indonesia,Jakarta,Indonesia Network Information Center,45.198.10.106
-http,103.157.78.63,8080,103.157.78.63:8080,Elite,2159,1079,ID,Indonesia,Depok,Indonesia Network Information Center,103.157.78.63
-http,103.153.149.50,1111,103.153.149.50:1111,Elite,2318,237.9,ID,Indonesia,Weleri,PT JARINGANKU SARANA NUSANTARA,163.61.225.186
-http,103.151.35.141,8080,103.151.35.141:8080,Elite,2454,217.4,ID,Indonesia,Tangerang,Indonesia Network Information Center,103.151.35.141
+http,20.98.234.24,8080,20.98.234.24:8080,Elite,72,3.1,US,United States,Chase City,Microsoft Corporation,20.98.234.24
+http,146.190.60.147,8013,146.190.60.147:8013,Elite,504,92.6,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,530,90.0,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,158.247.125.5,9443,158.247.125.5:9443,Elite,758,73.0,CO,Colombia,Cota,Oracle Corporation,158.247.125.5
+http,78.157.46.76,8090,78.157.46.76:8090,Elite,976,488,IR,Iran,Tehran,Dade Samane Fanava Company PJS,78.157.46.76
+http,4.144.146.21,80,4.144.146.21:80,Elite,1259,227.2,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,134.199.160.93,8888,134.199.160.93:8888,Elite,1447,1212.9,AU,Australia,Sydney,"DigitalOcean, LLC",134.199.160.93
+http,218.207.164.174,7890,218.207.164.174:7890,Elite,1496,748,CN,China,Beijing,"China Mobile Communications Group Co., LTD",45.135.228.56
+http,9.246.71.179,8080,9.246.71.179:8080,Elite,1526,1240.6,YE,Yemen,Aden,Space Exploration Technologies Corporation,9.246.71.179
+http,113.11.179.72,8080,113.11.179.72:8080,Elite,1600,1287.4,ID,Indonesia,Jekulo,BIZNET NETWORKS,113.11.179.72
+http,203.201.190.67,8080,203.201.190.67:8080,Elite,1855,927,ID,Indonesia,Kecamatan Gedung Aji Baru,PT WIRA HASTA JITU,203.201.190.67
+http,160.30.204.24,60062,160.30.204.24:60062,Elite,1895,258.0,VN,Viet Nam,Hanoi,VIETSERVER SERVICES TECHNOLOGY COMPANY LIMITED,104.207.33.13
+http,38.58.76.201,999,38.58.76.201:999,Elite,2097,1048,MX,Mexico,Guadalajara,"Cogent Communications, LLC",38.58.76.202
+http,45.43.60.220,8080,45.43.60.220:8080,Elite,2133,1183.9,JP,Japan,Tokyo,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,45.43.60.220
+http,124.158.184.21,64999,124.158.184.21:64999,Elite,2268,1134,ID,Indonesia,Jakarta,PT Jala Lintas Media,124.158.184.21
+http,112.203.216.218,8082,112.203.216.218:8082,Elite,2269,1134,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,120.28.137.40
+http,103.154.77.62,1111,103.154.77.62:1111,Elite,2285,1142,ID,Indonesia,Yogyakarta,Indonesia Network Information Center,103.154.77.62
+http,129.153.97.250,9443,129.153.97.250:9443,Elite,2385,1084.3,US,United States,Phoenix,Oracle Corporation,129.153.97.250
