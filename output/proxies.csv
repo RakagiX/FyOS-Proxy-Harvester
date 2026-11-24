@@ -1,19 +1,37 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,20.98.234.24,8080,20.98.234.24:8080,Elite,72,3.1,US,United States,Chase City,Microsoft Corporation,20.98.234.24
-http,146.190.60.147,8013,146.190.60.147:8013,Elite,504,92.6,US,United States,San Jose,"DigitalOcean, LLC",146.190.60.147
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,530,90.0,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,158.247.125.5,9443,158.247.125.5:9443,Elite,758,73.0,CO,Colombia,Cota,Oracle Corporation,158.247.125.5
-http,78.157.46.76,8090,78.157.46.76:8090,Elite,976,488,IR,Iran,Tehran,Dade Samane Fanava Company PJS,78.157.46.76
-http,4.144.146.21,80,4.144.146.21:80,Elite,1259,227.2,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,134.199.160.93,8888,134.199.160.93:8888,Elite,1447,1212.9,AU,Australia,Sydney,"DigitalOcean, LLC",134.199.160.93
-http,218.207.164.174,7890,218.207.164.174:7890,Elite,1496,748,CN,China,Beijing,"China Mobile Communications Group Co., LTD",45.135.228.56
-http,9.246.71.179,8080,9.246.71.179:8080,Elite,1526,1240.6,YE,Yemen,Aden,Space Exploration Technologies Corporation,9.246.71.179
-http,113.11.179.72,8080,113.11.179.72:8080,Elite,1600,1287.4,ID,Indonesia,Jekulo,BIZNET NETWORKS,113.11.179.72
-http,203.201.190.67,8080,203.201.190.67:8080,Elite,1855,927,ID,Indonesia,Kecamatan Gedung Aji Baru,PT WIRA HASTA JITU,203.201.190.67
-http,160.30.204.24,60062,160.30.204.24:60062,Elite,1895,258.0,VN,Viet Nam,Hanoi,VIETSERVER SERVICES TECHNOLOGY COMPANY LIMITED,104.207.33.13
-http,38.58.76.201,999,38.58.76.201:999,Elite,2097,1048,MX,Mexico,Guadalajara,"Cogent Communications, LLC",38.58.76.202
-http,45.43.60.220,8080,45.43.60.220:8080,Elite,2133,1183.9,JP,Japan,Tokyo,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,45.43.60.220
-http,124.158.184.21,64999,124.158.184.21:64999,Elite,2268,1134,ID,Indonesia,Jakarta,PT Jala Lintas Media,124.158.184.21
-http,112.203.216.218,8082,112.203.216.218:8082,Elite,2269,1134,PH,Philippines,Manila,Philippine Long Distance Telephone Co.,120.28.137.40
-http,103.154.77.62,1111,103.154.77.62:1111,Elite,2285,1142,ID,Indonesia,Yogyakarta,Indonesia Network Information Center,103.154.77.62
-http,129.153.97.250,9443,129.153.97.250:9443,Elite,2385,1084.3,US,United States,Phoenix,Oracle Corporation,129.153.97.250
+http,20.98.234.24,8080,20.98.234.24:8080,Elite,186,93,US,United States,Chase City,Microsoft Corporation,20.98.234.24
+http,47.254.122.220,5443,47.254.122.220:5443,Elite,250,38.8,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",47.254.122.220
+http,129.153.97.250,9443,129.153.97.250:9443,Elite,319,50.4,US,United States,Phoenix,Oracle Corporation,129.153.97.250
+http,34.43.46.91,80,34.43.46.91:80,Elite,397,31.3,US,United States,San Jose,Google LLC,34.143.61.41
+http,51.68.102.5,3130,51.68.102.5:3130,Elite,560,115.7,FR,France,Roubaix,OVH SAS,51.68.102.5
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,583,127.5,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,165.154.7.156,8888,165.154.7.156:8888,Elite,939,175.7,HK,Hong Kong,Hong Kong,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.7.156
+http,134.199.160.93,8888,134.199.160.93:8888,Elite,1032,176.7,AU,Australia,Sydney,"DigitalOcean, LLC",134.199.160.93
+http,217.154.195.87,8888,217.154.195.87:8888,Elite,1040,139.0,DE,Germany,Berlin,IONOS SE,217.154.195.87
+http,47.254.213.60,1082,47.254.213.60:1082,Elite,1079,202.1,MY,Malaysia,Kuala Lumpur,"Alibaba US Technology Co., Ltd.",47.254.213.60
+http,158.247.125.5,9443,158.247.125.5:9443,Elite,1082,86.7,CO,Colombia,Cota,Oracle Corporation,158.247.125.5
+http,169.58.121.28,6666,169.58.121.28:6666,Elite,1125,225.9,FR,France,Lauterbourg,Contabo GmbH,169.58.121.28
+http,102.244.78.61,8084,102.244.78.61:8084,Elite,1180,179.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8086,102.244.78.61:8086,Elite,1189,179.6,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8089,102.244.78.61:8089,Elite,1201,179.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
+http,45.43.60.220,8080,45.43.60.220:8080,Elite,1222,1200.5,JP,Japan,Tokyo,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,45.43.60.220
+http,45.195.91.59,8080,45.195.91.59:8080,Elite,1254,249.8,IN,India,Dadri,CtrlS,45.195.91.59
+http,103.18.78.229,8080,103.18.78.229:8080,Elite,1262,211.7,ID,Indonesia,Caringin,PT. Usaha Adisanggoro,103.18.78.229
+http,165.154.162.73,8888,165.154.162.73:8888,Elite,1295,44.0,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
+http,38.194.250.174,999,38.194.250.174:999,Elite,1371,43.8,MX,Mexico,Apaxco de Ocampo,IENTC S DE RL DE CV,38.194.250.174
+http,49.149.29.180,8082,49.149.29.180:8082,Elite,1379,1238.1,PH,Philippines,Tacurong,Philippine Long Distance Telephone Co.,49.149.29.180
+http,103.89.27.32,8080,103.89.27.32:8080,Elite,1555,777,BD,Bangladesh,Dhaka,Sky View Online Limited,103.100.235.246
+http,160.19.146.79,2022,160.19.146.79:2022,Elite,1614,213.9,ID,Indonesia,Bangunrejo,Indonesia Network Information Center,160.19.146.79
+http,177.234.217.235,999,177.234.217.235:999,Elite,1667,104.2,EC,Ecuador,Quito,UFINET PANAMA S.A.,177.234.217.92
+http,182.253.70.41,8080,182.253.70.41:8080,Elite,1741,870,ID,Indonesia,Surabaya,BIZNET NETWORKS,182.253.70.41
+http,139.59.59.122,8118,139.59.59.122:8118,Elite,1762,219.2,IN,India,Bengaluru,"DigitalOcean, LLC",139.59.59.122
+http,104.218.199.26,16062,104.218.199.26:16062,Elite,1925,962,US,United States,Denver,Verizon Business,104.218.199.26
+http,126.209.112.164,8082,126.209.112.164:8082,Elite,1958,1268.7,PH,Philippines,Manila,Infinivan Inc.,126.209.112.164
+http,206.135.47.109,999,206.135.47.109:999,Elite,2016,1008,MX,Mexico,Puebla,IENTC S DE RL DE CV,206.135.47.106
+http,103.188.173.99,8080,103.188.173.99:8080,Elite,2076,1038,ID,Indonesia,Purwokerto,Indonesia Network Information Center,103.188.173.99
+http,38.172.129.35,999,38.172.129.35:999,Elite,2123,1061,PE,Peru,Lima,CONEX TV E.I.R.L.,38.172.131.117
+http,195.181.40.34,8080,195.181.40.34:8080,Elite,2237,1118,IR,Iran,Babol,Iran Telecommunication Company PJS,2.181.79.119
+http,149.86.140.240,8080,149.86.140.240:8080,Elite,2282,1141,TR,Türkiye,Selcuklu,GIBIRNET ILETISIM HIZMETLERI SANAYI VE TICARET LIMITED SIRKETI,149.86.140.240
+http,103.176.96.179,8090,103.176.96.179:8090,Elite,2340,1170,ID,Indonesia,Purwakarta,Indonesia Network Information Center,103.176.96.179
+http,182.52.136.39,80,182.52.136.39:80,Elite,2434,1217,TH,Thailand,Mueang Nonthaburi,TOT Public Company Limited,182.52.136.39
+http,182.52.136.73,80,182.52.136.73:80,Elite,2487,232.9,TH,Thailand,Mueang Nonthaburi,TOT Public Company Limited,182.52.136.73
