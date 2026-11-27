@@ -1,32 +1,20 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,20.98.234.24,8080,20.98.234.24:8080,Elite,153,31.0,US,United States,Chase City,Microsoft Corporation,20.98.234.24
-http,34.43.46.91,443,34.43.46.91:443,Elite,204,17.4,US,United States,San Jose,Google LLC,34.96.25.91
-http,129.153.97.250,9443,129.153.97.250:9443,Elite,215,1090.0,US,United States,Phoenix,Oracle Corporation,129.153.97.250
-http,47.254.122.220,5443,47.254.122.220:5443,Elite,216,34.1,US,United States,Los Angeles,"Alibaba US Technology Co., Ltd.",47.254.122.220
-http,34.43.46.91,80,34.43.46.91:80,Elite,390,17.3,US,United States,San Jose,Google LLC,35.230.220.232
-http,165.154.162.73,8888,165.154.162.73:8888,Elite,591,35.2,US,United States,Los Angeles,UCLOUD INFORMATION TECHNOLOGY HK LIMITED,165.154.162.73
-http,45.144.49.64,5443,45.144.49.64:5443,Elite,641,134.8,PL,Poland,Warsaw,Newserverlife LLC,45.144.49.64
-http,173.212.207.102,1214,173.212.207.102:1214,Elite,685,134.0,FR,France,Lauterbourg,Contabo GmbH,173.212.207.102
-http,158.247.125.5,9443,158.247.125.5:9443,Elite,836,90.9,CO,Colombia,Funza,Oracle Corporation,158.247.125.5
-http,45.26.30.144,8888,45.26.30.144:8888,Elite,901,450,US,United States,Houston,"AT&T Enterprises, LLC",62.106.78.178
-http,43.161.205.36,80,43.161.205.36:80,Elite,921,174.7,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,43.161.205.36
-http,47.254.213.60,1081,47.254.213.60:1081,Elite,1043,213.4,MY,Malaysia,Kuala Lumpur,"Alibaba US Technology Co., Ltd.",47.254.213.60
-http,4.144.146.21,80,4.144.146.21:80,Elite,1044,197.4,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,47.254.213.60,1082,47.254.213.60:1082,Elite,1059,202.6,MY,Malaysia,Kuala Lumpur,"Alibaba US Technology Co., Ltd.",47.254.213.60
-http,103.155.196.161,8181,103.155.196.161:8181,Elite,1125,210.0,ID,Indonesia,Sukabumi,Indonesia Network Information Center,103.155.196.161
-http,8.219.97.248,80,8.219.97.248:80,Elite,1209,198.3,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
-http,102.244.78.61,8081,102.244.78.61:8081,Elite,1353,173.0,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8089,102.244.78.61:8089,Elite,1356,171.8,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8085,102.244.78.61:8085,Elite,1360,172.5,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8082,102.244.78.61:8082,Elite,1365,173.3,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,102.244.78.61,8086,102.244.78.61:8086,Elite,1374,173.1,CM,Cameroon,Douala,Orange Cameroun SA,102.244.78.57
-http,120.136.23.176,8800,120.136.23.176:8800,Elite,1605,194.8,CN,China,Beijing,China Unicom Beijing Province Network,103.114.193.76
-http,160.19.19.9,8080,160.19.19.9:8080,Elite,1640,820,ID,Indonesia,Cileunyi,Indonesia Network Information Center,160.19.19.9
-http,125.25.167.202,80,125.25.167.202:80,Elite,1684,1276.0,TH,Thailand,Bangkok,TOT Public Company Limited,125.25.167.202
-http,160.30.204.24,10001,160.30.204.24:10001,Elite,1747,226.1,VN,Viet Nam,Hanoi,VIETSERVER SERVICES TECHNOLOGY COMPANY LIMITED,104.207.46.60
-http,177.234.217.43,999,177.234.217.43:999,Elite,1965,982,EC,Ecuador,Quito,UFINET PANAMA S.A.,177.234.217.42
-http,210.8.69.103,808,210.8.69.103:808,Elite,1988,186.3,AU,Australia,Sydney,AAPT Limited,210.8.69.103
-http,157.10.97.185,8080,157.10.97.185:8080,Elite,2257,1128,ID,Indonesia,Palembang,PT Lintas Jaringan Nusantara,157.10.97.185
-http,120.136.23.170,8800,120.136.23.170:8800,Elite,2369,1219.4,CN,China,Beijing,China Unicom Beijing Province Network,103.114.193.79
-http,45.65.226.40,999,45.65.226.40:999,Elite,2413,1223.7,AR,Argentina,Moron,SOLUTION LAN S.A,45.65.226.40
-http,103.153.134.89,8080,103.153.134.89:8080,Elite,2428,1214,ID,Indonesia,Tangerang,Indonesia Network Information Center,103.153.134.89
+http,20.98.234.24,8080,20.98.234.24:8080,Elite,87,7.0,US,United States,Chase City,Microsoft Corporation,20.98.234.24
+http,103.237.102.191,11111,103.237.102.191:11111,Elite,642,94.0,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
+http,158.247.125.5,9443,158.247.125.5:9443,Elite,794,71.6,CO,Colombia,Funza,Oracle Corporation,158.247.125.5
+http,41.128.77.76,1976,41.128.77.76:1976,Elite,991,1189.8,EG,Egypt,Al Mansurah,Link Egypt Link.NET,41.128.77.76
+http,38.226.243.145,8080,38.226.243.145:8080,Elite,1287,643,ID,Indonesia,Bandung,Indonesia Network Information Center,38.226.243.145
+http,20.235.56.94,8080,20.235.56.94:8080,Elite,1322,208.3,IN,India,Chennai,Microsoft Corporation,20.235.56.94
+http,45.167.125.4,999,45.167.125.4:999,Elite,1337,74.3,CO,Colombia,Popayan,SEPCOM COMUNICACIONES SAS,45.167.125.4
+http,38.58.117.201,8080,38.58.117.201:8080,Elite,1416,708,ID,Indonesia,Batam,PT Lintas Jaringan Nusantara,38.58.117.201
+http,119.94.185.43,8082,119.94.185.43:8082,Elite,1434,218.6,PH,Philippines,Marilao,Philippine Long Distance Telephone Co.,119.94.185.43
+http,157.15.0.144,8112,157.15.0.144:8112,Elite,1496,244.7,ID,Indonesia,Ngawi,Indonesia Network Information Center,157.15.0.145
+http,4.144.146.21,80,4.144.146.21:80,Elite,1615,220.4,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,177.201.228.251,80,177.201.228.251:80,Elite,1642,1275.1,HK,Hong Kong,Hong Kong,"Hong Kong Communications International Co., Limited",177.201.228.251
+http,43.161.205.36,80,43.161.205.36:80,Elite,1664,197.3,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,43.161.205.36
+http,204.168.225.55,8888,204.168.225.55:8888,Elite,1691,113.7,FI,Finland,Helsinki,Hetzner Online GmbH,104.28.222.18
+http,163.227.248.51,8818,163.227.248.51:8818,Elite,1778,889,ID,Indonesia,Sukabumi,PT Rajasa Sinergi Komunikasi,163.227.248.51
+http,85.187.224.21,8080,85.187.224.21:8080,Elite,1907,1189.8,BG,Bulgaria,Kardzhali,TechnoLux Ltd.,85.187.224.21
+http,179.63.6.249,999,179.63.6.249:999,Elite,2206,125.0,PE,Peru,Lima,RED AMONES S.A.C.,179.63.6.249
+http,103.171.182.80,8080,103.171.182.80:8080,Elite,2277,1138,ID,Indonesia,Bekasi,Indonesia Network Information Center,103.171.183.47
+http,102.0.25.8,8080,102.0.25.8:8080,Elite,2311,1155,KE,Kenya,Nairobi,Airtel Networks Kenya Limited,102.0.25.8
