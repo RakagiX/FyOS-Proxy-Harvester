@@ -1,20 +1,22 @@
 protocol,ip,port,proxy,anonymity,latency_ms,tcp_rtt_ms,country_code,country,city,isp,egress_ip
-http,20.98.234.24,8080,20.98.234.24:8080,Elite,87,7.0,US,United States,Chase City,Microsoft Corporation,20.98.234.24
-http,103.237.102.191,11111,103.237.102.191:11111,Elite,642,94.0,DE,Germany,Frankfurt am Main,Zenlayer Inc,103.237.102.191
-http,158.247.125.5,9443,158.247.125.5:9443,Elite,794,71.6,CO,Colombia,Funza,Oracle Corporation,158.247.125.5
-http,41.128.77.76,1976,41.128.77.76:1976,Elite,991,1189.8,EG,Egypt,Al Mansurah,Link Egypt Link.NET,41.128.77.76
-http,38.226.243.145,8080,38.226.243.145:8080,Elite,1287,643,ID,Indonesia,Bandung,Indonesia Network Information Center,38.226.243.145
-http,20.235.56.94,8080,20.235.56.94:8080,Elite,1322,208.3,IN,India,Chennai,Microsoft Corporation,20.235.56.94
-http,45.167.125.4,999,45.167.125.4:999,Elite,1337,74.3,CO,Colombia,Popayan,SEPCOM COMUNICACIONES SAS,45.167.125.4
-http,38.58.117.201,8080,38.58.117.201:8080,Elite,1416,708,ID,Indonesia,Batam,PT Lintas Jaringan Nusantara,38.58.117.201
-http,119.94.185.43,8082,119.94.185.43:8082,Elite,1434,218.6,PH,Philippines,Marilao,Philippine Long Distance Telephone Co.,119.94.185.43
-http,157.15.0.144,8112,157.15.0.144:8112,Elite,1496,244.7,ID,Indonesia,Ngawi,Indonesia Network Information Center,157.15.0.145
-http,4.144.146.21,80,4.144.146.21:80,Elite,1615,220.4,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
-http,177.201.228.251,80,177.201.228.251:80,Elite,1642,1275.1,HK,Hong Kong,Hong Kong,"Hong Kong Communications International Co., Limited",177.201.228.251
-http,43.161.205.36,80,43.161.205.36:80,Elite,1664,197.3,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,43.161.205.36
-http,204.168.225.55,8888,204.168.225.55:8888,Elite,1691,113.7,FI,Finland,Helsinki,Hetzner Online GmbH,104.28.222.18
-http,163.227.248.51,8818,163.227.248.51:8818,Elite,1778,889,ID,Indonesia,Sukabumi,PT Rajasa Sinergi Komunikasi,163.227.248.51
-http,85.187.224.21,8080,85.187.224.21:8080,Elite,1907,1189.8,BG,Bulgaria,Kardzhali,TechnoLux Ltd.,85.187.224.21
-http,179.63.6.249,999,179.63.6.249:999,Elite,2206,125.0,PE,Peru,Lima,RED AMONES S.A.C.,179.63.6.249
-http,103.171.182.80,8080,103.171.182.80:8080,Elite,2277,1138,ID,Indonesia,Bekasi,Indonesia Network Information Center,103.171.183.47
-http,102.0.25.8,8080,102.0.25.8:8080,Elite,2311,1155,KE,Kenya,Nairobi,Airtel Networks Kenya Limited,102.0.25.8
+http,167.99.8.113,8013,167.99.8.113:8013,Elite,57,11.6,US,United States,North Bergen,"DigitalOcean, LLC",167.99.8.113
+http,20.98.234.24,8080,20.98.234.24:8080,Elite,72,7.1,US,United States,Chase City,Microsoft Corporation,20.98.234.24
+http,173.212.207.102,1214,173.212.207.102:1214,Elite,670,89.3,FR,France,Lauterbourg,Contabo GmbH,173.212.207.102
+http,61.247.222.198,80,61.247.222.198:80,Elite,913,181.9,KR,South Korea,Seongnam-si,NAVER Cloud Corp.,61.247.222.199
+http,61.247.222.40,80,61.247.222.40:80,Elite,927,178.8,KR,South Korea,Seongnam-si,NAVER Cloud Corp.,43.250.152.81
+http,61.247.222.38,80,61.247.222.38:80,Elite,928,183.9,KR,South Korea,Seongnam-si,NAVER Cloud Corp.,43.250.152.68
+http,61.247.223.151,80,61.247.223.151:80,Elite,930,184.3,KR,South Korea,Seongnam-si,NAVER Cloud Corp.,43.250.153.156
+http,61.247.223.58,80,61.247.223.58:80,Elite,936,180.0,KR,South Korea,Seongnam-si,NAVER Cloud Corp.,43.250.153.46
+http,61.247.222.149,80,61.247.222.149:80,Elite,936,181.8,KR,South Korea,Seongnam-si,NAVER Cloud Corp.,61.247.222.88
+http,43.161.205.36,80,43.161.205.36:80,Elite,1030,197.5,HK,Hong Kong,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,43.161.205.36
+http,20.235.56.94,8080,20.235.56.94:8080,Elite,1058,208.7,IN,India,Chennai,Microsoft Corporation,20.235.56.94
+http,4.144.146.21,80,4.144.146.21:80,Elite,1132,220.0,SG,Singapore,Singapore,Microsoft Corporation,20.44.210.140
+http,102.244.78.61,8083,102.244.78.61:8083,Elite,1200,163.4,CM,Cameroon,Garoua,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8082,102.244.78.61:8082,Elite,1200,165.5,CM,Cameroon,Garoua,Orange Cameroun SA,102.244.78.57
+http,102.244.78.61,8085,102.244.78.61:8085,Elite,1201,163.0,CM,Cameroon,Garoua,Orange Cameroun SA,102.244.78.57
+http,223.204.155.4,8080,223.204.155.4:8080,Elite,1313,245.9,TH,Thailand,Samut Sakhon,Advanced Wireless Network Company Limited,223.204.155.4
+http,120.136.23.176,8800,120.136.23.176:8800,Elite,1514,225.9,CN,China,Beijing,China Unicom Beijing Province Network,103.114.193.75
+http,8.219.97.248,80,8.219.97.248:80,Elite,1604,219.4,SG,Singapore,Singapore,"Alibaba US Technology Co., Ltd.",8.219.64.236
+http,177.234.217.43,999,177.234.217.43:999,Elite,1624,812,EC,Ecuador,Quito,UFINET PANAMA S.A.,177.234.217.42
+http,120.136.23.70,8800,120.136.23.70:8800,Elite,1795,234.8,CN,China,Beijing,China Unicom Beijing Province Network,103.114.193.75
+http,187.251.224.167,80,187.251.224.167:80,Elite,2302,1151,MX,Mexico,Leon de los Aldama,"TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",187.251.224.167
